@@ -1,0 +1,133 @@
+\section{Ladningssensor}
+
+
+\subsection{Komponenter}
+
+
+\subsection{Teori}
+\subsubsection{Problemer med registrering af lys og tilpasning}
+\subsubsection{Analog input i arduino}
+*** [Indsæt yderligere teori]
+Da analog input godt kan benyttes som digital input, men det kræver en meget klart signal, derfor skal det forstærkes gennem en OPAMP som er gennemgået i Afsnit \ref{subs:opampanalog}
+\subsection{Beregninger}
+\subsubsection{OPAMP modstande} \label{subs:opampanalog}
+% R_in = 1k
+% R_f = 56k
+Gennem vores OPAMP fik vi et signal ind på
+\[
+	V_{in} = \SI{0.08}{V}
+\]
+og vi ønsker at signalet skulle være så pænt som muligt
+% hvorfor***
+med en værdi på
+\[
+	V_{out} \approx \SI{5}{V}
+\]
+Heraf er den ønskede forstærkning
+\[
+	A_{target} = \frac{V_{out}}{V_{in}} = \frac{\SI{5}{V}}{\SI{0.08}{V}}=62.5
+\]
+
+Denne forstærkning er ret høj og vi benytter derfor en non-inverting amplifier.
+
+Vi bestemmer en rimelig værdi til den ene modstand er
+\begin{align}
+	R_{in} = \SI{1000}{\ohm} \label{eq:RinFarveOpAmp}
+\end{align}
+Og udtrykket for forstærkningen er
+
+\begin{align}
+	A_{target} = 1+\frac{R_f}{R_{in}} \label{eq:AtargetFarveOpAmp}
+\end{align}
+Ved at isolerer $R_f$ i ligningerne \ref{eq:RinFarveOpAmp} og \ref{eq:AtargetFarveOpAmp} fås
+\[
+	R_f = \SI{61.5d3}{\ohm}
+\]
+Da vi ikke har denne modstand direkte, vælger vi at benytte en $\SI{56d3}{\ohm}$ modstand i stedet. Hvilket giver os en reel forstærkning på
+\[
+	A_{reel} = 1 + \frac{\SI{56d3}{\ohm}}{\SI{1000}{\ohm}} = 57	
+\]
+Hvilket svarer til et outputsignal på
+\[
+	V_{out} = \SI{0.08}\cdot 57 = \SI{4.56}{V}
+\]
+Hvilket er tilnærmelsesvis hvad vi gerne vil have.
+
+\subsubsection{Modstanden af LED}
+Ifølge \cite{LED??} gælder det for LED'en at dens typiske spænding 
+\[
+	V_{typisk} = \SI{3.2}{V}
+\]
+Og kan klare en strømstyrke på
+\[
+	I = \SI{20d-3}{A} 
+\]
+
+\begin{align}
+	R_{LED} &= \frac{\SI{5}{V}-\SI{3.2}{V}}{\SI{2.0d-2}{A}} = \SI{90}{\ohm}\\
+\end{align}
+
+
+Men da vi satte tre modstande ændrede vi det til ***. 
+% MISC LED
+Simon → Farvesensor
+Skriv om bestemmelse af modstande til LED
+Start ->
+G=100
+B=100
+R=180
+
+Ændring ->
+R=120
+G=470
+B=470
+
+Skriv om arduino precision (10 bit)-> grunden til brug af opamps
+
+Skriv om opAMP
+
+
+Nævn af billederne i bilag (grøn blå) blev taget før at afstanden blev ændret fra 6 cm til 3cm.
+(afstand 2 cm, mørklagt kasse)
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\subsection{Test}
+\begin{table}[H]
+\centering
+\caption{Signaler uden forstærkning} \label{tab:farveudenforstaerker}
+\label{my-label}
+\begin{tabular}{l|lllll}
+\hline \hline
+     & Alle{[\si{V}]} & Intet {[\si{V}]} & Rød{[\si{V}]} & Grøn{[\si{V}]} & Blå{[\si{V}]} \\
+     \hline
+Sort & 0.03        & 0.01          & 0.01       & 0.02        & 0.02       \\
+Hvid & 0.12        & 0.01          & 0.02       & 0.06        & 0.06       \\
+Rød  & 0.03        & 0.01          & 0.02       & 0.01        & 0.02       \\
+Blå  & 0.05        & 0.01          & 0.01       & 0.02        & 0.03       \\
+Gul  & 0.06        & 0.01          & 0.02       & 0.04        & 0.02       \\
+Grøn & 0.04        & 0.01          & 0.01       & 0.03        & 0.02 \\[1ex]
+\hline     
+\end{tabular}
+\end{table}
+
+Test efter forstærkning
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[H]
+\centering
+\caption{Signaler med forstærkning} \label{tab:farvemedforstaerker}
+\begin{tabular}{l|lllll}
+\hline\hline
+     & Alle{[\si{V}]} & Intet {[\si{V}]} & Rød{[\si{V}]} & Grøn{[\si{V}]} & Blå{[\si{V}]} \\
+     \hline
+Sort & 0.47        & 0.05          & 0.08       & 0.23        & 0.25       \\
+Hvid & 4.8         & 0.04          & 0.77       & 4.04        & 4.38       \\
+Rød  & 1.03        & 0.06          & 0.53       & 0.29        & 0.28       \\
+Blå  & 2.72        & 0.06          & 0.06       & 0.77        & 1.95       \\
+Gul  & 3.8         & 0.06          & 0.75       & 2.42        & 0.75       \\
+Grøn & 0.9         & 0.05          & 0.06       & 0.49        & 0.4 \\[1ex]
+\hline
+\end{tabular}
+\end{table}
+

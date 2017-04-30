@@ -1,0 +1,24 @@
+@BOOK{Goedel1930,
+  title = {Die Vollständigkeit der Axiome des logischen Funktionenkalküls},
+  publisher = {Monatshefte für Mathematik und Physik},
+  year = {1930},
+  author = {Kurt Gödel},
+  address = {Wien}
+}    
+
+@ARTICLE{Lin1973,
+  author = {Shen Lin and Brian W. Kernighan},
+  title = {An Effective Heuristic Algorithm for the Travelling-Salesman Problem},
+  journal = {Operations Research},
+  year = {1973},
+  volume = {21},
+  pages = {498--516}
+}
+
+@online{portRegisters,
+       author = {{Arduino LLC.}},
+       title = {Port Registers},
+       urldate = {2016-11-07},
+       url = {https://www.arduino.cc/en/Reference/PortManipulation},
+       addendum = {Kildekritik: Denne hjemmeside er lavet af firmaet der står bag arduinoen, hvilket vi derfor anser som værende en pålidelig kilde.}
+ },

@@ -1,0 +1,169 @@
+\RequirePackage[l2tabu, orthodox,danish]{nag}
+
+%%%% Tekst, billeder og sprog %%%%
+\documentclass[12pt]{article} 
+\usepackage[danish]{babel}
+\usepackage[utf8]{inputenc}
+%%Billeder%%
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage[a4paper,margin=1in,footskip=0.4in,heightrounded]{geometry}
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage[explicit]{titlesec}
+\usepackage{textcomp}
+\usepackage{siunitx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\today} 
+\lhead{Simon Rumle Tarnow, Daniel Muff Laporte \\Christoffer Irvall Rasmussen, D og P TK1} 
+\renewcommand\thesection{\arabic{section}}
+% \renewcommand\thesubsection{\thesection.\alph{subsection}}
+\rfoot{Side \thepage \hspace{1pt} af \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.1pt}
+
+% %%%% Tabeller  %%%% %
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+
+
+%%%% Referencer %%%%
+\usepackage{csquotes}
+\usepackage[backend=biber,
+style=numeric, 
+dateabbrev = false, 
+urldate = long, 
+date = long]{biblatex}
+\usepackage[colorlinks=false, pdfborder={0 0 0}]{hyperref}
+\usepackage[danish]{cleveref}
+\usepackage{xpatch}
+\addbibresource{files/references/references.bib}
+\usepackage{pdfpages}
+\usepackage{autonum}
+%%%% Math %%%%%
+\usepackage{amsmath}
+\usepackage{siunitx}
+%\def\align@preamble{%
+%   &\hfil
+%    \setboxz@h{\@lign$\m@th\displaystyle{##}$}%
+%    \ifnum\row@>\@ne
+%    \ifdim\ht\z@>\ht\strutbox@
+%    \dimen@\ht\z@
+%    \advance\dimen@\minalignvsep
+%    \ht\strutbox\dimen@
+%    \fi\fi
+%    \strut@
+%    \ifmeasuring@\savefieldlength@\fi
+%    \set@field
+%    \tabskip\z@skip
+%   &\setboxz@h{\@lign$\m@th\displaystyle{{}##}$}%
+%    \ifnum\row@>\@ne
+%    \ifdim\ht\z@>\ht\strutbox@
+%    \dimen@\ht\z@
+%    \advance\dimen@\minalignvsep
+%    \ht\strutbox@\dimen@
+%    \fi\fi
+%    \strut@
+%    \ifmeasuring@\savefieldlength@\fi
+%    \set@field
+%    \hfil
+%    \tabskip\alignsep@
+%    }
+\sisetup{exponent-product = \cdot, output-product = \cdot}
+
+
+
+
+
+
+
+
+
+
+
+%Rumleboi code-----------------------------------------------------------------------------------------------------------------------
+% \usepackage{listings}
+% \usepackage{color}
+% \usepackage{hyperref}
+% \renewcommand{\lstlistingname}{Kode}
+
+% \definecolor{red}{rgb}{1,0,0}
+% \definecolor{green}{rgb}{0,0.7,0}
+% \definecolor{blue}{rgb}{0,0,1}
+% \definecolor{background}{rgb}{0.9,0.9,0.9}
+% \definecolor{basic}{rgb}{0.3,0.2,0}
+
+
+% \lstset { %
+%     language=JAVA,
+%     backgroundcolor=\color{background}, % set backgroundcolor
+%     frame=tb, % draw a frame at the top and bottom of the code block
+%     tabsize=3, % tab space width
+%     showstringspaces=false, % don't mark spaces in strings
+%     numbers=left, % display line numbers on the left
+%     commentstyle=\color{green}, % comment color
+%     keywordstyle=\color{blue}, % keyword color
+%     stringstyle=\color{red}, % string color
+%     identifierstyle=\color{basic},
+%     basicstyle=\color{basic},
+%     escapechar=`,
+%     linewidth=15cm,
+%     literate=%
+%     {æ}{{\ae}}1
+% 	{å}{{\aa}}1
+% 	{ø}{{\o}}1
+%     {Æ}{{\AE}}1
+% 	{Å}{{\AA}}1
+% 	{Ø}{{\O}}1
+% }
+
+%Rumeleboi code end ----------------------------------------------------------------------------------------------------------------
+
+% JAVA KODE DISPLAY
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+% \renewcommand{\lstlistingname}{kode}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{antiquewhite}{rgb}{0.98, 0.92, 0.84}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  extendedchars=\true,
+  inputencoding=ansinew,
+  tabsize=3,
+  numbers=left,
+  backgroundcolor=\color{antiquewhite},
+  literate=%
+      {æ}{{\ae}}1
+    {å}{{\aa}}1
+    {ø}{{\o}}1
+    {Æ}{{\AE}}1
+    {Å}{{\AA}}1
+    {Ø}{{\O}}1
+}
+% \setcounter{secnumdepth}{0} % sections are level 1
+\renewcommand{\contentsname}{Indholdsfortegnelse}
+\renewcommand\refname{Litteraturliste}
+
+
+
+

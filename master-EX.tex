@@ -1,0 +1,77 @@
+% - NOTES 
+% --> Målinger beregninger og kredsløb skal vægtes højest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\input{files/preamble/pre.tex}
+\usepackage{syntonly}
+%\syntaxonly
+
+% -- TODO NOTES
+% Outcomment the above one and comment the lower one to see comments in pdf. The other way around if we want to have no comments in pdf
+\usepackage{todonotes}
+% \newcommand{\todo}[1]{}
+
+\graphicspath{{files/chapters/}}
+
+
+\begin{document}
+%%%%%%% INTRODUCERENDE AFSNIT %%%%%%%%
+\input{files/chapters/title}
+\onehalfspacing %For at gøre indholdsfortegnelsen mere kompakt.
+
+\input{files/chapters/2_1projekbeskrivelse}
+\input{files/chapters/2_2kravspecifakation}
+\input{files/chapters/2_3overordnetvalg}
+
+%%%%%%%BLOKKE MEGET VIGTIGT%%%%%%%%
+\input{files/chapters/2_4_1samletkredsloeb}
+\input{files/chapters/2_4_2retning}
+\input{files/chapters/2_4_3hastighed}
+\input{files/chapters/2_4_4hastighedsmaal}
+\input{files/chapters/2_4_5controller}
+% \input{files/chapters/2_4_6display}
+\input{files/chapters/2_4_7ladningsensor}
+\input{files/chapters/2_4_8arduino} 
+\input{files/chapters/2_4Test}
+
+%%%%%%% Forbedring af produktet %%%%%%%%
+\input{files/chapters/2_5Fremstilling}
+\input{files/chapters/2_6slutafproevning}
+\input{files/chapters/2_7videreudvikling}
+\input{files/chapters/2_8prisliste}
+
+%%%%%% Opsummering og evaluering %%%%%%%
+\input{files/chapters/2_9konklusion}
+\input{files/chapters/2_10evaluering}
+
+
+
+%---------- BIBLIOGRAFI ----------
+\addcontentsline{toc}{section}{Bibliography}
+% \section{Litteraturliste}
+\nocite{*}
+% \printbibliography[title={Bibliografi - Bøger},type=book]
+% \printbibliography[title={Bibliografi - Websider},type=online]
+% \printbibliography[title={Bibliografi - Artikler},type=article]
+\printbibliography
+% VIRKER REFERENCES?*** Med hensyn til datoer
+
+
+
+\input{files/chapters/Bilag}
+\end{document}
+
+
+
