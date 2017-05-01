@@ -1,0 +1,79 @@
+\BOOKMARK [1][-]{section.1}{Projektbeskrivelse}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problemanalyse}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Problemformulering}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Projektafgr\346nsning}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Overordnede produktkrav}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Tidsplan for projektet}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Overordnet l\370sningsforslag}{}% 7
+\BOOKMARK [2][-]{subsection.2.1}{Gauss-kanon}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Magnetisk l\370b}{subsection.2.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Magnetisk aftr\346kker}{subsection.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.2}{Elastik-kanon}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Valg af overordnet l\370sning}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Samlet kredsl\370b}{}% 13
+\BOOKMARK [1][-]{section.4}{Retningsregulerende kreds}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Komponenter}{section.4}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.1}{N-Channel power MOSFET - F12N10L}{subsection.4.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Stepper motor - RS191-8328}{subsection.4.1}% 17
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Arduino}{subsection.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Teori}{section.4}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.1}{MOSFET}{subsection.4.2}% 20
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Stepper motor}{subsection.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Test}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{Hastighedsregulerende kreds}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Komponenter}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.2}{Lego 9 V DC motor}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.3}{Dual H-bridge motor driver - L293D}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.4}{Teori}{section.5}% 27
+\BOOKMARK [3][-]{subsubsection.5.4.1}{H bridge}{subsection.5.4}% 28
+\BOOKMARK [2][-]{subsection.5.5}{Test}{section.5}% 29
+\BOOKMARK [1][-]{section.6}{Hastighedsm\345ler}{}% 30
+\BOOKMARK [2][-]{subsection.6.1}{Komponenter}{section.6}% 31
+\BOOKMARK [3][-]{subsubsection.6.1.1}{IR modtager diode - BPW 34 FA}{subsection.6.1}% 32
+\BOOKMARK [3][-]{subsubsection.6.1.2}{555 timer}{subsection.6.1}% 33
+\BOOKMARK [3][-]{subsubsection.6.1.3}{IR afsender diode - L-34F3BT}{subsection.6.1}% 34
+\BOOKMARK [2][-]{subsection.6.2}{Teori}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.3}{Hastighedsm\345lingsmetoder}{section.6}% 36
+\BOOKMARK [3][-]{subsubsection.6.3.1}{2 sensorer}{subsection.6.3}% 37
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Knap og sensor}{subsection.6.3}% 38
+\BOOKMARK [2][-]{subsection.6.4}{Beregninger}{section.6}% 39
+\BOOKMARK [3][-]{subsubsection.6.4.1}{555 timer modstande}{subsection.6.4}% 40
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Bestemmelse af modstande for peak-detektoren}{subsection.6.4}% 41
+\BOOKMARK [2][-]{subsection.6.5}{Test}{section.6}% 42
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Afsender dioden}{subsection.6.5}% 43
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Modtager dioden}{subsection.6.5}% 44
+\BOOKMARK [1][-]{section.7}{Controller}{}% 45
+\BOOKMARK [2][-]{subsection.7.1}{Komponenter}{section.7}% 46
+\BOOKMARK [2][-]{subsection.7.2}{Teori}{section.7}% 47
+\BOOKMARK [1][-]{section.8}{Display}{}% 48
+\BOOKMARK [2][-]{subsection.8.1}{LCD-kredsl\370b}{section.8}% 49
+\BOOKMARK [3][-]{subsubsection.8.1.1}{LCD setup}{subsection.8.1}% 50
+\BOOKMARK [2][-]{subsection.8.2}{Teori}{section.8}% 51
+\BOOKMARK [3][-]{subsubsection.8.2.1}{LiquidCrystal library}{subsection.8.2}% 52
+\BOOKMARK [2][-]{subsection.8.3}{Komponenter}{section.8}% 53
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Arduino}{subsection.8.3}% 54
+\BOOKMARK [3][-]{subsubsection.8.3.2}{LCD display}{subsection.8.3}% 55
+\BOOKMARK [2][-]{subsection.8.4}{Test}{section.8}% 56
+\BOOKMARK [1][-]{section.9}{Ladningssensor}{}% 57
+\BOOKMARK [2][-]{subsection.9.1}{Komponenter}{section.9}% 58
+\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21}{subsection.9.1}% 59
+\BOOKMARK [3][-]{subsubsection.9.1.2}{LED - RGB Clear Common Anode}{subsection.9.1}% 60
+\BOOKMARK [2][-]{subsection.9.2}{Teori}{section.9}% 61
+\BOOKMARK [3][-]{subsubsection.9.2.1}{OPAMP}{subsection.9.2}% 62
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Analog input til registrering af farve}{subsection.9.2}% 63
+\BOOKMARK [2][-]{subsection.9.3}{Beregninger}{section.9}% 64
+\BOOKMARK [3][-]{subsubsection.9.3.1}{OPAMP modstande}{subsection.9.3}% 65
+\BOOKMARK [3][-]{subsubsection.9.3.2}{Modstanden af LED}{subsection.9.3}% 66
+\BOOKMARK [2][-]{subsection.9.4}{Test}{section.9}% 67
+\BOOKMARK [1][-]{section.10}{Arduinoen}{}% 68
+\BOOKMARK [2][-]{subsection.10.1}{Analog inputs og outputs \(PWM\)}{section.10}% 69
+\BOOKMARK [2][-]{subsection.10.2}{Digital inputs og outputs}{section.10}% 70
+\BOOKMARK [2][-]{subsection.10.3}{I2C - Synkroniseret kommunikation}{section.10}% 71
+\BOOKMARK [1][-]{section.11}{Fremstilling}{}% 72
+\BOOKMARK [2][-]{subsection.11.1}{Fumlebr\346t-modeller}{section.11}% 73
+\BOOKMARK [2][-]{subsection.11.2}{PCB - fremstilling}{section.11}% 74
+\BOOKMARK [2][-]{subsection.11.3}{Endelige prototype}{section.11}% 75
+\BOOKMARK [1][-]{section*.12}{Bibliography}{}% 76
+\BOOKMARK [1][-]{section.12}{Bilag}{}% 77
+\BOOKMARK [2][-]{subsection.12.1}{samlet kredsl\370b}{section.12}% 78
+\BOOKMARK [2][-]{subsection.12.2}{Program til Arduino}{section.12}% 79

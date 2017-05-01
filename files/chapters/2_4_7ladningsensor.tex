@@ -2,24 +2,25 @@
 
 
 \subsection{Komponenter}
+\subsubsection{BPW21}
+
+\subsubsection{LED - RGB Clear Common Anode}
 
 
 \subsection{Teori}
-\subsubsection{Problemer med registrering af lys og tilpasning}
-\subsubsection{Analog input i arduino}
-*** [Indsæt yderligere teori]
-Da analog input godt kan benyttes som digital input, men det kræver en meget klart signal, derfor skal det forstærkes gennem en OPAMP som er gennemgået i Afsnit \ref{subs:opampanalog}
+\subsubsection{OPAMP}
+\subsubsection{Analog input til registrering af farve}
+Arduinoens analog input er beskrevet i afsnit \ref{sec:ard:analog}. Vi benytter denne funktion til at få outputtet fra vores farvesensor ind i arduinoen.
 \subsection{Beregninger}
 \subsubsection{OPAMP modstande} \label{subs:opampanalog}
+Vi besluttede os for at benytte en OPAMP, da vores største signal fra test 1 (se \ref{tab:farveudenforstaerker}) var på $\SI{0.06}{V}$, hvis man ser bort fra når alle lyser. Da vores precision af analog inputtet på arduinoen er omkring $\SI{0.005}{V}$ (se \ref{sec:ard:analog}), er der små udsving i inputtet, som vi gerne vil gøre større med en OPAMP, så det er nemmere at identificere hvilken farve bliver brugt.
 % R_in = 1k
 % R_f = 56k
-Gennem vores OPAMP fik vi et signal ind på
+Vi valgte at den maksimale indgangsspænding til OPAMPen er
 \[
 	V_{in} = \SI{0.08}{V}
 \]
-og vi ønsker at signalet skulle være så pænt som muligt
-% hvorfor***
-med en værdi på
+Vi ønsker at dette skal være det maksimale som Arduinoen kan måle ($\SI{5}{V}$)
 \[
 	V_{out} \approx \SI{5}{V}
 \]
@@ -67,7 +68,7 @@ Og kan klare en strømstyrke på
 	R_{LED} &= \frac{\SI{5}{V}-\SI{3.2}{V}}{\SI{2.0d-2}{A}} = \SI{90}{\ohm}\\
 \end{align}
 
-
+**** NOTER ****
 Men da vi satte tre modstande ændrede vi det til ***. 
 % MISC LED
 Simon → Farvesensor
@@ -91,6 +92,8 @@ Nævn af billederne i bilag (grøn blå) blev taget før at afstanden blev ændr
 (afstand 2 cm, mørklagt kasse)
 % \usepackage[normalem]{ulem}
 % \useunder{\uline}{\ul}{}
+
+*************
 \subsection{Test}
 \begin{table}[H]
 \centering

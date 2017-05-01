@@ -4,7 +4,7 @@
 %%%%%BILLEDE AF KREDSLØB
 \begin{figure}[H]
 	\centering
-    \includegraphics[height=10cm]{/circuit/LCDkreds.PNG}
+    \includegraphics[height=10cm]{figures/2_4kredse/LCDkreds.PNG}
 	\caption{Arduino LCD kreds lavet ud fra arduino siden, se \cite{arduinoLCD}}
 	\label{arduinoLCD}
 \end{figure}
@@ -18,10 +18,10 @@ Vi benyttede et 4-bit datainterface setup (se \cite{arduinoLCD}), hvor displayet
 % Skriv om teori. Skriv om 4-bit interface
 \subsection{Teori}
 \subsubsection{LiquidCrystal library}
-LiquidCrystal library bruger vi til at kunne få arduinoen til at sende den ønskede tekst af f.eks. af en måling til et LCD. LiquidCrystal gør brug af ASCII kode til at tolke binære signaler til tekst se Figur ~\ref{ASCII}
+LiquidCrystal library bruger vi til at kunne få arduinoen til at sende den ønskede tekst af f.eks. af en måling til et LCD. LiquidCrystal gør brug af ASCII tegnsæt til at tolke binære signaler til tekst. Et uddrag på ASCII karakterer kan ses på Figur ~\ref{ASCII}. 
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=10cm]{/LCDdesign/ASCII.png}
+    \includegraphics[width=10cm]{figures/LCDdesign/ASCII.png}
 	\caption{Et eksempel på nogle ASCII koder benyttet af LiquidCrystal library - kilde: [Uddrag fra projektvejledning]}
 	\label{ASCII}
 \end{figure}
@@ -35,7 +35,7 @@ Se afsnit \ref{sec:arduino}
 LCD displayet vi benyttede havde en indbygget controller som vist på Figur ~\ref{driver}.
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=10cm]{/LCDdesign/displayblokdiagram.png}
+    \includegraphics[width=10cm]{figures/LCDdesign/displayblokdiagram.png}
 	\caption{Et blok diagram over databen og kontrolben til  kontroller, backlight, LCD panel. Kontrolleren er indbygget i displayet. kilde: [Uddrag fra projektvejledning]}
 	\label{driver}
 \end{figure}
@@ -81,9 +81,3 @@ void loop() {
 
 
 Potentiometret kunne justerer skærmens styrke fint.
-\begin{figure}[H]
-	\centering
-    \includegraphics[width=10cm]{/LCDdesign/Displaykreds}
-	\caption{Dokumentation af vores LCD sluttet til arduinoen, der benyttes Kode \ref{alg:helloworld}}
-	\label{fig: dispalykreds}
-\end{figure}

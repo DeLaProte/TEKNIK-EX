@@ -2,15 +2,39 @@
 
 
 \subsection{Komponenter}
-% Diode
+\subsubsection{IR modtager diode - BPW 34 FA}
+% Modtager Diode
+\todo{Vi skal have noget om hvorfor vi viste vi ville bruge en frekvens på 1000}
+
+Relevante størrelser for IR modtager dioden \cite{kompIRmodtager}
+
+\subsubsection{555 timer}
 % 555 timer
-% Modtager diode
+\
 
+\subsubsection{IR afsender diode - L-34F3BT}
+% afsender diode
+
+Relevante størrelser på dioden \cite{kompIRafsender} til vores beregninger er at den har en lav duty cycle (så vi kan lave hurtige on and off signaler).
+Duty cyclen er
+\begin{align}
+	D &= \frac{1}{100} \\
+\end{align}
+med en puls længde på 
+\begin{align}
+	PW &= \SI{10}{\micro s} \\
+\end{align}
+Samt kan den klare en strømstyrke på 
+\begin{align}
+	I_{FS} &= \SI{1.2}{A} \\
+\end{align}
 \subsection{Teori}
-
-
-
+\subsection{Hastighedsmålingsmetoder}
+\subsubsection{2 sensorer}
+\subsubsection{Knap og sensor}
+Vi endte med at vælge denne metode, grundet tidspres da vi efter vores fremstilling stødte på problemer, da kredsløbet ikke fungerede. Se afsnit \ref{subs:endeligProto}.
 \subsection{Beregninger}
+\todo{mangler nogle enkelte beregninger}
 \subsubsection{555 timer modstande}
 For 555 gælder det at vi ønsker en frekvens på 
 \[
