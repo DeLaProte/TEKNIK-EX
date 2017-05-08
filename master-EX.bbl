@@ -161,6 +161,29 @@
       \verb http://www.madsci.org/posts/archives/1998-08/897010420.Ph.r.html
       \endverb
     \endentry
+    \entry{555timer50percent}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d556cc4592e861d9f67fc8b7dbceb9e7}{%
+           family={{Electronics Tutorials}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \strng{fullhash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \strng{authornamehash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \strng{authorfullhash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{555 Timer Tutorial}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.electronics-tutorials.ws/waveforms/555_timer.html
+      \endverb
+    \endentry
     \entry{kompMOSFET}{online}{}
       \name{author}{1}{}{%
         {{hash=9b063f9332ff75dc02ffdf3d9805f31f}{%

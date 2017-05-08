@@ -36,47 +36,47 @@
 \BOOKMARK [2][-]{subsection.6.2}{Teori}{section.6}% 36
 \BOOKMARK [3][-]{subsubsection.6.2.1}{555 timer}{subsection.6.2}% 37
 \BOOKMARK [3][-]{subsubsection.6.2.2}{Benyttelse af diode som variabel sp\346nding}{subsection.6.2}% 38
-\BOOKMARK [2][-]{subsection.6.3}{Hastighedsm\345lingsmetoder}{section.6}% 39
-\BOOKMARK [3][-]{subsubsection.6.3.1}{2 sensorer}{subsection.6.3}% 40
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Knap og sensor}{subsection.6.3}% 41
-\BOOKMARK [2][-]{subsection.6.4}{Beregninger}{section.6}% 42
-\BOOKMARK [3][-]{subsubsection.6.4.1}{555 timer modstande}{subsection.6.4}% 43
-\BOOKMARK [3][-]{subsubsection.6.4.2}{Bestemmelse af modstande for peak-detektoren}{subsection.6.4}% 44
-\BOOKMARK [2][-]{subsection.6.5}{Test}{section.6}% 45
-\BOOKMARK [3][-]{subsubsection.6.5.1}{Afsender dioden}{subsection.6.5}% 46
-\BOOKMARK [3][-]{subsubsection.6.5.2}{Modtager dioden}{subsection.6.5}% 47
-\BOOKMARK [1][-]{section.7}{Controller}{}% 48
-\BOOKMARK [2][-]{subsection.7.1}{Komponenter}{section.7}% 49
-\BOOKMARK [2][-]{subsection.7.2}{Teori}{section.7}% 50
-\BOOKMARK [1][-]{section.8}{Display}{}% 51
-\BOOKMARK [2][-]{subsection.8.1}{LCD-kredsl\370b}{section.8}% 52
-\BOOKMARK [3][-]{subsubsection.8.1.1}{LCD setup}{subsection.8.1}% 53
-\BOOKMARK [2][-]{subsection.8.2}{Teori}{section.8}% 54
-\BOOKMARK [3][-]{subsubsection.8.2.1}{LiquidCrystal library}{subsection.8.2}% 55
-\BOOKMARK [2][-]{subsection.8.3}{Komponenter}{section.8}% 56
-\BOOKMARK [3][-]{subsubsection.8.3.1}{Arduino}{subsection.8.3}% 57
-\BOOKMARK [3][-]{subsubsection.8.3.2}{LCD display}{subsection.8.3}% 58
-\BOOKMARK [2][-]{subsection.8.4}{Test}{section.8}% 59
-\BOOKMARK [1][-]{section.9}{Ladningssensor}{}% 60
-\BOOKMARK [2][-]{subsection.9.1}{Komponenter}{section.9}% 61
-\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21 - Fotodiode}{subsection.9.1}% 62
-\BOOKMARK [3][-]{subsubsection.9.1.2}{LED - RGB Clear Common Anode}{subsection.9.1}% 63
-\BOOKMARK [2][-]{subsection.9.2}{Teori}{section.9}% 64
-\BOOKMARK [3][-]{subsubsection.9.2.1}{OPAMP}{subsection.9.2}% 65
-\BOOKMARK [3][-]{subsubsection.9.2.2}{Analog input til registrering af farve}{subsection.9.2}% 66
-\BOOKMARK [2][-]{subsection.9.3}{Beregninger}{section.9}% 67
-\BOOKMARK [3][-]{subsubsection.9.3.1}{Modstanden af LED}{subsection.9.3}% 68
-\BOOKMARK [3][-]{subsubsection.9.3.2}{OPAMP modstande}{subsection.9.3}% 69
-\BOOKMARK [2][-]{subsection.9.4}{Test}{section.9}% 70
-\BOOKMARK [1][-]{section.10}{Arduinoen}{}% 71
-\BOOKMARK [2][-]{subsection.10.1}{Analog inputs og outputs \(PWM\)}{section.10}% 72
-\BOOKMARK [2][-]{subsection.10.2}{Digital inputs og outputs}{section.10}% 73
-\BOOKMARK [2][-]{subsection.10.3}{I2C - Synkroniseret kommunikation}{section.10}% 74
-\BOOKMARK [1][-]{section.11}{Fremstilling}{}% 75
-\BOOKMARK [2][-]{subsection.11.1}{Fumlebr\346t-modeller}{section.11}% 76
-\BOOKMARK [2][-]{subsection.11.2}{PCB - fremstilling}{section.11}% 77
-\BOOKMARK [2][-]{subsection.11.3}{Endelige prototype}{section.11}% 78
-\BOOKMARK [1][-]{section*.14}{Bibliography}{}% 79
-\BOOKMARK [1][-]{section.12}{Bilag}{}% 80
-\BOOKMARK [2][-]{subsection.12.1}{samlet kredsl\370b}{section.12}% 81
-\BOOKMARK [2][-]{subsection.12.2}{Program til Arduino}{section.12}% 82
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Logiske gates}{subsection.6.2}% 39
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Hastighedsm\345lingsmetoder}{subsection.6.2}% 40
+\BOOKMARK [2][-]{subsection.6.3}{Beregninger}{section.6}% 41
+\BOOKMARK [3][-]{subsubsection.6.3.1}{555 timer modstande}{subsection.6.3}% 42
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Bestemmelse af modstande for peak-detektoren}{subsection.6.3}% 43
+\BOOKMARK [2][-]{subsection.6.4}{Test}{section.6}% 44
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Afsender dioden}{subsection.6.4}% 45
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Modtager dioden}{subsection.6.4}% 46
+\BOOKMARK [1][-]{section.7}{Controller}{}% 47
+\BOOKMARK [2][-]{subsection.7.1}{Komponenter}{section.7}% 48
+\BOOKMARK [2][-]{subsection.7.2}{Teori}{section.7}% 49
+\BOOKMARK [1][-]{section.8}{Display}{}% 50
+\BOOKMARK [2][-]{subsection.8.1}{LCD-kredsl\370b}{section.8}% 51
+\BOOKMARK [3][-]{subsubsection.8.1.1}{LCD setup}{subsection.8.1}% 52
+\BOOKMARK [2][-]{subsection.8.2}{Teori}{section.8}% 53
+\BOOKMARK [3][-]{subsubsection.8.2.1}{LiquidCrystal library}{subsection.8.2}% 54
+\BOOKMARK [2][-]{subsection.8.3}{Komponenter}{section.8}% 55
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Arduino}{subsection.8.3}% 56
+\BOOKMARK [3][-]{subsubsection.8.3.2}{LCD display}{subsection.8.3}% 57
+\BOOKMARK [2][-]{subsection.8.4}{Test}{section.8}% 58
+\BOOKMARK [1][-]{section.9}{Ladningssensor}{}% 59
+\BOOKMARK [2][-]{subsection.9.1}{Komponenter}{section.9}% 60
+\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21 - Fotodiode}{subsection.9.1}% 61
+\BOOKMARK [3][-]{subsubsection.9.1.2}{LED - RGB Clear Common Anode}{subsection.9.1}% 62
+\BOOKMARK [2][-]{subsection.9.2}{Teori}{section.9}% 63
+\BOOKMARK [3][-]{subsubsection.9.2.1}{OPAMP}{subsection.9.2}% 64
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Analog input til registrering af farve}{subsection.9.2}% 65
+\BOOKMARK [2][-]{subsection.9.3}{Beregninger}{section.9}% 66
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Modstanden af LED}{subsection.9.3}% 67
+\BOOKMARK [3][-]{subsubsection.9.3.2}{OPAMP modstande}{subsection.9.3}% 68
+\BOOKMARK [2][-]{subsection.9.4}{Test}{section.9}% 69
+\BOOKMARK [1][-]{section.10}{Arduinoen}{}% 70
+\BOOKMARK [2][-]{subsection.10.1}{Analog inputs og outputs \(PWM\)}{section.10}% 71
+\BOOKMARK [2][-]{subsection.10.2}{Digital inputs og outputs}{section.10}% 72
+\BOOKMARK [2][-]{subsection.10.3}{I2C - Synkroniseret kommunikation}{section.10}% 73
+\BOOKMARK [1][-]{section.11}{Fremstilling}{}% 74
+\BOOKMARK [2][-]{subsection.11.1}{Fumlebr\346t-modeller}{section.11}% 75
+\BOOKMARK [2][-]{subsection.11.2}{PCB - fremstilling}{section.11}% 76
+\BOOKMARK [2][-]{subsection.11.3}{Endelige prototype}{section.11}% 77
+\BOOKMARK [1][-]{section.12}{Slut afpr\370vning}{}% 78
+\BOOKMARK [1][-]{section.12}{Bibliography}{}% 79
+\BOOKMARK [1][-]{section.13}{Bilag}{}% 80
+\BOOKMARK [2][-]{subsection.13.1}{samlet kredsl\370b}{section.13}% 81
+\BOOKMARK [2][-]{subsection.13.2}{Program til Arduino}{section.13}% 82
