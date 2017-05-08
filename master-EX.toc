@@ -42,7 +42,7 @@
 \contentsline {subsubsection}{\numberline {6.3.2}Knap og sensor}{18}{subsubsection.6.3.2}
 \contentsline {subsection}{\numberline {6.4}Beregninger}{18}{subsection.6.4}
 \contentsline {subsubsection}{\numberline {6.4.1}555 timer modstande}{18}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}Bestemmelse af modstande for peak-detektoren}{19}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2}Bestemmelse af modstande for peak-detektoren}{20}{subsubsection.6.4.2}
 \contentsline {subsection}{\numberline {6.5}Test}{20}{subsection.6.5}
 \contentsline {subsubsection}{\numberline {6.5.1}Afsender dioden}{20}{subsubsection.6.5.1}
 \contentsline {subsubsection}{\numberline {6.5.2}Modtager dioden}{23}{subsubsection.6.5.2}
@@ -60,24 +60,24 @@
 \contentsline {subsection}{\numberline {8.4}Test}{26}{subsection.8.4}
 \contentsline {section}{\numberline {9}Ladningssensor}{28}{section.9}
 \contentsline {subsection}{\numberline {9.1}Komponenter}{28}{subsection.9.1}
-\contentsline {subsubsection}{\numberline {9.1.1}BPW21}{28}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.1}BPW21 - Fotodiode}{28}{subsubsection.9.1.1}
 \contentsline {subsubsection}{\numberline {9.1.2}LED - RGB Clear Common Anode}{28}{subsubsection.9.1.2}
 \contentsline {subsection}{\numberline {9.2}Teori}{28}{subsection.9.2}
 \contentsline {subsubsection}{\numberline {9.2.1}OPAMP}{28}{subsubsection.9.2.1}
 \contentsline {subsubsection}{\numberline {9.2.2}Analog input til registrering af farve}{28}{subsubsection.9.2.2}
-\contentsline {subsection}{\numberline {9.3}Beregninger}{28}{subsection.9.3}
-\contentsline {subsubsection}{\numberline {9.3.1}OPAMP modstande}{28}{subsubsection.9.3.1}
-\contentsline {subsubsection}{\numberline {9.3.2}Modstanden af LED}{29}{subsubsection.9.3.2}
-\contentsline {subsection}{\numberline {9.4}Test}{30}{subsection.9.4}
-\contentsline {section}{\numberline {10}Arduinoen}{31}{section.10}
-\contentsline {subsection}{\numberline {10.1}Analog inputs og outputs (PWM)}{31}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Digital inputs og outputs}{32}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}I2C - Synkroniseret kommunikation}{32}{subsection.10.3}
-\contentsline {section}{\numberline {11}Fremstilling}{32}{section.11}
-\contentsline {subsection}{\numberline {11.1}Fumlebr\IeC {\ae }t-modeller}{32}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}PCB - fremstilling}{33}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Endelige prototype}{34}{subsection.11.3}
-\contentsline {section}{Bibliography}{34}{section*.12}
-\contentsline {section}{\numberline {12}Bilag}{35}{section.12}
-\contentsline {subsection}{\numberline {12.1}samlet kredsl\IeC {\o }b}{35}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Program til Arduino}{36}{subsection.12.2}
+\contentsline {subsection}{\numberline {9.3}Beregninger}{29}{subsection.9.3}
+\contentsline {subsubsection}{\numberline {9.3.1}Modstanden af LED}{29}{subsubsection.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.2}OPAMP modstande}{30}{subsubsection.9.3.2}
+\contentsline {subsection}{\numberline {9.4}Test}{31}{subsection.9.4}
+\contentsline {section}{\numberline {10}Arduinoen}{32}{section.10}
+\contentsline {subsection}{\numberline {10.1}Analog inputs og outputs (PWM)}{32}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Digital inputs og outputs}{33}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}I2C - Synkroniseret kommunikation}{33}{subsection.10.3}
+\contentsline {section}{\numberline {11}Fremstilling}{33}{section.11}
+\contentsline {subsection}{\numberline {11.1}Fumlebr\IeC {\ae }t-modeller}{33}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}PCB - fremstilling}{34}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Endelige prototype}{35}{subsection.11.3}
+\contentsline {section}{Bibliography}{35}{section*.14}
+\contentsline {section}{\numberline {12}Bilag}{36}{section.12}
+\contentsline {subsection}{\numberline {12.1}samlet kredsl\IeC {\o }b}{36}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Program til Arduino}{37}{subsection.12.2}

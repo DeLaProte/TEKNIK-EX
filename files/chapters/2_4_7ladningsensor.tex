@@ -2,9 +2,18 @@
 
 
 \subsection{Komponenter}
-\subsubsection{BPW21}
+\subsubsection{BPW21 - Fotodiode}
+\begin{figure}[H]
+	\centering
+    \includegraphics[height=10cm]{figures/komponenter/photosensor}
+	\caption{Normal speltral respons angivet i procent}
+	Se databladet i kilde \cite{kompPhoto}
+	\label{arduinoLCD}
+\end{figure}
+BPW21 er en fotodiode, som betyder at dens modstand ændres alt efter \todo{skriv teori om BPW21}
 
 \subsubsection{LED - RGB Clear Common Anode}
+
 
 
 \subsection{Teori}
@@ -12,6 +21,40 @@
 \subsubsection{Analog input til registrering af farve}
 Arduinoens analog input er beskrevet i afsnit \ref{sec:ard:analog}. Vi benytter denne funktion til at få outputtet fra vores farvesensor ind i arduinoen.
 \subsection{Beregninger}
+\subsubsection{Modstanden af LED}
+Ifølge \cite{kompLED} gælder det for LED'en at dens typiske spænding for den blå og grønne LED
+\[
+	V_{GB typisk} = \SI{3.2}{V}
+\]
+Og for den røde 
+\[
+	V_{R typisk} = \SI{2}{V}
+\]
+Og kan klare en strømstyrke på
+\[
+	I = \SI{20d-3}{A} 
+\]
+Ud fra ohms lov må det betyde at hvis indgangsspændingen er på $\SI{5}{V}$, at modstanden til de enkelte LEDer skal være
+\begin{align}
+	R&= \frac{U}{I}\\
+	R_{RLED} &= \frac{\SI{5}{V}-\SI{2}{V}}{\SI{2.0d-2}{A}} = \SI{150}{\ohm}\\
+	R_{GLED} &= \frac{\SI{5}{V}-\SI{3.2}{V}}{\SI{2.0d-2}{A}} = \SI{90}{\ohm}\\
+	R_{BLED} &= \frac{\SI{5}{V}-\SI{3.2}{V}}{\SI{2.0d-2}{A}} = \SI{90}{\ohm}\\
+\end{align}
+Ud fra dette valgte vi at benytte modstandene 
+\begin{align}
+	R_{RLED} &= \SI{180}{\ohm}\\
+	R_{GLED} &= \SI{100}{\ohm}\\
+	R_{BLED} &= \SI{100}{\ohm}\\
+\end{align}
+Det vidste sig dog at en LED ikke lyste nok op, og derfor satte vi en ekstra parallelt med den anden som vist på kredsløbstegningen. Dette betød at vi skulle ændre vores modstande, hvor vi også valgte at ændre modstandene således at de 3 forskellige farver tilnærmelsesvis lyste lige stærkt. De nye modstande blev 
+\begin{align}
+	R_{RLED} &= \SI{120}{\ohm}\\
+	R_{GLED} &= \SI{470}{\ohm}\\
+	R_{BLED} &= \SI{470}{\ohm}\\
+\end{align}
+Her blev der lavet en test, af indgangsspændingen til Arduinoen, når der blev lyst med forskellige farver, på materialer med forskellig farve. Testen kan findes i tabel \ref{tab:farveudenforstaerker}.
+
 \subsubsection{OPAMP modstande} \label{subs:opampanalog}
 Vi besluttede os for at benytte en OPAMP, da vores største signal fra test 1 (se \ref{tab:farveudenforstaerker}) var på $\SI{0.06}{V}$, hvis man ser bort fra når alle lyser. Da vores precision af analog inputtet på arduinoen er omkring $\SI{0.005}{V}$ (se \ref{sec:ard:analog}), er der små udsving i inputtet, som vi gerne vil gøre større med en OPAMP, så det er nemmere at identificere hvilken farve bliver brugt.
 % R_in = 1k
@@ -52,25 +95,16 @@ Hvilket svarer til et outputsignal på
 \[
 	V_{out} = \SI{0.08}\cdot 57 = \SI{4.56}{V}
 \]
-Hvilket er tilnærmelsesvis hvad vi gerne vil have.
+Hvilket er tilnærmelsesvis hvad vi gerne vil have. Derefter kørte vi den samme test som før vi havde forstærket signalet. Resultaterne kan ses i tabel \ref{tab:farvemedforstaerker}.
 
-\subsubsection{Modstanden af LED}
-Ifølge \cite{LED??} gælder det for LED'en at dens typiske spænding 
-\[
-	V_{typisk} = \SI{3.2}{V}
-\]
-Og kan klare en strømstyrke på
-\[
-	I = \SI{20d-3}{A} 
-\]
 
-\begin{align}
-	R_{LED} &= \frac{\SI{5}{V}-\SI{3.2}{V}}{\SI{2.0d-2}{A}} = \SI{90}{\ohm}\\
-\end{align}
+
+
 
 **** NOTER ****
 Men da vi satte tre modstande ændrede vi det til ***. 
 % MISC LED
+Skriv LED anode eller cathode og indsæt tegning 
 Simon → Farvesensor
 Skriv om bestemmelse af modstande til LED
 Start ->
@@ -95,6 +129,8 @@ Nævn af billederne i bilag (grøn blå) blev taget før at afstanden blev ændr
 
 *************
 \subsection{Test}
+
+
 \begin{table}[H]
 \centering
 \caption{Signaler uden forstærkning} \label{tab:farveudenforstaerker}

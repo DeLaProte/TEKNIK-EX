@@ -2162,8 +2162,9 @@
     <bcf:citekey order="17">arduinoLCD</bcf:citekey>
     <bcf:citekey order="18">arduinoLCD</bcf:citekey>
     <bcf:citekey order="19">arduinoLCD</bcf:citekey>
-    <bcf:citekey order="20">LED??</bcf:citekey>
-    <bcf:citekey order="21">arduinoAnalog</bcf:citekey>
+    <bcf:citekey order="20">kompPhoto</bcf:citekey>
+    <bcf:citekey order="21">kompLED</bcf:citekey>
+    <bcf:citekey order="22">arduinoAnalog</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">

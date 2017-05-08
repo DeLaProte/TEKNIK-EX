@@ -56,14 +56,14 @@
 \BOOKMARK [2][-]{subsection.8.4}{Test}{section.8}% 56
 \BOOKMARK [1][-]{section.9}{Ladningssensor}{}% 57
 \BOOKMARK [2][-]{subsection.9.1}{Komponenter}{section.9}% 58
-\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21}{subsection.9.1}% 59
+\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21 - Fotodiode}{subsection.9.1}% 59
 \BOOKMARK [3][-]{subsubsection.9.1.2}{LED - RGB Clear Common Anode}{subsection.9.1}% 60
 \BOOKMARK [2][-]{subsection.9.2}{Teori}{section.9}% 61
 \BOOKMARK [3][-]{subsubsection.9.2.1}{OPAMP}{subsection.9.2}% 62
 \BOOKMARK [3][-]{subsubsection.9.2.2}{Analog input til registrering af farve}{subsection.9.2}% 63
 \BOOKMARK [2][-]{subsection.9.3}{Beregninger}{section.9}% 64
-\BOOKMARK [3][-]{subsubsection.9.3.1}{OPAMP modstande}{subsection.9.3}% 65
-\BOOKMARK [3][-]{subsubsection.9.3.2}{Modstanden af LED}{subsection.9.3}% 66
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Modstanden af LED}{subsection.9.3}% 65
+\BOOKMARK [3][-]{subsubsection.9.3.2}{OPAMP modstande}{subsection.9.3}% 66
 \BOOKMARK [2][-]{subsection.9.4}{Test}{section.9}% 67
 \BOOKMARK [1][-]{section.10}{Arduinoen}{}% 68
 \BOOKMARK [2][-]{subsection.10.1}{Analog inputs og outputs \(PWM\)}{section.10}% 69
@@ -73,7 +73,7 @@
 \BOOKMARK [2][-]{subsection.11.1}{Fumlebr\346t-modeller}{section.11}% 73
 \BOOKMARK [2][-]{subsection.11.2}{PCB - fremstilling}{section.11}% 74
 \BOOKMARK [2][-]{subsection.11.3}{Endelige prototype}{section.11}% 75
-\BOOKMARK [1][-]{section*.12}{Bibliography}{}% 76
+\BOOKMARK [1][-]{section*.14}{Bibliography}{}% 76
 \BOOKMARK [1][-]{section.12}{Bilag}{}% 77
 \BOOKMARK [2][-]{subsection.12.1}{samlet kredsl\370b}{section.12}% 78
 \BOOKMARK [2][-]{subsection.12.2}{Program til Arduino}{section.12}% 79

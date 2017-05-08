@@ -490,6 +490,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT files/chapters/2_4_7ladningsensor.tex
 INPUT files/chapters/2_4_7ladningsensor.tex
+INPUT files/chapters/figures/komponenter/photosensor.png
+INPUT ./files/chapters/figures/komponenter/photosensor.png
+INPUT ./files/chapters/figures/komponenter/photosensor.png
 INPUT files/chapters/2_4_8arduino.tex
 INPUT files/chapters/2_4_8arduino.tex
 INPUT files/chapters/figures/arduino/portmani.PNG

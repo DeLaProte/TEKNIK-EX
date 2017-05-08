@@ -92,6 +92,29 @@
       \verb https://www.arduino.cc/en/Tutorial/StepperOneStepAtATime
       \endverb
     \endentry
+    \entry{kompPhoto}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ebfc1f16b00155d5faba89cf73a4330f}{%
+           family={{Centronic LTD}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \strng{fullhash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \strng{authornamehash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \strng{authorfullhash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SERIES BPW 21}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://ticsante.u-strasbg.fr/lib/exe/fetch.php?media=0900766b800a603b.pdf
+      \endverb
+    \endentry
     \entry{kompstepmotor}{online}{}
       \name{author}{1}{}{%
         {{hash=4fac8e0a8c154ebdc1db3fb6ce44407a}{%
