@@ -5,7 +5,7 @@
 \subsubsection{IR afsender diode - L-34F3BT}
 % afsender diode
 
-Relevante størrelser på dioden \cite{kompIRafsender} er bestemt ud fra absolute maximum ratings ved en temperatur på \SI{25}{\celcius} 
+Relevante størrelser på dioden \cite{kompIRafsender} er bestemt ud fra absolute maximum ratings ved en temperatur på \SI{25}{\celsius} 
 Duty cyclen er
 \begin{align}
 	D &= \frac{1}{100} \\
@@ -28,29 +28,40 @@ Samt kan den klare en strømstyrke på
 
 \subsubsection{IR modtager diode - BPW 34 FA}
 % Modtager Diode
+Relevante størrelser for IR modtager dioden \cite{kompIRmodtager} er at den har en kort switching tid på
+\begin{align}
+	t &= \SI{20}{\nano s} \\
+\end{align}
 
-
-Relevante størrelser for IR modtager dioden \cite{kompIRmodtager}
-
+Den er bygget til at opfange lys med frekvensen på
+\begin{align}
+	 [\SI{730}{nm};\SI{1100}{nm}] \\
+\end{align}
+Hvilket er fint for vores formål med infrarød lys.
 \subsubsection{555 timer - NE555P}
 % 555 timer
 Vi benyttede en 555 timer\cite{komp555} til at producere ønskede signaler med en frekvens på \SI{1000}{Hz}, som beskrevet i ligning \ref{eq:oensketFrekvens}.
  %Duty cycle
-Problemet ved at benytte en normal astabil 555 timer er at duty cyclen aldrig kan komme under $50\%$ (kilde: \cite{555timer50percent}), dette betyder at vi ikke kan producerer korte signaler som ønsket, ved direkte at udvælge bestemte modstande. Derfor udnytter vi at duty cyclen kan sættes væsentligt højere op og vi kan derfra inverterer signalet. Beregninger for udvælgelse af korrekte modstande for at få en ønsket duty cycle kan findes i afsnit \ref{calc:555timerResistance}
+Problemet ved at benytte en normal monostabil 555 timer er at duty cyclen aldrig kan komme under $50\%$ (kilde: \cite{555timer50percent}), dette betyder at vi ikke kan producerer korte signaler som ønsket, ved direkte at udvælge bestemte modstande. Derfor udnytter vi at duty cyclen kan sættes væsentligt højere op og vi kan derfra inverterer signalet. Beregninger for udvælgelse af korrekte modstande for at få en ønsket duty cycle kan findes i afsnit \ref{calc:555timerResistance}.
 
-
+% -------------___PIN diagram
+\begin{figure}[H]
+	\centering
+    \includegraphics[height=7cm]{figures/2_4_4hastighedsmaal/komp555pin.png}
+	\caption{Pindiagram over NE555P}
+	\label{fig:komp555pin}
+\end{figure}
 
 \subsubsection{Signal invertering - HEF4001B}
 Kilde: \cite{kompInverter}
-
-
+Vi har benyttet komponenter HEF4001B som er en IC med OR gates, som vi benytter til at inverterer signalet fra 555-timeren.
 
 
 
 % ----------- PIN DIAGRAM
 \begin{figure}[H]
 	\centering
-    \includegraphics[width=13cm]{figures/2_4_4hastighedsmaal/kompInverter.png}
+    \includegraphics[height=7cm]{figures/2_4_4hastighedsmaal/kompInverterpin.png}
 	\caption{Pindiagram over HEF4001B}
 	\label{fig:kompInverter}
 \end{figure}
@@ -58,13 +69,24 @@ Kilde: \cite{kompInverter}
 
 
 \subsection{Teori}
+\subsubsection{555 timer}
+En 555 timer er et komponent der kan benyttes 
+\subsubsection{Benyttelse af diode som variabel spænding}
+\subsubsection{Logiske gates}
+\subsubsection{Hastighedsmålingsmetoder}
+% \subsubsection{2 sensorer}
+% \subsubsection{Knap og sensor}
+Tidsmålingen bestemmes ved at vi kender et hvis strækning bolden har bevæget sig i, samt at man kender det tidsinterval bolden bevæger sig strækningen. Således bestemmes hastigheden:
+\begin{align}
+	v_{bold} &=\frac{\Delta s}{\Delta t} \\
+\end{align}
+ Heraf er der to løsninger til at bestemme dette.
+Den ene er at benytte to infrarød afsender og modtagere kredse, som er sat sammen i par. Således at når den første del registrerer at en bold passerer undervejs så begyndes der at tage tid, indtil den næste del registrerer at bolden passerer. 
 
+Den anden metode er at benytte en infrarød afsender og modtager-kreds og en knap, så når der trykkes på knappen tages der tid fra at bolden skydes af sted til at den registreres af infrarød afsender og modtager kreds.
 
-\subsection{Hastighedsmålingsmetoder}
-\subsubsection{2 sensorer}
-\subsubsection{Knap og sensor}
-Vi endte med at vælge denne metode, grundet tidspres da vi efter vores fremstilling stødte på problemer, da kredsløbet ikke fungerede. Se afsnit \ref{subs:endeligProto}.
-
+Vi endte med at vælge den anden metode, grundet tidspres da vi efter vores fremstilling stødte på problemer, da kredsløbet ikke fungerede på PCB. Se afsnit \ref{subs:endeligProto}.
+\todo{Hold øje med om der refereres til det rigtige afsnit}
 
 
 

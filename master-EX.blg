@@ -1,28 +1,32 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'master-EX.blg'
-[46] biber-darwin:303> INFO - === Sun May  7, 2017, 20:46:05
-[69] Biber.pm:359> INFO - Reading 'master-EX.bcf'
-[169] Biber.pm:832> INFO - Using all citekeys in bib section 0
-[185] Biber.pm:3670> INFO - Processing section 0
-[202] Biber.pm:3840> INFO - Looking for bibtex format file 'files/references/references.bib' for section 0
-[204] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[210] bibtex.pm:1292> INFO - Found BibTeX data source 'files/references/references.bib'
-[233] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 7, warning: 1 characters of junk seen at toplevel
-[233] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 15, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 21, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 35, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 41, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 47, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 53, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 59, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 66, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 73, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 81, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 87, warning: 1 characters of junk seen at toplevel
-[234] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/8uJjQzydI7/references.bib_39248.utf8, line 93, warning: 1 characters of junk seen at toplevel
-[255] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[255] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[255] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'da-DK'
-[271] bbl.pm:608> INFO - Writing 'master-EX.bbl' with encoding 'UTF-8'
-[273] bbl.pm:712> INFO - Output to master-EX.bbl
-[274] Biber.pm:109> INFO - WARNINGS: 13
+[44] biber-darwin:303> INFO - === Mon May  8, 2017, 12:31:41
+[66] Biber.pm:359> INFO - Reading 'master-EX.bcf'
+[158] Biber.pm:832> INFO - Using all citekeys in bib section 0
+[172] Biber.pm:3670> INFO - Processing section 0
+[188] Biber.pm:3840> INFO - Looking for bibtex format file 'files/references/references.bib' for section 0
+[191] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[196] bibtex.pm:1292> INFO - Found BibTeX data source 'files/references/references.bib'
+[199] Utils.pm:164> WARN - Duplicate entry key: 'kompInverter' in file 'files/references/references.bib', skipping ...
+[223] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 7, warning: 1 characters of junk seen at toplevel
+[223] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 15, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 21, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 35, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 41, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 47, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 53, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 59, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 66, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 73, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 81, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 87, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 93, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 101, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 108, warning: 1 characters of junk seen at toplevel
+[224] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/nz/w66l7r8s2f7ctjf9nln2htgm0000gn/T/dYD6_his8u/references.bib_40665.utf8, line 117, warning: 1 characters of junk seen at toplevel
+[247] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[247] UCollate.pm:68> INFO - Overriding locale 'da-DK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[247] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'da-DK'
+[264] bbl.pm:608> INFO - Writing 'master-EX.bbl' with encoding 'UTF-8'
+[267] bbl.pm:712> INFO - Output to master-EX.bbl
+[267] Biber.pm:109> INFO - WARNINGS: 17

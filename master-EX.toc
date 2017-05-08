@@ -33,51 +33,54 @@
 \contentsline {subsection}{\numberline {5.5}Test}{17}{subsection.5.5}
 \contentsline {section}{\numberline {6}Hastighedsm\IeC {\r a}ler}{17}{section.6}
 \contentsline {subsection}{\numberline {6.1}Komponenter}{17}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}IR modtager diode - BPW 34 FA}{17}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}555 timer}{17}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}IR afsender diode - L-34F3BT}{18}{subsubsection.6.1.3}
-\contentsline {subsection}{\numberline {6.2}Teori}{18}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Hastighedsm\IeC {\r a}lingsmetoder}{18}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}2 sensorer}{18}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Knap og sensor}{18}{subsubsection.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Beregninger}{18}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}555 timer modstande}{18}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}Bestemmelse af modstande for peak-detektoren}{20}{subsubsection.6.4.2}
-\contentsline {subsection}{\numberline {6.5}Test}{20}{subsection.6.5}
-\contentsline {subsubsection}{\numberline {6.5.1}Afsender dioden}{20}{subsubsection.6.5.1}
-\contentsline {subsubsection}{\numberline {6.5.2}Modtager dioden}{23}{subsubsection.6.5.2}
-\contentsline {section}{\numberline {7}Controller}{24}{section.7}
-\contentsline {subsection}{\numberline {7.1}Komponenter}{24}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Teori}{24}{subsection.7.2}
-\contentsline {section}{\numberline {8}Display}{25}{section.8}
-\contentsline {subsection}{\numberline {8.1}LCD-kredsl\IeC {\o }b}{25}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}LCD setup}{25}{subsubsection.8.1.1}
-\contentsline {subsection}{\numberline {8.2}Teori}{25}{subsection.8.2}
-\contentsline {subsubsection}{\numberline {8.2.1}LiquidCrystal library}{25}{subsubsection.8.2.1}
-\contentsline {subsection}{\numberline {8.3}Komponenter}{26}{subsection.8.3}
-\contentsline {subsubsection}{\numberline {8.3.1}Arduino}{26}{subsubsection.8.3.1}
-\contentsline {subsubsection}{\numberline {8.3.2}LCD display}{26}{subsubsection.8.3.2}
-\contentsline {subsection}{\numberline {8.4}Test}{26}{subsection.8.4}
-\contentsline {section}{\numberline {9}Ladningssensor}{28}{section.9}
-\contentsline {subsection}{\numberline {9.1}Komponenter}{28}{subsection.9.1}
-\contentsline {subsubsection}{\numberline {9.1.1}BPW21 - Fotodiode}{28}{subsubsection.9.1.1}
-\contentsline {subsubsection}{\numberline {9.1.2}LED - RGB Clear Common Anode}{28}{subsubsection.9.1.2}
-\contentsline {subsection}{\numberline {9.2}Teori}{28}{subsection.9.2}
-\contentsline {subsubsection}{\numberline {9.2.1}OPAMP}{28}{subsubsection.9.2.1}
-\contentsline {subsubsection}{\numberline {9.2.2}Analog input til registrering af farve}{28}{subsubsection.9.2.2}
-\contentsline {subsection}{\numberline {9.3}Beregninger}{29}{subsection.9.3}
-\contentsline {subsubsection}{\numberline {9.3.1}Modstanden af LED}{29}{subsubsection.9.3.1}
-\contentsline {subsubsection}{\numberline {9.3.2}OPAMP modstande}{30}{subsubsection.9.3.2}
-\contentsline {subsection}{\numberline {9.4}Test}{31}{subsection.9.4}
-\contentsline {section}{\numberline {10}Arduinoen}{32}{section.10}
-\contentsline {subsection}{\numberline {10.1}Analog inputs og outputs (PWM)}{32}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Digital inputs og outputs}{33}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}I2C - Synkroniseret kommunikation}{33}{subsection.10.3}
-\contentsline {section}{\numberline {11}Fremstilling}{33}{section.11}
-\contentsline {subsection}{\numberline {11.1}Fumlebr\IeC {\ae }t-modeller}{33}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}PCB - fremstilling}{34}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Endelige prototype}{35}{subsection.11.3}
-\contentsline {section}{Bibliography}{35}{section*.14}
-\contentsline {section}{\numberline {12}Bilag}{36}{section.12}
-\contentsline {subsection}{\numberline {12.1}samlet kredsl\IeC {\o }b}{36}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Program til Arduino}{37}{subsection.12.2}
+\contentsline {subsubsection}{\numberline {6.1.1}IR afsender diode - L-34F3BT}{17}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}IR modtager diode - BPW 34 FA}{18}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}555 timer - NE555P}{18}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Signal invertering - HEF4001B}{19}{subsubsection.6.1.4}
+\contentsline {subsection}{\numberline {6.2}Teori}{20}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}555 timer}{20}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Benyttelse af diode som variabel sp\IeC {\ae }nding}{20}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {6.3}Hastighedsm\IeC {\r a}lingsmetoder}{20}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}2 sensorer}{20}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Knap og sensor}{20}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Beregninger}{21}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}555 timer modstande}{21}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Bestemmelse af modstande for peak-detektoren}{22}{subsubsection.6.4.2}
+\contentsline {subsection}{\numberline {6.5}Test}{22}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}Afsender dioden}{22}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Modtager dioden}{25}{subsubsection.6.5.2}
+\contentsline {section}{\numberline {7}Controller}{26}{section.7}
+\contentsline {subsection}{\numberline {7.1}Komponenter}{26}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Teori}{26}{subsection.7.2}
+\contentsline {section}{\numberline {8}Display}{27}{section.8}
+\contentsline {subsection}{\numberline {8.1}LCD-kredsl\IeC {\o }b}{27}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}LCD setup}{27}{subsubsection.8.1.1}
+\contentsline {subsection}{\numberline {8.2}Teori}{27}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}LiquidCrystal library}{27}{subsubsection.8.2.1}
+\contentsline {subsection}{\numberline {8.3}Komponenter}{28}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Arduino}{28}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}LCD display}{28}{subsubsection.8.3.2}
+\contentsline {subsection}{\numberline {8.4}Test}{28}{subsection.8.4}
+\contentsline {section}{\numberline {9}Ladningssensor}{30}{section.9}
+\contentsline {subsection}{\numberline {9.1}Komponenter}{30}{subsection.9.1}
+\contentsline {subsubsection}{\numberline {9.1.1}BPW21 - Fotodiode}{30}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.2}LED - RGB Clear Common Anode}{30}{subsubsection.9.1.2}
+\contentsline {subsection}{\numberline {9.2}Teori}{30}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}OPAMP}{30}{subsubsection.9.2.1}
+\contentsline {subsubsection}{\numberline {9.2.2}Analog input til registrering af farve}{30}{subsubsection.9.2.2}
+\contentsline {subsection}{\numberline {9.3}Beregninger}{31}{subsection.9.3}
+\contentsline {subsubsection}{\numberline {9.3.1}Modstanden af LED}{31}{subsubsection.9.3.1}
+\contentsline {subsubsection}{\numberline {9.3.2}OPAMP modstande}{32}{subsubsection.9.3.2}
+\contentsline {subsection}{\numberline {9.4}Test}{33}{subsection.9.4}
+\contentsline {section}{\numberline {10}Arduinoen}{34}{section.10}
+\contentsline {subsection}{\numberline {10.1}Analog inputs og outputs (PWM)}{34}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Digital inputs og outputs}{35}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}I2C - Synkroniseret kommunikation}{35}{subsection.10.3}
+\contentsline {section}{\numberline {11}Fremstilling}{35}{section.11}
+\contentsline {subsection}{\numberline {11.1}Fumlebr\IeC {\ae }t-modeller}{35}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}PCB - fremstilling}{36}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Endelige prototype}{37}{subsection.11.3}
+\contentsline {section}{Bibliography}{37}{section*.14}
+\contentsline {section}{\numberline {12}Bilag}{39}{section.12}
+\contentsline {subsection}{\numberline {12.1}samlet kredsl\IeC {\o }b}{39}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Program til Arduino}{40}{subsection.12.2}

@@ -291,6 +291,29 @@
       \verb http://ww1.microchip.com/downloads/en/AppNotes/01353A.pdf
       \endverb
     \endentry
+    \entry{kompInverter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed12702f830dd2b0fabe23c1d36e1c6d}{%
+           family={{Nexperia}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{fullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authornamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authorfullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{HEF4001B}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://assets.nexperia.com/documents/data-sheet/HEF4001B.pdf
+      \endverb
+    \endentry
     \entry{kompIRmodtager}{online}{}
       \name{author}{1}{}{%
         {{hash=a9914fb70ef3e77924ba048c11f196c6}{%
@@ -335,6 +358,29 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://en.wikipedia.org/wiki/H_bridge
+      \endverb
+    \endentry
+    \entry{komp555}{online}{}
+      \name{author}{1}{}{%
+        {{hash=80293b4ff94467c0484a58bc2894e211}{%
+           family={{Texas Instruments}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{fullhash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authornamehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authorfullhash}{80293b4ff94467c0484a58bc2894e211}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{xx555 Precision Timers}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.ti.com/lit/gpn/ne555
       \endverb
     \endentry
     \entry{WikiGaussCanon}{online}{}
