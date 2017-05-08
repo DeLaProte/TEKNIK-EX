@@ -2,16 +2,6 @@
 
 
 \subsection{Komponenter}
-\subsubsection{IR modtager diode - BPW 34 FA}
-% Modtager Diode
-\todo{Vi skal have noget om hvorfor vi viste vi ville bruge en frekvens på 1000}
-
-Relevante størrelser for IR modtager dioden \cite{kompIRmodtager}
-
-\subsubsection{555 timer}
-% 555 timer
-\
-
 \subsubsection{IR afsender diode - L-34F3BT}
 % afsender diode
 
@@ -24,10 +14,48 @@ med en puls længde på
 \begin{align}
 	PW &= \SI{10}{\micro s} \\
 \end{align}
+
+Dette betyder at KingBright har vist at dioden kan med sikkerhed klare en frekvens på
+\begin{align}
+	f &=  \frac{D}{PW} =  \frac{\frac{1}{100}}{\SI{10}{\micro s}} = \SI{1000}{Hz}\label{eq:oensketFrekvens}\\ 
+\end{align}
+Hvilket vi vil forsøge at tilnærme.
+
 Samt kan den klare en strømstyrke på 
 \begin{align}
 	I_{FS} &= \SI{1.2}{A} \\
 \end{align}
+
+\subsubsection{IR modtager diode - BPW 34 FA}
+% Modtager Diode
+\todo{Vi skal have noget om hvorfor vi viste vi ville bruge en frekvens på 1000}
+
+Relevante størrelser for IR modtager dioden \cite{kompIRmodtager}
+
+\subsubsection{555 timer - NE555P}
+% 555 timer
+Vi benyttede en 555 timer til at producere ønskede signaler med en frekvens på \SI{1000}{W}. 
+
+Kilde: \cite{komp555}
+
+
+\subsubsection{Signal invertering - HEF4001B}
+Kilde: \cite{kompInverter}
+
+
+
+
+
+% ----------- PIN DIAGRAM
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=13cm]{figures/2_4_4hastighedsmaal/kompInverter.png}
+	\caption{Pindiagram over HEF4001B}
+	\label{fig:kompInverter}
+\end{figure}
+% --------------
+
+
 \subsection{Teori}
 \subsection{Hastighedsmålingsmetoder}
 \subsubsection{2 sensorer}
