@@ -5,7 +5,7 @@
 \subsubsection{IR afsender diode - L-34F3BT}
 % afsender diode
 
-Relevante størrelser på dioden \cite{kompIRafsender} til vores beregninger er at den har en lav duty cycle (så vi kan lave hurtige on and off signaler).
+Relevante størrelser på dioden \cite{kompIRafsender} er bestemt ud fra absolute maximum ratings ved en temperatur på \SI{25}{\celcius} 
 Duty cyclen er
 \begin{align}
 	D &= \frac{1}{100} \\
@@ -28,15 +28,16 @@ Samt kan den klare en strømstyrke på
 
 \subsubsection{IR modtager diode - BPW 34 FA}
 % Modtager Diode
-\todo{Vi skal have noget om hvorfor vi viste vi ville bruge en frekvens på 1000}
+
 
 Relevante størrelser for IR modtager dioden \cite{kompIRmodtager}
 
 \subsubsection{555 timer - NE555P}
 % 555 timer
-Vi benyttede en 555 timer til at producere ønskede signaler med en frekvens på \SI{1000}{W}. 
+Vi benyttede en 555 timer\cite{komp555} til at producere ønskede signaler med en frekvens på \SI{1000}{Hz}, som beskrevet i ligning \ref{eq:oensketFrekvens}.
+ %Duty cycle
+Problemet ved at benytte en normal astabil 555 timer er at duty cyclen aldrig kan komme under $50\%$ (kilde: \cite{555timer50percent}), dette betyder at vi ikke kan producerer korte signaler som ønsket, ved direkte at udvælge bestemte modstande. Derfor udnytter vi at duty cyclen kan sættes væsentligt højere op og vi kan derfra inverterer signalet. Beregninger for udvælgelse af korrekte modstande for at få en ønsket duty cycle kan findes i afsnit \ref{calc:555timerResistance}
 
-Kilde: \cite{komp555}
 
 
 \subsubsection{Signal invertering - HEF4001B}
@@ -57,13 +58,24 @@ Kilde: \cite{kompInverter}
 
 
 \subsection{Teori}
+
+
 \subsection{Hastighedsmålingsmetoder}
 \subsubsection{2 sensorer}
 \subsubsection{Knap og sensor}
 Vi endte med at vælge denne metode, grundet tidspres da vi efter vores fremstilling stødte på problemer, da kredsløbet ikke fungerede. Se afsnit \ref{subs:endeligProto}.
+
+
+
+
+
+
+
+
+
 \subsection{Beregninger}
 \todo{mangler nogle enkelte beregninger}
-\subsubsection{555 timer modstande}
+\subsubsection{555 timer modstande} \label{calc:555timerResistance}
 For 555 gælder det at vi ønsker en frekvens på 
 \[
 	f_{target} =  \SI{1000}{\hertz}
