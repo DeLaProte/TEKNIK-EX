@@ -76,11 +76,22 @@
 \contentsline {subsection}{\numberline {10.2}Digital inputs og outputs}{36}{subsection.10.2}
 \contentsline {subsection}{\numberline {10.3}I2C - Synkroniseret kommunikation}{36}{subsection.10.3}
 \contentsline {section}{\numberline {11}Fremstilling}{36}{section.11}
-\contentsline {subsection}{\numberline {11.1}Fumlebr\IeC {\ae }t-modeller}{36}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}PCB - fremstilling}{37}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Endelige prototype}{38}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.1}Projektiler}{36}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Fumlebr\IeC {\ae }t-modeller}{37}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}PCB - fremstilling}{37}{subsection.11.3}
+\contentsline {subsubsection}{\numberline {11.3.1}Kemisk fremstilling}{37}{subsubsection.11.3.1}
+\contentsline {subsubsection}{\numberline {11.3.2}Problemer med printboards}{38}{subsubsection.11.3.2}
+\contentsline {subsection}{\numberline {11.4}Endelige prototype}{38}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}Forbindelses testing}{38}{subsection.11.5}
 \contentsline {section}{\numberline {12}Slut afpr\IeC {\o }vning}{38}{section.12}
-\contentsline {section}{Bibliography}{38}{section.12}
-\contentsline {section}{\numberline {13}Bilag}{40}{section.13}
-\contentsline {subsection}{\numberline {13.1}samlet kredsl\IeC {\o }b}{40}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Program til Arduino}{41}{subsection.13.2}
+\contentsline {section}{\numberline {13}Videreudvikling}{39}{section.13}
+\contentsline {section}{\numberline {14}Prisliste}{39}{section.14}
+\contentsline {section}{\numberline {15}Konklusion}{39}{section.15}
+\contentsline {section}{\numberline {16}Evaluering}{39}{section.16}
+\contentsline {section}{Bibliography}{39}{section.16}
+\contentsline {section}{\numberline {A}Samlet kredsl\IeC {\o }b}{41}{appendix.A}
+\contentsline {section}{\numberline {B}PCB artwork til hastighedssensor}{42}{appendix.B}
+\contentsline {section}{\numberline {C}PCB artwork til arduino shield}{43}{appendix.C}
+\contentsline {section}{\numberline {D}Fumlebr\IeC {\ae }tmodel anden del}{43}{appendix.D}
+\contentsline {section}{\numberline {E}Program til Arduino}{44}{appendix.E}
+\contentsline {section}{\numberline {F}Logbog}{44}{appendix.F}

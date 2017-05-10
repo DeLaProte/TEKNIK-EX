@@ -72,11 +72,22 @@
 \BOOKMARK [2][-]{subsection.10.2}{Digital inputs og outputs}{section.10}% 72
 \BOOKMARK [2][-]{subsection.10.3}{I2C - Synkroniseret kommunikation}{section.10}% 73
 \BOOKMARK [1][-]{section.11}{Fremstilling}{}% 74
-\BOOKMARK [2][-]{subsection.11.1}{Fumlebr\346t-modeller}{section.11}% 75
-\BOOKMARK [2][-]{subsection.11.2}{PCB - fremstilling}{section.11}% 76
-\BOOKMARK [2][-]{subsection.11.3}{Endelige prototype}{section.11}% 77
-\BOOKMARK [1][-]{section.12}{Slut afpr\370vning}{}% 78
-\BOOKMARK [1][-]{section.12}{Bibliography}{}% 79
-\BOOKMARK [1][-]{section.13}{Bilag}{}% 80
-\BOOKMARK [2][-]{subsection.13.1}{samlet kredsl\370b}{section.13}% 81
-\BOOKMARK [2][-]{subsection.13.2}{Program til Arduino}{section.13}% 82
+\BOOKMARK [2][-]{subsection.11.1}{Projektiler}{section.11}% 75
+\BOOKMARK [2][-]{subsection.11.2}{Fumlebr\346t-modeller}{section.11}% 76
+\BOOKMARK [2][-]{subsection.11.3}{PCB - fremstilling}{section.11}% 77
+\BOOKMARK [3][-]{subsubsection.11.3.1}{Kemisk fremstilling}{subsection.11.3}% 78
+\BOOKMARK [3][-]{subsubsection.11.3.2}{Problemer med printboards}{subsection.11.3}% 79
+\BOOKMARK [2][-]{subsection.11.4}{Endelige prototype}{section.11}% 80
+\BOOKMARK [2][-]{subsection.11.5}{Forbindelses testing}{section.11}% 81
+\BOOKMARK [1][-]{section.12}{Slut afpr\370vning}{}% 82
+\BOOKMARK [1][-]{section.13}{Videreudvikling}{}% 83
+\BOOKMARK [1][-]{section.14}{Prisliste}{}% 84
+\BOOKMARK [1][-]{section.15}{Konklusion}{}% 85
+\BOOKMARK [1][-]{section.16}{Evaluering}{}% 86
+\BOOKMARK [1][-]{section.16}{Bibliography}{}% 87
+\BOOKMARK [1][-]{appendix.A}{Samlet kredsl\370b}{}% 88
+\BOOKMARK [1][-]{appendix.B}{PCB artwork til hastighedssensor}{}% 89
+\BOOKMARK [1][-]{appendix.C}{PCB artwork til arduino shield}{}% 90
+\BOOKMARK [1][-]{appendix.D}{Fumlebr\346tmodel anden del}{}% 91
+\BOOKMARK [1][-]{appendix.E}{Program til Arduino}{}% 92
+\BOOKMARK [1][-]{appendix.F}{Logbog}{}% 93
