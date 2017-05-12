@@ -19,6 +19,30 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{resistor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=33367874c7cdb60618558fd8604f6a74}{%
+           family={{AliExpress}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{33367874c7cdb60618558fd8604f6a74}
+      \strng{fullhash}{33367874c7cdb60618558fd8604f6a74}
+      \strng{authornamehash}{33367874c7cdb60618558fd8604f6a74}
+      \strng{authorfullhash}{33367874c7cdb60618558fd8604f6a74}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: digikey er en stor forhandler af elektroniske varer som gerne vil sælge så meget som muligt. Derfor kan der være mulighed for at prisen ikke inkludere moms og fragt. Udover dette antages det at alle modstande koster det samme.}
+      \field{title}{"10k resistor"}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.aliexpress.com/price/10k-resistor_price.html
+      \endverb
+    \endentry
     \entry{arduinoAnalog}{online}{}
       \name{author}{1}{}{%
         {{hash=9069be4b62bf0034683adff742f8cf95}{%
@@ -290,6 +314,30 @@
       \verb https://youtu.be/mdZo_keUoEs
       \endverb
     \endentry
+    \entry{microchip}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f7962ad60e8c8ec26481358db76f7f6a}{%
+           family={{Microchip}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{fullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authornamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authorfullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: digikey er en stor forhandler af elektroniske varer som gerne vil sælge så meget som muligt. Derfor kan der være mulighed for at prisen ikke inkludere moms og fragt.}
+      \field{title}{"MCP601"}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.microchip.com/wwwproducts/en/MCP601
+      \endverb
+    \endentry
     \entry{peakdetectorCalc}{online}{}
       \name{author}{1}{}{%
         {{hash=f7962ad60e8c8ec26481358db76f7f6a}{%
@@ -312,6 +360,30 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://ww1.microchip.com/downloads/en/AppNotes/01353A.pdf
+      \endverb
+    \endentry
+    \entry{PCB}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ac7e4499cb12f29d34e0e7b2c29597c8}{%
+           family={{multi-cb}},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac7e4499cb12f29d34e0e7b2c29597c8}
+      \strng{fullhash}{ac7e4499cb12f29d34e0e7b2c29597c8}
+      \strng{authornamehash}{ac7e4499cb12f29d34e0e7b2c29597c8}
+      \strng{authorfullhash}{ac7e4499cb12f29d34e0e7b2c29597c8}
+      \field{sortinit}{m}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: digikey er en stor forhandler af elektroniske varer som gerne vil sælge så meget som muligt. Derfor kan der være mulighed for at prisen ikke inkludere moms og fragt.}
+      \field{title}{"PCB price calculator"}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://portal.multi-circuit-boards.eu/Customer/Index/1990438
       \endverb
     \endentry
     \entry{kompInverter}{online}{}

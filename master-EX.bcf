@@ -2168,6 +2168,9 @@
     <bcf:citekey order="23">kompPhoto</bcf:citekey>
     <bcf:citekey order="24">kompLED</bcf:citekey>
     <bcf:citekey order="25">arduinoAnalog</bcf:citekey>
+    <bcf:citekey order="26">PCB</bcf:citekey>
+    <bcf:citekey order="27">resistor</bcf:citekey>
+    <bcf:citekey order="28">microchip</bcf:citekey>
     <bcf:citekey order="0">*</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">

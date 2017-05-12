@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.29)  10 MAY 2017 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.29)  12 MAY 2017 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1986,46 +1986,40 @@ LaTeX Warning: Label `arduinoLCD' multiply defined.
 
 LaTeX Warning: Label `arduinoLCD@cref' multiply defined.
 
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
 )
 \openout1 = `master-EX.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 29.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 14.
 Package nag Info: Command \frontmatter not defined, skipping amendment on input
- line 29.
+ line 14.
 Package nag Info: Command \mainmatter not defined, skipping amendment on input 
-line 29.
+line 14.
 Package nag Info: Command \backmatter not defined, skipping amendment on input 
-line 29.
+line 14.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 29.
+line 14.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 29.
+ line 14.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2057,7 +2051,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 29.
+LaTeX Info: Redefining \microtypecontext on input line 14.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2108,7 +2102,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 29.
+(lastpage)             ! on input line 14.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -2125,10 +2119,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'master-EX.bbl' found.
  (./master-EX.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 14.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2138,9 +2132,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count412
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./master-EX.out) (./master-EX.out)
 \@outlinefile=\write6
@@ -2159,15 +2153,15 @@ ABD: EveryShipout initializing macros
 \autonum@environmentWidth=\skip89
 \c@lstlisting=\count413
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 29.
+put line 14.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 29.
+t line 14.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 29.
+t line 14.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 29.
+line 14.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 29.
+line 14.
 \c__siunitx_mathsf_int=\count414
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
@@ -2183,7 +2177,7 @@ Overfull \hbox (4.84818pt too wide) in paragraph at lines 4--4
  [][] 
  []
 
-<files/chapters/figures/titlepicheart.png, id=379, 853.5087pt x 853.5087pt>
+<files/chapters/figures/titlepicheart.png, id=432, 853.5087pt x 853.5087pt>
 File: files/chapters/figures/titlepicheart.png Graphic file (type png)
 
 <use files/chapters/figures/titlepicheart.png>
@@ -2226,13 +2220,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 90.
 [3])
 \tf@toc=\write7
 \openout7 = `master-EX.toc'.
@@ -2252,7 +2246,33 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 9.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 9.
-[4]) (./files/chapters/2_1projekbeskrivelse.tex
+[4]) (./files/chapters/1_laesevejledning.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 4.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 7.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 11.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 17.
+)
+(./files/chapters/2_1projekbeskrivelse.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2261,6 +2281,22 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 11.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 11.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 11.
+[5]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
@@ -2295,8 +2331,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 33.
-[5]
-<files/chapters/figures/2_1projektbeskrivelse/blok.png, id=519, 1005.7575pt x 5
+[6]
+<files/chapters/figures/2_1projektbeskrivelse/blok.png, id=589, 1005.7575pt x 5
 64.1075pt>
 File: files/chapters/figures/2_1projektbeskrivelse/blok.png Graphic file (type 
 png)
@@ -2305,7 +2341,7 @@ Package pdftex.def Info: files/chapters/figures/2_1projektbeskrivelse/blok.png
 used on input line 38.
 (pdftex.def)             Requested size: 369.88582pt x 207.4598pt.
 
-<files/chapters/figures/2_1projektbeskrivelse/skitse.jpg, id=521, 569.12625pt x
+<files/chapters/figures/2_1projektbeskrivelse/skitse.jpg, id=591, 569.12625pt x
  436.63126pt>
 File: files/chapters/figures/2_1projektbeskrivelse/skitse.jpg Graphic file (typ
 e jpg)
@@ -2328,7 +2364,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 81.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 81.
-[6 <./files/chapters/figures/2_1projektbeskrivelse/blok.png>]
+[7 <./files/chapters/figures/2_1projektbeskrivelse/blok.png>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 91.
 Package babel Info: Redefining danish shorthand "~
@@ -2338,7 +2374,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 103.
 
-<files/chapters/figures/2_1projektbeskrivelse/tidsplan.png, id=531, 1302.8675pt
+<files/chapters/figures/2_1projektbeskrivelse/tidsplan.png, id=602, 1302.8675pt
  x 584.1825pt>
 File: files/chapters/figures/2_1projektbeskrivelse/tidsplan.png Graphic file (t
 ype png)
@@ -2361,7 +2397,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 110.
-[7 <./files/chapters/figures/2_1projektbeskrivelse/skitse.jpg>])
+[8 <./files/chapters/figures/2_1projektbeskrivelse/skitse.jpg>])
 (./files/chapters/2_2kravspecifakation.tex)
 (./files/chapters/2_3overordnetvalg.tex
 Package babel Info: Redefining danish shorthand "|
@@ -2377,7 +2413,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 11.
 
-<files/chapters/figures/2_3overordnetvalg/loeb.png, id=538, 594.22pt x 290.0837
+<files/chapters/figures/2_3overordnetvalg/loeb.png, id=608, 594.22pt x 290.0837
 6pt>
 File: files/chapters/figures/2_3overordnetvalg/loeb.png Graphic file (type png)
 
@@ -2400,7 +2436,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 18.
-[8 <./files/chapters/figures/2_1projektbeskrivelse/tidsplan.png>]
+[9 <./files/chapters/figures/2_1projektbeskrivelse/tidsplan.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.18335pt.
@@ -2415,8 +2451,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 40.
-[9pdfTeX warning (ext4): destination with the same identifier (name{equation.2.
-1}) has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2428,7 +2464,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 40.
 
-<files/chapters/figures/2_3overordnetvalg/MagShooter.png, id=567, 1113.15875pt 
+<files/chapters/figures/2_3overordnetvalg/MagShooter.png, id=637, 1113.15875pt 
 x 281.05pt>
 File: files/chapters/figures/2_3overordnetvalg/MagShooter.png Graphic file (typ
 e png)
@@ -2436,7 +2472,7 @@ e png)
 Package pdftex.def Info: files/chapters/figures/2_3overordnetvalg/MagShooter.pn
 g used on input line 44.
 (pdftex.def)             Requested size: 284.52756pt x 71.83618pt.
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -2461,8 +2497,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 69.
-[10 <./files/chapters/figures/2_3overordnetvalg/MagShooter.png>]
-<files/chapters/figures/2_3overordnetvalg/ElasticShooter.jpg, id=578, 3401.7087
+[11 <./files/chapters/figures/2_3overordnetvalg/MagShooter.png>]
+<files/chapters/figures/2_3overordnetvalg/ElasticShooter.jpg, id=649, 3401.7087
 6pt x 2425.06pt>
 File: files/chapters/figures/2_3overordnetvalg/ElasticShooter.jpg Graphic file 
 (type jpg)
@@ -2481,13 +2517,67 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+[12 <./files/chapters/figures/2_3overordnetvalg/ElasticShooter.jpg>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 4.
+
+Overfull \hbox (7.23204pt too wide) in paragraph at lines 4--4
+\OT1/cmr/m/n/12 (-20) kredsl^^\b  
+ []
+
+
+Overfull \hbox (7.23204pt too wide) in paragraph at lines 4--4
+\OT1/cmr/m/n/12 (-20) kredsl^^\b  
+ []
+
+
+Overfull \hbox (7.23204pt too wide) in paragraph at lines 4--4
+\OT1/cmr/m/n/12 (-20) kredsl^^\b  
+ []
+
+
+Overfull \hbox (7.23204pt too wide) in paragraph at lines 4--4
+\OT1/cmr/m/n/12 (-20) kredsl^^\b  
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 6.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 6.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 8.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 8.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 13.
 ) (./files/chapters/2_4_2retning.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
-<files/chapters/figures/2_4kredse/retning.png, id=579, 385.44pt x 382.42876pt>
+<files/chapters/figures/2_4kredse/retning.png, id=656, 385.44pt x 382.42876pt>
 File: files/chapters/figures/2_4kredse/retning.png Graphic file (type png)
 
 <use files/chapters/figures/2_4kredse/retning.png>
@@ -2509,9 +2599,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 8.
-[11 <./files/chapters/figures/2_3overordnetvalg/ElasticShooter.jpg>]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 9.
+[13]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
@@ -2521,7 +2609,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 11.
 
-<files/chapters/figures/komponenter/F12N10L.png, id=586, 503.481pt x 192.11775p
+<files/chapters/figures/komponenter/F12N10L.png, id=664, 503.481pt x 192.11775p
 t>
 File: files/chapters/figures/komponenter/F12N10L.png Graphic file (type png)
  <use files/chapters/figures/komponenter/F12N10L.png>
@@ -2536,20 +2624,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 18.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 18.
-[12 <./files/chapters/figures/2_4kredse/retning.png>]
+(babel)             in language  on input line 21.
+[14 <./files/chapters/figures/2_4kredse/retning.png> <./files/chapters/figures/
+komponenter/F12N10L.png>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 22.
 
-<files/chapters/figures/komponenter/RS191-8328.png, id=598, 237.2865pt x 252.34
+<files/chapters/figures/komponenter/RS191-8328.png, id=678, 237.2865pt x 252.34
 274pt>
 File: files/chapters/figures/komponenter/RS191-8328.png Graphic file (type png)
 
@@ -2559,8 +2648,24 @@ Package pdftex.def Info: files/chapters/figures/komponenter/RS191-8328.png used
 (pdftex.def)             Requested size: 284.52756pt x 302.58644pt.
 
 
-LaTeX Warning: Citation 'stepmotor' on page 13 undefined on input line 26.
+LaTeX Warning: Citation 'stepmotor' on page 15 undefined on input line 26.
 
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 36.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 38.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.18335pt.
@@ -2568,34 +2673,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 31.
-[13 <./files/chapters/figures/komponenter/F12N10L.png> <./files/chapters/figure
-s/komponenter/RS191-8328.png>]
-
-LaTeX Warning: Marginpar on page 14 moved.
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 32.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 43.
+[15 <./files/chapters/figures/komponenter/RS191-8328.png>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining danish shorthand "~
@@ -2621,7 +2706,7 @@ Overfull \hbox (18.26508pt too wide) in paragraph at lines 45--45
  []
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 16 moved.
 
 
 Package nag Warning: \label in float, but not after \caption on input line 48.
@@ -2629,22 +2714,8 @@ Package nag Warning: \label in float, but not after \caption on input line 48.
 Package csquotes Info: Input encoding change on input line 50.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 File: ansinew.def 2015/03/17 v1.2c Input encoding file
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 27.18335pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 77.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 77.
-[14]) (./files/chapters/2_4_3hastighed.tex
+))
+(./files/chapters/2_4_3hastighed.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2654,7 +2725,7 @@ Package babel Info: Redefining danish shorthand "~
 Package nag Warning: \label in float, but not after \caption on input line 2.
 
 
-<files/chapters/figures/2_4kredse/hastighed.png, id=622, 575.14874pt x 530.5822
+<files/chapters/figures/2_4kredse/hastighed.png, id=691, 575.14874pt x 530.5822
 4pt>
 File: files/chapters/figures/2_4kredse/hastighed.png Graphic file (type png)
  <use files/chapters/figures/2_4kredse/hastighed.png>
@@ -2676,7 +2747,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 7.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 7.
-[15]
+[16]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining danish shorthand "~
@@ -2695,19 +2766,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 13.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 
-Package nag Warning: \label in float, but not after \caption on input line 16.
+LaTeX Warning: Reference `sub:arduino' on page 17 undefined on input line 17.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 19.
+
+Package nag Warning: \label in float, but not after \caption on input line 21.
 
 
-<files/chapters/figures/komponenter/L293D.png, id=656, 574.5465pt x 307.74976pt
+<files/chapters/figures/komponenter/L293D.png, id=727, 574.5465pt x 307.74976pt
 >
 File: files/chapters/figures/komponenter/L293D.png Graphic file (type png)
  <use files/chapters/figures/komponenter/L293D.png>
 Package pdftex.def Info: files/chapters/figures/komponenter/L293D.png used on i
-nput line 18.
+nput line 23.
 (pdftex.def)             Requested size: 284.52756pt x 152.40468pt.
 
 
@@ -2717,31 +2795,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 26.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 21.
-[16 <./files/chapters/figures/2_4kredse/hastighed.png>]
+(babel)             in language  on input line 26.
+[17 <./files/chapters/figures/2_4kredse/hastighed.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 30.
 
-<files/chapters/figures/2_4_3hastighed/hbridge.png, id=666, 622.325pt x 382.428
+<files/chapters/figures/2_4_3hastighed/hbridge.png, id=739, 622.325pt x 382.428
 76pt>
 File: files/chapters/figures/2_4_3hastighed/hbridge.png Graphic file (type png)
 
  <use files/chapters/figures/2_4_3hastighed/hbridge.png>
 Package pdftex.def Info: files/chapters/figures/2_4_3hastighed/hbridge.png used
- on input line 28.
-(pdftex.def)             Requested size: 369.88582pt x 227.29993pt.
+ on input line 34.
+(pdftex.def)             Requested size: 284.52756pt x 174.84564pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2750,20 +2828,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 32.
-[17 <./files/chapters/figures/komponenter/L293D.png>]
+(babel)             in language  on input line 39.
+[18 <./files/chapters/figures/komponenter/L293D.png> <./files/chapters/figures/
+2_4_3hastighed/hbridge.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 36.
-)
-(./files/chapters/2_4_4hastighedsmaal.tex
+(babel)             in language  on input line 42.
+) (./files/chapters/2_4_4hastighedsmaal.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -2776,6 +2854,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 5.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 29.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2784,24 +2866,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 16.
-[18 <./files/chapters/figures/2_4_3hastighed/hbridge.png>]
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 34.
+[19]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 41.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 41.
 
-<files/chapters/figures/2_4_4hastighedsmaal/komp555pin.png, id=695, 422.57875pt
+<files/chapters/figures/2_4_4hastighedsmaal/komp555pin.png, id=772, 422.57875pt
  x 240.9pt>
 File: files/chapters/figures/2_4_4hastighedsmaal/komp555pin.png Graphic file (t
 ype png)
@@ -2809,28 +2887,12 @@ ype png)
 Package pdftex.def Info: files/chapters/figures/2_4_4hastighedsmaal/komp555pin.
 png used on input line 50.
 (pdftex.def)             Requested size: 349.38618pt x 199.16928pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 27.18335pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 54.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 54.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 54.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 54.
-[19]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 55.
 
-<files/chapters/figures/2_4_4hastighedsmaal/kompInverterpin.png, id=707, 362.35
+<files/chapters/figures/2_4_4hastighedsmaal/kompInverterpin.png, id=774, 362.35
 374pt x 423.5825pt>
 File: files/chapters/figures/2_4_4hastighedsmaal/kompInverterpin.png Graphic fi
 le (type png)
@@ -2839,6 +2901,22 @@ le (type png)
 Package pdftex.def Info: files/chapters/figures/2_4_4hastighedsmaal/kompInverte
 rpin.png used on input line 64.
 (pdftex.def)             Requested size: 170.37816pt x 199.16928pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 67.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 67.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 67.
+[20 <./files/chapters/figures/2_4_4hastighedsmaal/komp555pin.png>]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining danish shorthand "~
@@ -2848,17 +2926,13 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 72.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 75.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 75.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 76.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2867,46 +2941,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 80.
-[20 <./files/chapters/figures/2_4_4hastighedsmaal/komp555pin.png> <./files/chap
-ters/figures/2_4_4hastighedsmaal/kompInverterpin.png>]
+(babel)             in language  on input line 84.
+[21 <./files/chapters/figures/2_4_4hastighedsmaal/kompInverterpin.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 97.
 
-Overfull \hbox (5.34554pt too wide) in paragraph at lines 99--99
+Overfull \hbox (5.34554pt too wide) in paragraph at lines 98--98
 [][][][]\OT1/cmr/m/n/12 (-20) mangler 
  []
 
 
-Overfull \hbox (5.34554pt too wide) in paragraph at lines 99--99
+Overfull \hbox (5.34554pt too wide) in paragraph at lines 98--98
 [][][][]\OT1/cmr/m/n/12 (-20) mangler 
  []
 
 
-Overfull \hbox (5.34554pt too wide) in paragraph at lines 99--99
+Overfull \hbox (5.34554pt too wide) in paragraph at lines 98--98
 [][][][]\OT1/cmr/m/n/12 (-20) mangler 
  []
 
 
-Overfull \hbox (5.34554pt too wide) in paragraph at lines 99--99
+Overfull \hbox (5.34554pt too wide) in paragraph at lines 98--98
 [][][][]\OT1/cmr/m/n/12 (-20) mangler 
  []
 
 
-LaTeX Warning: Marginpar on page 21 moved.
+LaTeX Warning: Marginpar on page 22 moved.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 99.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.18335pt.
@@ -2914,25 +2987,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 114.
-[21pdfTeX warning (ext4): destination with the same identifier (name{equation.6
+(babel)             in language  on input line 127.
+[22pdfTeX warning (ext4): destination with the same identifier (name{equation.7
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.114 \end{align}
+l.127 \end{align}
                  ]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 140.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 162.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 162.
 
+Overfull \hbox (3.93425pt too wide) in paragraph at lines 163--163
+\OT1/cmr/m/n/12 (-20) tests***  
+ []
+
+
+Overfull \hbox (3.93425pt too wide) in paragraph at lines 163--163
+\OT1/cmr/m/n/12 (-20) tests***  
+ []
+
+
+Overfull \hbox (3.93425pt too wide) in paragraph at lines 163--163
+\OT1/cmr/m/n/12 (-20) tests***  
+ []
+
+
+Overfull \hbox (3.93425pt too wide) in paragraph at lines 163--163
+\OT1/cmr/m/n/12 (-20) tests***  
+ []
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 164.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 164.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.18335pt.
@@ -2940,95 +3040,58 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 167.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 148.
-[22]pdfTeX warning (ext4): destination with the same identifier (name{equation.
-6.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.152 \]
-        pdfTeX warning (ext4): destination with the same identifier (name{equat
-ion.6.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.156 \]
-        pdfTeX warning (ext4): destination with the same identifier (name{equat
-ion.6.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.160 \]
-        
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 163.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 167.
+[23pdfTeX warning (ext4): destination with the same identifier (name{equation.7
+.6}) has been already used, duplicate ignored
 
-Overfull \hbox (3.93425pt too wide) in paragraph at lines 164--164
-\OT1/cmr/m/n/12 (-20) tests***  
- []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 P
+       å Figur ~\ref{fig:555noninv} er der en graf af den 555-timerens outp...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.6}
+) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 P
+       å Figur ~\ref{fig:555noninv} er der en graf af den 555-timerens outp...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.6}
+) has been already used, duplicate ignored
 
-Overfull \hbox (3.93425pt too wide) in paragraph at lines 164--164
-\OT1/cmr/m/n/12 (-20) tests***  
- []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 P
+       å Figur ~\ref{fig:555noninv} er der en graf af den 555-timerens outp...
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.6}
+) has been already used, duplicate ignored
 
-
-Overfull \hbox (3.93425pt too wide) in paragraph at lines 164--164
-\OT1/cmr/m/n/12 (-20) tests***  
- []
-
-
-Overfull \hbox (3.93425pt too wide) in paragraph at lines 164--164
-\OT1/cmr/m/n/12 (-20) tests***  
- []
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 165.
-
-<files/chapters/figures/2_4_3hastighed/555signal.png, id=747, 708.14563pt x 664
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 P
+       å Figur ~\ref{fig:555noninv} er der en graf af den 555-timerens outp...
+]
+<files/chapters/figures/2_4_3hastighed/555signal.png, id=823, 708.14563pt x 664
 .4825pt>
 File: files/chapters/figures/2_4_3hastighed/555signal.png Graphic file (type pn
 g)
  <use files/chapters/figures/2_4_3hastighed/555signal.png>
 Package pdftex.def Info: files/chapters/figures/2_4_3hastighed/555signal.png us
-ed on input line 173.
+ed on input line 172.
 (pdftex.def)             Requested size: 369.88582pt x 347.08417pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 27.18335pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 177.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 177.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 177.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 177.
-[23pdfTeX warning (ext4): destination with the same identifier (name{equation.6
-.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.177 
-      ]
-<files/chapters/figures/2_4_3hastighed/555signalinv.png, id=757, 709.65125pt x 
+<files/chapters/figures/2_4_3hastighed/555signalinv.png, id=824, 709.65125pt x 
 651.93562pt>
 File: files/chapters/figures/2_4_3hastighed/555signalinv.png Graphic file (type
  png)
  <use files/chapters/figures/2_4_3hastighed/555signalinv.png>
 Package pdftex.def Info: files/chapters/figures/2_4_3hastighed/555signalinv.png
- used on input line 180.
+ used on input line 179.
 (pdftex.def)             Requested size: 369.88582pt x 339.81424pt.
 
 
@@ -3038,27 +3101,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 184.
+(babel)             in language  on input line 183.
 [24 <./files/chapters/figures/2_4_3hastighed/555signal.png>]
-<files/chapters/figures/2_4_3hastighed/555timerDiode.png, id=764, 1128.215pt x 
+<files/chapters/figures/2_4_3hastighed/555timerDiode.png, id=833, 1128.215pt x 
 526.96875pt>
 File: files/chapters/figures/2_4_3hastighed/555timerDiode.png Graphic file (typ
 e png)
  <use files/chapters/figures/2_4_3hastighed/555timerDiode.png>
 Package pdftex.def Info: files/chapters/figures/2_4_3hastighed/555timerDiode.pn
-g used on input line 187.
+g used on input line 186.
 (pdftex.def)             Requested size: 369.88582pt x 172.76645pt.
-pdfTeX warning (ext4): destination with the same identifier (name{equation.6.6}
+pdfTeX warning (ext4): destination with the same identifier (name{equation.7.6}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.197 \]
+l.196 \]
         
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3067,27 +3130,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 [25 <./files/chapters/figures/2_4_3hastighed/555signalinv.png> <./files/chapter
 s/figures/2_4_3hastighed/555timerDiode.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 200.
+(babel)             in language  on input line 199.
 
-<files/chapters/figures/2_4_3hastighed/IR_modtager.png, id=776, 711.15688pt x 6
+<files/chapters/figures/2_4_3hastighed/IR_modtager.png, id=845, 711.15688pt x 6
 63.98062pt>
 File: files/chapters/figures/2_4_3hastighed/IR_modtager.png Graphic file (type 
 png)
  <use files/chapters/figures/2_4_3hastighed/IR_modtager.png>
 Package pdftex.def Info: files/chapters/figures/2_4_3hastighed/IR_modtager.png 
-used on input line 205.
+used on input line 204.
 (pdftex.def)             Requested size: 369.88582pt x 345.36308pt.
 )
 (./files/chapters/2_4_5controller.tex
@@ -3096,7 +3159,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
-<files/chapters/figures/2_4kredse/controller.png, id=777, 718.48425pt x 520.946
+<files/chapters/figures/2_4kredse/controller.png, id=846, 718.48425pt x 520.946
 24pt>
 File: files/chapters/figures/2_4kredse/controller.png Graphic file (type png)
  <use files/chapters/figures/2_4kredse/controller.png>
@@ -3138,7 +3201,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 3.
 
-<files/chapters/figures/2_4kredse/LCDkreds.PNG, id=786, 348.55219pt x 389.20406
+<files/chapters/figures/2_4kredse/LCDkreds.PNG, id=855, 348.55219pt x 389.20406
 pt>
 File: files/chapters/figures/2_4kredse/LCDkreds.PNG Graphic file (type png)
  <use files/chapters/figures/2_4kredse/LCDkreds.PNG>
@@ -3174,7 +3237,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 20.
 
-<files/chapters/figures/LCDdesign/ASCII.png, id=798, 607.26875pt x 414.54875pt>
+<files/chapters/figures/LCDdesign/ASCII.png, id=867, 607.26875pt x 414.54875pt>
 File: files/chapters/figures/LCDdesign/ASCII.png Graphic file (type png)
 <use files/chapters/figures/LCDdesign/ASCII.png>
 Package pdftex.def Info: files/chapters/figures/LCDdesign/ASCII.png used on inp
@@ -3209,7 +3272,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 34.
 
-<files/chapters/figures/LCDdesign/displayblokdiagram.png, id=810, 389.455pt x 2
+<files/chapters/figures/LCDdesign/displayblokdiagram.png, id=880, 389.455pt x 2
 38.8925pt>
 File: files/chapters/figures/LCDdesign/displayblokdiagram.png Graphic file (typ
 e png)
@@ -3257,7 +3320,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 5.
 
-<files/chapters/figures/komponenter/photosensor.png, id=820, 223.58531pt x 277.
+<files/chapters/figures/komponenter/photosensor.png, id=890, 223.58531pt x 277.
 78781pt>
 File: files/chapters/figures/komponenter/photosensor.png Graphic file (type png
 )
@@ -3304,6 +3367,10 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 15.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 17.
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining danish shorthand "~
@@ -3356,14 +3423,14 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 55.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 55.
-[32pdfTeX warning (ext4): destination with the same identifier (name{equation.9
-.6}) has been already used, duplicate ignored
+[32pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+0.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.55 \end{align}
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.9.6}) has been already used, duplicate ignored
+me{equation.10.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3373,23 +3440,23 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 58.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 58.
-pdfTeX warning (ext4): destination with the same identifier (name{equation.9.6}
-) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{equation.10.6
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.65 \]
        pdfTeX warning (ext4): destination with the same identifier (name{equati
-on.9.6}) has been already used, duplicate ignored
+on.10.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.69 \]
        pdfTeX warning (ext4): destination with the same identifier (name{equati
-on.9.6}) has been already used, duplicate ignored
+on.10.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.73 \]
        pdfTeX warning (ext4): destination with the same identifier (name{equati
-on.9.6}) has been already used, duplicate ignored
+on.10.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.80 \end{align}
@@ -3409,7 +3476,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 93.
 [33]pdfTeX warning (ext4): destination with the same identifier (name{equation.
-9.8}) has been already used, duplicate ignored
+10.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.97 \]
@@ -3433,8 +3500,8 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 172.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 172.
-[34pdfTeX warning (ext4): destination with the same identifier (name{equation.9
-.8}) has been already used, duplicate ignored
+[34pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+0.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -3445,7 +3512,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 
-<files/chapters/figures/arduino/portmani.PNG, id=889, 1012.38225pt x 541.42274p
+<files/chapters/figures/arduino/portmani.PNG, id=958, 1012.38225pt x 541.42274p
 t>
 File: files/chapters/figures/arduino/portmani.PNG Graphic file (type png)
  <use files/chapters/figures/arduino/portmani.PNG>
@@ -3491,7 +3558,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 2.
 
-<files/chapters/figures/2_5fremstilling/akrylbolde.jpeg, id=903, 834.11626pt x 
+<files/chapters/figures/2_5fremstilling/akrylbolde.jpeg, id=973, 834.11626pt x 
 494.84875pt>
 File: files/chapters/figures/2_5fremstilling/akrylbolde.jpeg Graphic file (type
  jpg)
@@ -3504,7 +3571,7 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 10.
 
-<files/chapters/figures/2_5fremstilling/prototyper/DanielChrisKreds.png, id=904
+<files/chapters/figures/2_5fremstilling/prototyper/DanielChrisKreds.png, id=974
 , 1494.58376pt x 790.955pt>
 File: files/chapters/figures/2_5fremstilling/prototyper/DanielChrisKreds.png Gr
 aphic file (type png)
@@ -3533,11 +3600,6 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 18.
-
-
-LaTeX Warning: Reference ` bilag:shieldArtwork' on page 37 undefined on input l
-ine 21.
-
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
@@ -3546,17 +3608,45 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 25.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 29.
-<files/chapters/figures/stock.jpg, id=912, 642.4pt x 431.6125pt>
-File: files/chapters/figures/stock.jpg Graphic file (type jpg)
 
-<use files/chapters/figures/stock.jpg>
-Package pdftex.def Info: files/chapters/figures/stock.jpg used on input line 32
-.
-(pdftex.def)             Requested size: 369.88582pt x 248.5243pt.
+Overfull \hbox (2.60643pt too wide) in paragraph at lines 26--26
+[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
+ []
+
+
+Overfull \hbox (0.8375pt too wide) in paragraph at lines 26--26
+\OT1/cmr/m/n/12 (-20) baseret 
+ []
+
+
+Overfull \hbox (2.60643pt too wide) in paragraph at lines 26--26
+[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
+ []
+
+
+Overfull \hbox (0.8375pt too wide) in paragraph at lines 26--26
+\OT1/cmr/m/n/12 (-20) baseret 
+ []
+
+
+Overfull \hbox (2.60643pt too wide) in paragraph at lines 26--26
+[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
+ []
+
+
+Overfull \hbox (0.8375pt too wide) in paragraph at lines 26--26
+\OT1/cmr/m/n/12 (-20) baseret 
+ []
+
+
+Overfull \hbox (2.60643pt too wide) in paragraph at lines 26--26
+[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
+ []
+
+
+Overfull \hbox (0.8375pt too wide) in paragraph at lines 26--26
+\OT1/cmr/m/n/12 (-20) baseret 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3565,68 +3655,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 34.
 [37 <./files/chapters/figures/2_5fremstilling/prototyper/DanielChrisKreds.png>]
-
-Overfull \hbox (2.60643pt too wide) in paragraph at lines 36--36
-[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
- []
-
-
-Overfull \hbox (0.8375pt too wide) in paragraph at lines 36--36
-\OT1/cmr/m/n/12 (-20) baseret 
- []
-
-
-Overfull \hbox (2.60643pt too wide) in paragraph at lines 36--36
-[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
- []
-
-
-Overfull \hbox (0.8375pt too wide) in paragraph at lines 36--36
-\OT1/cmr/m/n/12 (-20) baseret 
- []
-
-
-Overfull \hbox (2.60643pt too wide) in paragraph at lines 36--36
-[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
- []
-
-
-Overfull \hbox (0.8375pt too wide) in paragraph at lines 36--36
-\OT1/cmr/m/n/12 (-20) baseret 
- []
-
-
-Overfull \hbox (2.60643pt too wide) in paragraph at lines 36--36
-[][][][]\OT1/cmr/m/n/12 (-20) Beskriv 
- []
-
-
-Overfull \hbox (0.8375pt too wide) in paragraph at lines 36--36
-\OT1/cmr/m/n/12 (-20) baseret 
- []
-
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 44.
-) (./files/chapters/2_6slutafproevning.tex
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 35.
+<files/chapters/figures/stock.jpg, id=992, 642.4pt x 431.6125pt>
+File: files/chapters/figures/stock.jpg Graphic file (type jpg)
+
+<use files/chapters/figures/stock.jpg>
+Package pdftex.def Info: files/chapters/figures/stock.jpg used on input line 38
+.
+(pdftex.def)             Requested size: 369.88582pt x 248.5243pt.
 )
+(./files/chapters/2_6slutafproevning.tex
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 1.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 3.
+[38 <./files/chapters/figures/stock.jpg>])
 (./files/chapters/2_7videreudvikling.tex
-
-LaTeX Warning: Marginpar on page 38 moved.
-
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -3636,22 +3706,37 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 2.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 22.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 39.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 39.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 40.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 40.
 ) (./files/chapters/2_9konklusion.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
-)
-(./files/chapters/2_10evaluering.tex
+) (./files/chapters/2_10evaluering.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 47.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 47.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3660,22 +3745,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 68.
-[38 <./files/chapters/figures/stock.jpg>]
-Overfull \hbox (27.1139pt too wide) in paragraph at lines 69--69
+(babel)             in language  on input line 53.
+[39]
+Overfull \hbox (27.1139pt too wide) in paragraph at lines 54--54
 []\OT1/cmr/m/n/12 (-20) RS-components. \OT1/cmr/m/it/12 (-20) Hy-brid step-per 
 mo-tors\OT1/cmr/m/n/12 (-20) . \OT1/cmr/m/sc/12 (-20) url\OT1/cmr/m/n/12 (-20) 
 : []$\OT1/cmtt/m/n/12 http : / / docs -[] europe . electrocomponents .
  []
 
 
-Overfull \hbox (4.98727pt too wide) in paragraph at lines 69--69
+Overfull \hbox (4.98727pt too wide) in paragraph at lines 54--54
 \OT1/cmtt/m/n/12 courses / ece4760 / FinalProjects / s2012 / tcj26 _ ecs227 / t
 cj26 _ ecs227 / F12N10L .
  []
@@ -3687,14 +3772,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 68.
-[39]
+(babel)             in language  on input line 53.
+[40]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.18335pt.
@@ -3702,14 +3787,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 71.
-[40] (./files/chapters/Bilag.tex
+(babel)             in language  on input line 56.
+[41] (./files/chapters/Bilag.tex
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining danish shorthand "~
@@ -3729,14 +3814,14 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 7.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 7.
-[41]
+[42]
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 10.
 
-<files/chapters/figures/2_5fremstilling/afsenderModtagerArtwork.png, id=980, 59
-6.9502pt x 489.5088pt>
+<files/chapters/figures/2_5fremstilling/afsenderModtagerArtwork.png, id=1069, 5
+96.9502pt x 489.5088pt>
 File: files/chapters/figures/2_5fremstilling/afsenderModtagerArtwork.png Graphi
 c file (type png)
 
@@ -3757,8 +3842,8 @@ Package babel Info: Redefining danish shorthand "~
 Package nag Warning: \label in float, but not after \caption on input line 17.
 
 
-<files/chapters/figures/2_5fremstilling/shieldArtwork.png, id=981, 597.432pt x 
-295.3434pt>
+<files/chapters/figures/2_5fremstilling/shieldArtwork.png, id=1070, 597.432pt x
+ 295.3434pt>
 File: files/chapters/figures/2_5fremstilling/shieldArtwork.png Graphic file (ty
 pe png)
  <use files/chapters/figures/2_5fremstilling/shieldArtwork.png>
@@ -3784,25 +3869,21 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 22.
-[42 <./files/chapters/figures/2_5fremstilling/afsenderModtagerArtwork.png>]
+[43 <./files/chapters/figures/2_5fremstilling/afsenderModtagerArtwork.png>]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 25.
 
-<files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png, id=988, 1254
-.6875pt x 752.8125pt>
+<files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png, id=1078, 752
+.8125pt x 1254.6875pt>
 File: files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png Graphic 
 file (type png)
 
 <use files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png>
 Package pdftex.def Info: files/chapters/figures/2_5fremstilling/prototyper/ruml
 eKreds.png used on input line 27.
-(pdftex.def)             Requested size: 369.88582pt x 221.92842pt.
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 33.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 33.
+(pdftex.def)             Requested size: 369.88582pt x 616.48701pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3811,24 +3892,46 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 35.
-[43 <./files/chapters/figures/2_5fremstilling/shieldArtwork.png> <./files/chapt
-ers/figures/2_5fremstilling/prototyper/rumleKreds.png>]
-Package csquotes Info: Input encoding change on input line 35.
+(babel)             in language  on input line 29.
+[44 <./files/chapters/figures/2_5fremstilling/shieldArtwork.png>]
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 31.
+
+
+Package nag Warning: \label in float, but not after \caption on input line 32.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18335pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining danish shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining danish shorthand "~
+(babel)             in language  on input line 33.
+[45 <./files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png>]
+Package csquotes Info: Input encoding change on input line 33.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 File: ansinew.def 2015/03/17 v1.2c Input encoding file
 )
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 39.
 )
 
 AED: lastpage setting LastPage
@@ -3839,31 +3942,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 74.
-[44]
+(babel)             in language  on input line 59.
+[46]
 Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 59.
 
 
-Package nag Warning: 4 complaints in total.
+Package nag Warning: 6 complaints in total.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 (./master-EX.aux
 Package cleveref Info: loaded `danish' language definitions on input line 28.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `master-EX.out' has not changed.
-(rerunfilecheck)             Checksum: 34A43E9F054EDA0F794D751F25F88FAB;6231.
+(rerunfilecheck)             Checksum: 4EC3E773D73D0ABC6BA3BA8FFB96B2D7;7088.
 
 
 LaTeX Warning: There were undefined references.
@@ -3881,13 +3984,13 @@ Package logreq Info: Writing requests to 'master-EX.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41765 strings out of 493013
- 804607 string characters out of 6133343
- 1288980 words of memory out of 5000000
- 44252 multiletter control sequences out of 15000+600000
- 20383 words of font info for 115 fonts, out of 8000000 for 9000
+ 41847 strings out of 493013
+ 806072 string characters out of 6133343
+ 1291644 words of memory out of 5000000
+ 44301 multiletter control sequences out of 15000+600000
+ 20705 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,76p,10412b,2481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,76p,10412b,2479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -3906,10 +4009,10 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on master-EX.pdf (44 pages, 7344840 bytes).
+Output written on master-EX.pdf (46 pages, 7337041 bytes).
 PDF statistics:
- 1121 PDF objects out of 1200 (max. 8388607)
- 989 compressed objects within 10 object streams
- 266 named destinations out of 1000 (max. 500000)
- 33168 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1217 PDF objects out of 1440 (max. 8388607)
+ 1082 compressed objects within 11 object streams
+ 286 named destinations out of 1000 (max. 500000)
+ 33272 words of extra memory for PDF output out of 35830 (max. 10000000)
 
