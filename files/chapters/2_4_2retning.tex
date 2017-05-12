@@ -6,6 +6,7 @@
 	\label{kreds:retning}
 \end{figure}
 I vores retningsregulerende kreds, har vi valgt at benytte en stepper motor, til at styre hvilken vinkel bolden skydes ud i. Her der bliver der brugt en ekstern strømforsyning på $\SI{5}{V}$, så der kan løbe nok strøm igennem spolerne i stepper motoren. For at bruge den eksterne strømforsyning bruger vi MOSFETs som digitale switches.
+\todo{lav kredsen om igen, således at dioden over mosfettet er med, se MOSFET}
 \subsection{Komponenter}
 \subsubsection{N-Channel power MOSFET - F12N10L}
 \begin{figure}[H]
@@ -16,7 +17,7 @@ I vores retningsregulerende kreds, har vi valgt at benytte en stepper motor, til
 \end{figure}
 På \Cref{fig:kompMOSFET} er der et symbol og pindiagram over MOSFET komponenten.
 Denne MOSFET er bygget til $\SI{5}{V}$ logik, samt har det en lav rise og fall time på et par hundrede nanosekunder og således vil det fungerer fint for en steppermotor. Databladet vi har benyttet kan findes i kilde \cite{kompMOSFET}. 
-\todo{Vi har brug for mere tekst om dette ***}
+\todo{skriv om spændingsreguleret - derfor er det godt med arduino}
 
 \subsubsection{Stepper motor - RS191-8328}
 \begin{figure}[H]
@@ -41,10 +42,10 @@ Vi benyttede en stepper motor til at styre hvor meget vi drejer kanonen. En step
 %\subsection{Beregninger}
 
 \subsection{Test}
-Vi benyttede et Stepper library fra firmaet Arduinos hjemmeside\cite{steppercode:stepbystep}. Koden kan ses på Figur ~\ref{kode:steptest}.
+Vi benyttede et Stepper library fra firmaet Arduinos hjemmeside\cite{steppercode:stepbystep}. Koden kan ses på Figur ~\ref{fig:steptest}. \todo{References fungerer meget underligt. Burde sige Figur 10}
 
 % ---------------------BEGIN CODE
-\begin{figure}[H] \label{kode:steptest}
+\begin{figure}[H] \label{fig:steptest}
 \caption{Kode til steppermoter for at angive antal steps der skal roteres}
 \begin{lstlisting}
 #include <Stepper.h>

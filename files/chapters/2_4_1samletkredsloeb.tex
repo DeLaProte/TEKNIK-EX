@@ -1,1 +1,15 @@
 \section{Samlet kredsløb}
+Vores kredsløb er delt op i mange forskellige delkredsløb som er med til at styre vores kanon. Her har vi 3 motorer til at styre fysiske bevælgelser. Hertil har vi en farve sensor og infrarøde sensorer til at læse projetilets hastighed og farve. Her bruges arduinoen til at kordinere disse delkomponenter.
+
+\todo{insæt billede af det fulde kredsløb}
+
+\subsection{hastighedsmåler}
+Her er der brugt en 555-timer til at lave en puls, som sendes til modtager delen som så forstærker signalet og og der bliver brugt en peak detector far at få et stabilt signal der så kan sendes til arduinoen.
+ \subsection{farve sensor}
+Denne del fungere ved at der er 3 lysdioder. en rød, en grøn og en blå. ardinoen giver et signal om hvilken diode der skal være tændt hvorved at en phototransistor opfanger det lys der bliver reflekteret dette give så forskællige værdier i forhold til hvilken farve der reflekterende objekt har. dette signal bliver sendt tilbage til arduinoens analog input.
+\subsection{controller}
+Inputet er bare et par knapper som går direkte ind i arduinoens digitale porte.
+På samme måde bliver displayet også for det meste tilkoplet direkte til arduinoen odover en enkelt 10k potentiometer som bruges.
+\subsection{moterkontrol}
+
+Vi har to forskellige motere til at styre vores kanon. en til at dreje den op og ned og 2 til at styre dens skyde mekanisme. Den ene bliver brugt til at hive i elestikken mens den anden er en trigger som holder tandhjulene sammen som giver mulighed for at motoren elastikken bevæger sig frit for motoren.

@@ -29,51 +29,65 @@
 \BOOKMARK [2][-]{subsection.5.5}{Test}{section.5}% 29
 \BOOKMARK [1][-]{section.6}{Hastighedsm\345ler}{}% 30
 \BOOKMARK [2][-]{subsection.6.1}{Komponenter}{section.6}% 31
-\BOOKMARK [3][-]{subsubsection.6.1.1}{IR modtager diode - BPW 34 FA}{subsection.6.1}% 32
-\BOOKMARK [3][-]{subsubsection.6.1.2}{555 timer}{subsection.6.1}% 33
-\BOOKMARK [3][-]{subsubsection.6.1.3}{IR afsender diode - L-34F3BT}{subsection.6.1}% 34
-\BOOKMARK [2][-]{subsection.6.2}{Teori}{section.6}% 35
-\BOOKMARK [2][-]{subsection.6.3}{Hastighedsm\345lingsmetoder}{section.6}% 36
-\BOOKMARK [3][-]{subsubsection.6.3.1}{2 sensorer}{subsection.6.3}% 37
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Knap og sensor}{subsection.6.3}% 38
-\BOOKMARK [2][-]{subsection.6.4}{Beregninger}{section.6}% 39
-\BOOKMARK [3][-]{subsubsection.6.4.1}{555 timer modstande}{subsection.6.4}% 40
-\BOOKMARK [3][-]{subsubsection.6.4.2}{Bestemmelse af modstande for peak-detektoren}{subsection.6.4}% 41
-\BOOKMARK [2][-]{subsection.6.5}{Test}{section.6}% 42
-\BOOKMARK [3][-]{subsubsection.6.5.1}{Afsender dioden}{subsection.6.5}% 43
-\BOOKMARK [3][-]{subsubsection.6.5.2}{Modtager dioden}{subsection.6.5}% 44
-\BOOKMARK [1][-]{section.7}{Controller}{}% 45
-\BOOKMARK [2][-]{subsection.7.1}{Komponenter}{section.7}% 46
-\BOOKMARK [2][-]{subsection.7.2}{Teori}{section.7}% 47
-\BOOKMARK [1][-]{section.8}{Display}{}% 48
-\BOOKMARK [2][-]{subsection.8.1}{LCD-kredsl\370b}{section.8}% 49
-\BOOKMARK [3][-]{subsubsection.8.1.1}{LCD setup}{subsection.8.1}% 50
-\BOOKMARK [2][-]{subsection.8.2}{Teori}{section.8}% 51
-\BOOKMARK [3][-]{subsubsection.8.2.1}{LiquidCrystal library}{subsection.8.2}% 52
-\BOOKMARK [2][-]{subsection.8.3}{Komponenter}{section.8}% 53
-\BOOKMARK [3][-]{subsubsection.8.3.1}{Arduino}{subsection.8.3}% 54
-\BOOKMARK [3][-]{subsubsection.8.3.2}{LCD display}{subsection.8.3}% 55
-\BOOKMARK [2][-]{subsection.8.4}{Test}{section.8}% 56
-\BOOKMARK [1][-]{section.9}{Ladningssensor}{}% 57
-\BOOKMARK [2][-]{subsection.9.1}{Komponenter}{section.9}% 58
-\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21}{subsection.9.1}% 59
-\BOOKMARK [3][-]{subsubsection.9.1.2}{LED - RGB Clear Common Anode}{subsection.9.1}% 60
-\BOOKMARK [2][-]{subsection.9.2}{Teori}{section.9}% 61
-\BOOKMARK [3][-]{subsubsection.9.2.1}{OPAMP}{subsection.9.2}% 62
-\BOOKMARK [3][-]{subsubsection.9.2.2}{Analog input til registrering af farve}{subsection.9.2}% 63
-\BOOKMARK [2][-]{subsection.9.3}{Beregninger}{section.9}% 64
-\BOOKMARK [3][-]{subsubsection.9.3.1}{OPAMP modstande}{subsection.9.3}% 65
-\BOOKMARK [3][-]{subsubsection.9.3.2}{Modstanden af LED}{subsection.9.3}% 66
-\BOOKMARK [2][-]{subsection.9.4}{Test}{section.9}% 67
-\BOOKMARK [1][-]{section.10}{Arduinoen}{}% 68
-\BOOKMARK [2][-]{subsection.10.1}{Analog inputs og outputs \(PWM\)}{section.10}% 69
-\BOOKMARK [2][-]{subsection.10.2}{Digital inputs og outputs}{section.10}% 70
-\BOOKMARK [2][-]{subsection.10.3}{I2C - Synkroniseret kommunikation}{section.10}% 71
-\BOOKMARK [1][-]{section.11}{Fremstilling}{}% 72
-\BOOKMARK [2][-]{subsection.11.1}{Fumlebr\346t-modeller}{section.11}% 73
-\BOOKMARK [2][-]{subsection.11.2}{PCB - fremstilling}{section.11}% 74
-\BOOKMARK [2][-]{subsection.11.3}{Endelige prototype}{section.11}% 75
-\BOOKMARK [1][-]{section*.12}{Bibliography}{}% 76
-\BOOKMARK [1][-]{section.12}{Bilag}{}% 77
-\BOOKMARK [2][-]{subsection.12.1}{samlet kredsl\370b}{section.12}% 78
-\BOOKMARK [2][-]{subsection.12.2}{Program til Arduino}{section.12}% 79
+\BOOKMARK [3][-]{subsubsection.6.1.1}{IR afsender diode - L-34F3BT}{subsection.6.1}% 32
+\BOOKMARK [3][-]{subsubsection.6.1.2}{IR modtager diode - BPW 34 FA}{subsection.6.1}% 33
+\BOOKMARK [3][-]{subsubsection.6.1.3}{555 timer - NE555P}{subsection.6.1}% 34
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Signal invertering - HEF4001B}{subsection.6.1}% 35
+\BOOKMARK [2][-]{subsection.6.2}{Teori}{section.6}% 36
+\BOOKMARK [3][-]{subsubsection.6.2.1}{555 timer}{subsection.6.2}% 37
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Benyttelse af diode som variabel sp\346nding}{subsection.6.2}% 38
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Logiske gates}{subsection.6.2}% 39
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Hastighedsm\345lingsmetoder}{subsection.6.2}% 40
+\BOOKMARK [2][-]{subsection.6.3}{Beregninger}{section.6}% 41
+\BOOKMARK [3][-]{subsubsection.6.3.1}{555 timer modstande}{subsection.6.3}% 42
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Bestemmelse af modstande for peak-detektoren}{subsection.6.3}% 43
+\BOOKMARK [2][-]{subsection.6.4}{Test}{section.6}% 44
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Afsender dioden}{subsection.6.4}% 45
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Modtager dioden}{subsection.6.4}% 46
+\BOOKMARK [1][-]{section.7}{Controller}{}% 47
+\BOOKMARK [2][-]{subsection.7.1}{Komponenter}{section.7}% 48
+\BOOKMARK [2][-]{subsection.7.2}{Teori}{section.7}% 49
+\BOOKMARK [1][-]{section.8}{Display}{}% 50
+\BOOKMARK [2][-]{subsection.8.1}{LCD-kredsl\370b}{section.8}% 51
+\BOOKMARK [3][-]{subsubsection.8.1.1}{LCD setup}{subsection.8.1}% 52
+\BOOKMARK [2][-]{subsection.8.2}{Teori}{section.8}% 53
+\BOOKMARK [3][-]{subsubsection.8.2.1}{LiquidCrystal library}{subsection.8.2}% 54
+\BOOKMARK [2][-]{subsection.8.3}{Komponenter}{section.8}% 55
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Arduino}{subsection.8.3}% 56
+\BOOKMARK [3][-]{subsubsection.8.3.2}{LCD display}{subsection.8.3}% 57
+\BOOKMARK [2][-]{subsection.8.4}{Test}{section.8}% 58
+\BOOKMARK [1][-]{section.9}{Ladningssensor}{}% 59
+\BOOKMARK [2][-]{subsection.9.1}{Komponenter}{section.9}% 60
+\BOOKMARK [3][-]{subsubsection.9.1.1}{BPW21 - Fotodiode}{subsection.9.1}% 61
+\BOOKMARK [3][-]{subsubsection.9.1.2}{LED - RGB Clear Common Anode}{subsection.9.1}% 62
+\BOOKMARK [2][-]{subsection.9.2}{Teori}{section.9}% 63
+\BOOKMARK [3][-]{subsubsection.9.2.1}{OPAMP}{subsection.9.2}% 64
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Analog input til registrering af farve}{subsection.9.2}% 65
+\BOOKMARK [2][-]{subsection.9.3}{Beregninger}{section.9}% 66
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Modstanden af LED}{subsection.9.3}% 67
+\BOOKMARK [3][-]{subsubsection.9.3.2}{OPAMP modstande}{subsection.9.3}% 68
+\BOOKMARK [2][-]{subsection.9.4}{Test}{section.9}% 69
+\BOOKMARK [1][-]{section.10}{Arduinoen}{}% 70
+\BOOKMARK [2][-]{subsection.10.1}{Analog inputs og outputs \(PWM\)}{section.10}% 71
+\BOOKMARK [2][-]{subsection.10.2}{Digital inputs og outputs}{section.10}% 72
+\BOOKMARK [2][-]{subsection.10.3}{I2C - Synkroniseret kommunikation}{section.10}% 73
+\BOOKMARK [1][-]{section.11}{Fremstilling}{}% 74
+\BOOKMARK [2][-]{subsection.11.1}{Projektiler}{section.11}% 75
+\BOOKMARK [2][-]{subsection.11.2}{Fumlebr\346t-modeller}{section.11}% 76
+\BOOKMARK [2][-]{subsection.11.3}{PCB - fremstilling}{section.11}% 77
+\BOOKMARK [3][-]{subsubsection.11.3.1}{Kemisk fremstilling}{subsection.11.3}% 78
+\BOOKMARK [3][-]{subsubsection.11.3.2}{Problemer med printboards}{subsection.11.3}% 79
+\BOOKMARK [2][-]{subsection.11.4}{Endelige prototype}{section.11}% 80
+\BOOKMARK [2][-]{subsection.11.5}{Forbindelses testing}{section.11}% 81
+\BOOKMARK [1][-]{section.12}{Slut afpr\370vning}{}% 82
+\BOOKMARK [1][-]{section.13}{Videreudvikling}{}% 83
+\BOOKMARK [1][-]{section.14}{Prisliste}{}% 84
+\BOOKMARK [1][-]{section.15}{Konklusion}{}% 85
+\BOOKMARK [1][-]{section.16}{Evaluering}{}% 86
+\BOOKMARK [1][-]{section.16}{Bibliography}{}% 87
+\BOOKMARK [1][-]{appendix.A}{Samlet kredsl\370b}{}% 88
+\BOOKMARK [1][-]{appendix.B}{PCB artwork til hastighedssensor}{}% 89
+\BOOKMARK [1][-]{appendix.C}{PCB artwork til arduino shield}{}% 90
+\BOOKMARK [1][-]{appendix.D}{Fumlebr\346tmodel anden del}{}% 91
+\BOOKMARK [1][-]{appendix.E}{Program til Arduino}{}% 92
+\BOOKMARK [1][-]{appendix.F}{Logbog}{}% 93

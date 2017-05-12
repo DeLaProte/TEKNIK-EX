@@ -92,6 +92,29 @@
       \verb https://www.arduino.cc/en/Tutorial/StepperOneStepAtATime
       \endverb
     \endentry
+    \entry{kompPhoto}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ebfc1f16b00155d5faba89cf73a4330f}{%
+           family={{Centronic LTD}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \strng{fullhash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \strng{authornamehash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \strng{authorfullhash}{ebfc1f16b00155d5faba89cf73a4330f}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SERIES BPW 21}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://ticsante.u-strasbg.fr/lib/exe/fetch.php?media=0900766b800a603b.pdf
+      \endverb
+    \endentry
     \entry{kompstepmotor}{online}{}
       \name{author}{1}{}{%
         {{hash=4fac8e0a8c154ebdc1db3fb6ce44407a}{%
@@ -136,6 +159,29 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://www.madsci.org/posts/archives/1998-08/897010420.Ph.r.html
+      \endverb
+    \endentry
+    \entry{555timer50percent}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d556cc4592e861d9f67fc8b7dbceb9e7}{%
+           family={{Electronics Tutorials}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \strng{fullhash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \strng{authornamehash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \strng{authorfullhash}{d556cc4592e861d9f67fc8b7dbceb9e7}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{555 Timer Tutorial}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.electronics-tutorials.ws/waveforms/555_timer.html
       \endverb
     \endentry
     \entry{kompMOSFET}{online}{}
@@ -268,6 +314,29 @@
       \verb http://ww1.microchip.com/downloads/en/AppNotes/01353A.pdf
       \endverb
     \endentry
+    \entry{kompInverter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed12702f830dd2b0fabe23c1d36e1c6d}{%
+           family={{Nexperia}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{fullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authornamehash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \strng{authorfullhash}{ed12702f830dd2b0fabe23c1d36e1c6d}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{HEF4001B}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://assets.nexperia.com/documents/data-sheet/HEF4001B.pdf
+      \endverb
+    \endentry
     \entry{kompIRmodtager}{online}{}
       \name{author}{1}{}{%
         {{hash=a9914fb70ef3e77924ba048c11f196c6}{%
@@ -312,6 +381,29 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://en.wikipedia.org/wiki/H_bridge
+      \endverb
+    \endentry
+    \entry{komp555}{online}{}
+      \name{author}{1}{}{%
+        {{hash=80293b4ff94467c0484a58bc2894e211}{%
+           family={{Texas Instruments}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{fullhash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authornamehash}{80293b4ff94467c0484a58bc2894e211}
+      \strng{authorfullhash}{80293b4ff94467c0484a58bc2894e211}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{xx555 Precision Timers}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.ti.com/lit/gpn/ne555
       \endverb
     \endentry
     \entry{WikiGaussCanon}{online}{}
