@@ -1,8 +1,0 @@
-PWD /Users/Unicorn/Desktop/OneDrive/STUDYDUDE/Teknik A - D og S/EX/EX RAPPORT/files/chapters
-INPUT /usr/local/texlive/2016/texmf.cnf
-INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT 2_4_6display.tex
-OUTPUT 2_4_6display.log
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
