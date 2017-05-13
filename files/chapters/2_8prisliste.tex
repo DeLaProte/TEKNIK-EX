@@ -6,35 +6,81 @@
 % 100
 % 1000
 % NANOFARAD
+% 0.18$ * 4
+% http://uk.rs-online.com/web/p/polyester-film-capacitors/6224634/?searchTerm=622-4634&relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D6265724D504E266C753D656E266D6D3D6D61746368616C6C26706D3D5E283F69292852537C5253207C52532D293F5C647B337D285C73293F5B5C732D2F255C2E2C5D285C73293F5C647B332C347D2426706F3D313426736E3D592673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D3632322D34363334267374613D3632323436333426
 
 % RESISTORER
 % De koster omtrent det samme 
-% 10 resistor rumle
+% 20 i alt
 
 
 % MIKROCHIPS
-% HEF4001
-% MCP 601 TIMES 5
-% Fototransistor
-% 3 knapper
+% HEF4001 0.1812$ https://www.arrow.com/en/products/hef4001bt652/nexperia
+% MCP 601 TIMES 5 microchip 0.36$
+% Fototransistor BPW21 $6.2599 https://www.verical.com/pd/vishay-photodiode-BPW21R-234268?utm_source=FindChips&utm_medium=invListing&utm_campaign=FC2015
+% SWITCHES 3, 2.00$ https://www.adafruit.com/product/367
+% 
+
+
+% arduino 21.91 $ Dollars
+% http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1240656/
+% Lego motor https://shop.lego.com/en-DK/LEGO-Power-Functions-XL-Motor-8882 
+% 14$
+
+% Steppermotor
+% http://uk.rs-online.com/web/p/stepper-motors/1918328/
+% 30.70 US Dollar
+
+
+
+For at estimerer omkostninger antages det at der skal produceres 100 stykker legetøj. Ydermere antages det at de forskellige modstande der benyttes koster omtrent det samme og at kondensatorerne koster omtrent det samme 
+
 
 %-------------------- Begin Table ------------------------------
-\begin{table}[H] \label{vores}
-	\caption{Prislitse} % title
+\begin{table}[H] \label{tab:omkostning}
+	\caption{Omkostningspris for prototype} % title
 	\centering
-		\begin{tabular}{c|c c} 
+		\begin{tabular}{c|c c c c} 
 		
-		Komponent & Pris [USD] & Kilde\\ [0.5ex] 
+		Komponent & Stk. pr. produkt & Pris stk. [USD] & Kilde & Samlet pris [USD]\\ [0.5ex] 
 		\hline 
-			PCB & 5.81 & \cite{PCB}\\ 
-			Resistorer & 0.1&\cite{resistor} \\
-			Microchips & 1.0l& \cite{microchip}\\
-			samlet & 7.9 & -\\ [1ex]
+			PCB & - & 5.81 & \cite{price:PCB} & 5.81\\ 
+			Resistorer & 20 & 0.01& \cite{price:resistor} & 0.2\\
+			Kondensatorer & 5 &  0.18 & \cite{price:capacitor} & 0.9\\
+			MCP601 & 5 & 0.36& \cite{price:MCP601} & 1.8\\
+			HEF4001 & 1 &0.18& \cite{price:HEF4001} & 0.18\\
+			BPW21 & 1 &6.26& \cite{price:BPW21} & 6.26 \\
+			Steppermotor &1 & 31 & \cite{price:stepper}&31 \\
+			DC motor & 2 & 14 & \cite{price:dcmotor} &28 \\ 
+			Arduino & 2 & 30 &\cite{price:arduino} & 60 \\
+			Kanon-konstruktion & 1 & 8.81 & Estimat & 8.81 \\
+			Total pris & - &- & - & 142.95\\[1ex]
 		\hline %inserts single line
 	\end{tabular}
 \end{table}
 %-------------------- End table ------------------------------
+Den totale pris angivet på Tabel \ref{tab:omkostning} svarer til omtrent $\SI{970}{DKK}$, hvilket er rigtig meget for et legetøj. Men der er væsentlige måder at sænke denne pris på. F.eks. i stedet for at benytte hele Arduino UNO benytter dens microcontroller ATmega328P. Disse kan fås til en ret lav prisleje på under 2 dollars (Se kilde: \cite{price:atmega}). Hvilket sænker prisen med omtrent \SI{58}{USD}. Dette gør at et bedre estimat svarer til \SI{84.95}{USD} som er på nuværende tidspunkt ækvivalent med \SI{578.23}{DKK}. Hvilket er en mere rimelig pris.
 
+
+% ATMEGA328
 
 \subsection{Estimering af udsalgspris}
+En rimelig avance vurderer vi til at være på 30\%, heraf bliver den samlede salgspris:
+%-------------------- Begin Table ------------------------------
+\begin{table}[H] \label{tab:salg}
+	\caption{Salgspris} % title
+	\centering
+		\begin{tabular}{c c} 
+		\hline\hline
+			Omkostningspris & \SI{578.23}{DKK}\\ 
+			Avance & \SI{173.469}{DKK}\\
+			\hline \\
+			Pris uden moms & \SI{751.70}{DKK} \\
+			Pris med moms & \SI{939.625}{DKK} \\[1ex] % [1ex] adds vertical space
+		\hline %inserts single line
+	\end{tabular}
+\end{table}
+%-------------------- End table ------------------------------
 \subsection{Konkurrencedygtighed}
+Vores produkt minder ikke meget om nuværende alternativer til Angry Birds spillet, men det tætteste er nok modeller udviklet af LEGO.
+LEGO har lavet et Angry Birds spil som legetøj koncept, dog uden nogen avanceret affyringsmekanisme eller andet elektronik, hvor man kan affyrer fugle mod legoborge. Disse legomodeller kan koste hele vejen op til \SI{700}{DKK} (kilde: \cite{price:legoBird}), men vi vurderer at vores produkt er i forhold til de dyre LEGOmodeller. Dog er det meget muligt at vores produkt bliver væsentligt dyre end \SI{939.625} hvis man også skal gøre det ligeså æstetisk som LEGO's Angry birds.

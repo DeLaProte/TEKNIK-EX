@@ -19,7 +19,7 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
-    \entry{resistor}{online}{}
+    \entry{price:resistor}{online}{}
       \name{author}{1}{}{%
         {{hash=33367874c7cdb60618558fd8604f6a74}{%
            family={{AliExpress}},
@@ -116,6 +116,30 @@
       \verb https://www.arduino.cc/en/Tutorial/StepperOneStepAtATime
       \endverb
     \endentry
+    \entry{price:HEF4001}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0f4e1aaabd074689b7d3ead824d1ee8e}{%
+           family={{Arrow}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{fullhash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{authornamehash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \strng{authorfullhash}{0f4e1aaabd074689b7d3ead824d1ee8e}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{HEF4001BT,652}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.arrow.com/en/products/hef4001bt652/nexperia
+      \endverb
+    \endentry
     \entry{kompPhoto}{online}{}
       \name{author}{1}{}{%
         {{hash=ebfc1f16b00155d5faba89cf73a4330f}{%
@@ -139,27 +163,27 @@
       \verb http://ticsante.u-strasbg.fr/lib/exe/fetch.php?media=0900766b800a603b.pdf
       \endverb
     \endentry
-    \entry{kompstepmotor}{online}{}
+    \entry{kompRGBLED}{online}{}
       \name{author}{1}{}{%
-        {{hash=4fac8e0a8c154ebdc1db3fb6ce44407a}{%
-           family={{RS-components}},
-           familyi={R\bibinitperiod}}}%
+        {{hash=20712dc88f3d368d1c758c420c910d6c}{%
+           family={{CHINA YOUNG SUN LED TECHNOLOGY CO., LTD.}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{4fac8e0a8c154ebdc1db3fb6ce44407a}
-      \strng{fullhash}{4fac8e0a8c154ebdc1db3fb6ce44407a}
-      \strng{authornamehash}{4fac8e0a8c154ebdc1db3fb6ce44407a}
-      \strng{authorfullhash}{4fac8e0a8c154ebdc1db3fb6ce44407a}
-      \field{sortinit}{c}
+      \strng{namehash}{20712dc88f3d368d1c758c420c910d6c}
+      \strng{fullhash}{20712dc88f3d368d1c758c420c910d6c}
+      \strng{authornamehash}{20712dc88f3d368d1c758c420c910d6c}
+      \strng{authorfullhash}{20712dc88f3d368d1c758c420c910d6c}
+      \field{sortinit}{C}
       \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Hybrid stepper motors}
-      \field{urlday}{28}
-      \field{urlmonth}{4}
+      \field{title}{{RED/GREEN/BLUE Triple Color LED white diffused lens (Common Cathode) - YSL-R596CR3G4B5W-F12}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
       \field{urlyear}{2017}
       \field{urldateera}{ce}
       \verb{url}
-      \verb http://docs-europe.electrocomponents.com/webdocs/12bb/0900766b812bb588.pdf
+      \verb https://www.sparkfun.com/datasheets/Components/LED/YSL-R596CR4G3B5W-F12.pdf
       \endverb
     \endentry
     \entry{gaussRifleModel}{online}{}
@@ -290,6 +314,54 @@
       \verb http://www.mouser.com/ds/2/216/L-34F3BT(Ver.14A)-795135.pdf
       \endverb
     \endentry
+    \entry{price:legoBird}{online}{}
+      \name{author}{1}{}{%
+        {{hash=31814b806763d2529d19194792bc915d}{%
+           family={{LEGO System A/S}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{31814b806763d2529d19194792bc915d}
+      \strng{fullhash}{31814b806763d2529d19194792bc915d}
+      \strng{authornamehash}{31814b806763d2529d19194792bc915d}
+      \strng{authorfullhash}{31814b806763d2529d19194792bc915d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{75826 King Pig’s Castle}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.lego.com/en-us/angrybirdsmovie/products/king-pig-castle-75826
+      \endverb
+    \endentry
+    \entry{price:dcmotor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=31814b806763d2529d19194792bc915d}{%
+           family={{LEGO System A/S}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{31814b806763d2529d19194792bc915d}
+      \strng{fullhash}{31814b806763d2529d19194792bc915d}
+      \strng{authornamehash}{31814b806763d2529d19194792bc915d}
+      \strng{authorfullhash}{31814b806763d2529d19194792bc915d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{LEGO® Power Functions XL-Motor}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://shop.lego.com/en-DK/LEGO-Power-Functions-XL-Motor-8882
+      \endverb
+    \endentry
     \entry{HighEffectExample}{online}{}
       \name{author}{1}{}{%
         {{hash=32f9e3af47095ba9e5e95d7b1038f5a1}{%
@@ -314,7 +386,7 @@
       \verb https://youtu.be/mdZo_keUoEs
       \endverb
     \endentry
-    \entry{microchip}{online}{}
+    \entry{price:atmega}{online}{}
       \name{author}{1}{}{%
         {{hash=f7962ad60e8c8ec26481358db76f7f6a}{%
            family={{Microchip}},
@@ -328,7 +400,31 @@
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{Kildekritik: digikey er en stor forhandler af elektroniske varer som gerne vil sælge så meget som muligt. Derfor kan der være mulighed for at prisen ikke inkludere moms og fragt.}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{ATmega328}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.microchip.com/wwwproducts/en/ATmega328
+      \endverb
+    \endentry
+    \entry{price:MCP601}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f7962ad60e8c8ec26481358db76f7f6a}{%
+           family={{Microchip}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{fullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authornamehash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \strng{authorfullhash}{f7962ad60e8c8ec26481358db76f7f6a}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
       \field{title}{"MCP601"}
       \field{urlday}{18}
       \field{urlmonth}{1}
@@ -362,7 +458,30 @@
       \verb http://ww1.microchip.com/downloads/en/AppNotes/01353A.pdf
       \endverb
     \endentry
-    \entry{PCB}{online}{}
+    \entry{kompOPAMP}{online}{}
+      \name{author}{1}{}{%
+        {{hash=878641e3b87a7c3074dcf3e4f60f874f}{%
+           family={{Microchip Technology Inc.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{878641e3b87a7c3074dcf3e4f60f874f}
+      \strng{fullhash}{878641e3b87a7c3074dcf3e4f60f874f}
+      \strng{authornamehash}{878641e3b87a7c3074dcf3e4f60f874f}
+      \strng{authorfullhash}{878641e3b87a7c3074dcf3e4f60f874f}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{2.7V to 6.0V Single Supply CMOS Op Amps - MCP601/1R/2/3/4}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+      \endverb
+    \endentry
+    \entry{price:PCB}{online}{}
       \name{author}{1}{}{%
         {{hash=ac7e4499cb12f29d34e0e7b2c29597c8}{%
            family={{multi-cb}},
@@ -376,15 +495,12 @@
       \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{Kildekritik: digikey er en stor forhandler af elektroniske varer som gerne vil sælge så meget som muligt. Derfor kan der være mulighed for at prisen ikke inkludere moms og fragt.}
+      \field{addendum}{Kildekritik: Det er en estimering lavet af firmaet multi-cp så det er meget muligt at den estimerings-program de har benyttet er partisk i forhold til deres kommercielle interesser.}
       \field{title}{"PCB price calculator"}
-      \field{urlday}{18}
-      \field{urlmonth}{1}
-      \field{urlyear}{2017}
-      \field{urldateera}{ce}
       \verb{url}
       \verb https://portal.multi-circuit-boards.eu/Customer/Index/1990438
       \endverb
+      \warn{\item Entry 'price:PCB' (files/references/references.bib): Invalid format '2017-05-9' of date field 'urldate' - ignoring}
     \endentry
     \entry{kompInverter}{online}{}
       \name{author}{1}{}{%
@@ -409,18 +525,89 @@
       \verb http://assets.nexperia.com/documents/data-sheet/HEF4001B.pdf
       \endverb
     \endentry
+    \entry{price:arduino}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9467f373ac61f377b4d44a9ab04e1e8f}{%
+           family={{RS Components}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{fullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authornamehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authorfullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{Genuino Uno Rev3}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1240656/
+      \endverb
+    \endentry
+    \entry{kompstepmotor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9467f373ac61f377b4d44a9ab04e1e8f}{%
+           family={{RS Components}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{fullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authornamehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authorfullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hybrid stepper motors}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://docs-europe.electrocomponents.com/webdocs/12bb/0900766b812bb588.pdf
+      \endverb
+    \endentry
+    \entry{price:stepper}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9467f373ac61f377b4d44a9ab04e1e8f}{%
+           family={{RS Components}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{fullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authornamehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authorfullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{RS Pro Hybrid Stepper Motor 1.8°, 260mNm, 5 V dc, 1 A, 8 Wires}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://uk.rs-online.com/web/p/stepper-motors/1918328/
+      \endverb
+    \endentry
     \entry{kompIRmodtager}{online}{}
       \name{author}{1}{}{%
-        {{hash=a9914fb70ef3e77924ba048c11f196c6}{%
-           family={{OSRAM}},
-           familyi={O\bibinitperiod}}}%
+        {{hash=9467f373ac61f377b4d44a9ab04e1e8f}{%
+           family={{RS Components}},
+           familyi={R\bibinitperiod}}}%
       }
-      \strng{namehash}{a9914fb70ef3e77924ba048c11f196c6}
-      \strng{fullhash}{a9914fb70ef3e77924ba048c11f196c6}
-      \strng{authornamehash}{a9914fb70ef3e77924ba048c11f196c6}
-      \strng{authorfullhash}{a9914fb70ef3e77924ba048c11f196c6}
-      \field{sortinit}{O}
-      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \strng{namehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{fullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authornamehash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \strng{authorfullhash}{9467f373ac61f377b4d44a9ab04e1e8f}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Silicon PIN Photodiode with Daylight Filter}
@@ -430,6 +617,30 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://dk.rs-online.com/web/p/fotodioder/6547921/
+      \endverb
+    \endentry
+    \entry{price:capacitor}{online}{}
+      \name{author}{1}{}{%
+        {{hash=234cb9fd3446509d2118dfd912fb4845}{%
+           family={{RS components}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{234cb9fd3446509d2118dfd912fb4845}
+      \strng{fullhash}{234cb9fd3446509d2118dfd912fb4845}
+      \strng{authornamehash}{234cb9fd3446509d2118dfd912fb4845}
+      \strng{authorfullhash}{234cb9fd3446509d2118dfd912fb4845}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: Sandsynligvis er denne pris ikke inkluderet moms og fragt. Da RS components er en forhandler af elektroniske varer.}
+      \field{title}{"Panasonic 10nF Polyester Capacitor PET 250 V dc ±5\% ECQE(F) Series Through Hole"}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://uk.rs-online.com/web/p/polyester-film-capacitors/6224634/?searchTerm=622-4634&relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D6265724D504E266C753D656E266D6D3D6D61746368616C6C26706D3D5E283F69292852537C5253207C52532D293F5C647B337D285C73293F5B5C732D2F255C2E2C5D285C73293F5C647B332C347D2426706F3D313426736E3D592673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D3632322D34363334267374613D3632323436333426
       \endverb
     \endentry
     \entry{teorihbridge}{online}{}
@@ -476,6 +687,30 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://www.ti.com/lit/gpn/ne555
+      \endverb
+    \endentry
+    \entry{price:BPW21}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0c8c7b70f0245a3764b6f97d503b7ded}{%
+           family={{Verical}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c8c7b70f0245a3764b6f97d503b7ded}
+      \strng{fullhash}{0c8c7b70f0245a3764b6f97d503b7ded}
+      \strng{authornamehash}{0c8c7b70f0245a3764b6f97d503b7ded}
+      \strng{authorfullhash}{0c8c7b70f0245a3764b6f97d503b7ded}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Kildekritik: ***}
+      \field{title}{{BPW21R}}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.verical.com/pd/vishay-photodiode-BPW21R-234268?utm_source=FindChips&utm_medium=invListing&utm_campaign=FC2015
       \endverb
     \endentry
     \entry{WikiGaussCanon}{online}{}

@@ -1,5 +1,9 @@
 \section{Ladningssensor}
-
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=\textwidth]{figures/CIRCUITS/farvesensorFinal.png}
+	\caption{Et billede af kredsløbet for ladningssensor kredsen.}
+\end{figure}
 
 \subsection{Komponenter}
 \subsubsection{BPW21 - Fotodiode}
@@ -7,17 +11,78 @@
 	\centering
     \includegraphics[height=10cm]{figures/komponenter/photosensor}
 	\caption{Normal speltral respons angivet i procent}
-	Se databladet i kilde \cite{kompPhoto}
-	\label{arduinoLCD}
+	Se databladet i kilde \cite{kompPhoto}.
 \end{figure}
-BPW21 er en fotodiode, som betyder at dens modstand ændres alt efter \todo{skriv teori om BPW21}
+BPW21 er en fotodiode, som betyder at det er en diode som omdanner lys til elektrisk strøm. \todo{skriv teori om BPW21}
 
-\subsubsection{LED - RGB Clear Common Anode}
+\subsubsection{LED - RGB WHITE DIFFUSED LENS COMMON CATHODE}
+\begin{figure}[H]
+	\centering
+    \includegraphics[height=7cm]{figures/komponenter/LED2}
+	\caption{Diagram af LED'en}
+	Se databladet i kilde \cite{kompRGBLED}.
+\end{figure}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=\textwidth]{figures/komponenter/LED}
+	\caption{Spændingsfaldet over de forskellige LED'er}
+	Se databladet i kilde \cite{kompRGBLED}.
+\end{figure}
+Vi benytter en LED som kan lyse i 3 forskellige farver, rød, grøn og blå. Vi benyttede en LED med en fælles katode. Dette betyder at vi kan koble LED'ens katode til jord, også styre spændingen sat på hver af deres anoder. For ikke at trække for meget strøm fra arduinoen, benytter vi en NPN transistor som kontakt til LED'erne.
 
-\subsubsection{OPAMP - MCP601}
+\subsubsection{NPN transistor}
+\todo{Skriv om NPN transistor}
+
+\subsubsection{OP Amp - MCP601}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=7cm]{figures/komponenter/OPAMP}
+	\caption{Bendiagram af MCP601}
+	Se databladet i kilde \cite{kompOPAMP}.
+\end{figure}
 
 \subsection{Teori}
-\subsubsection{OPAMP}
+\subsubsection{OP Amp}
+%%---------- indsæt billede---------------------------------%
+
+En operationsforstærker (OP Amp) er en type forstærker der tager imod to inputs, inverting input voltage ($V_{in-}$) og non-inverting input voltage ($V_{in+}$). Outputtet fra en operationsforstærker  ($V_{out}$), kan beskrives med formlen
+\begin{align}
+V_{out}&=A(V_{in+}-V_{in-})\quad,\quad V^- \leq V_{out}\leq V^+ 
+\end{align}
+Her er $A$ den elektriske gain af operationsforstærkeren. $A$ er som reel omkring $10^5$ til $10^6$, men man anser den som at gå imod uendelig. Vi benyttede os af en non-inverting amplifier. 
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=\textwidth]{figures/komponenter/NonInvAmp}
+	\caption{El diagram for non-inverting amplifier}
+	\label{fig:noninvamp}	
+\end{figure}
+Som man kan se ud fra el diagrammet \ref{fig:noninvamp}, er der en spændingsdeler imellem $V_{out}$ og $V_{in-}$. Vi ved at for en spændingsfordeler gælder der
+\begin{align}
+U_{out}&=U\cdot \frac{R_2}{R_1+R_2}
+\end{align}
+Hvor at $U_{out}$ er spændingen over $R_2$ og $U$ er spændingen over $R_1$ og $R_2$.
+Dette betyder at
+\begin{align}
+V_{in-}&=V_{out}\cdot \frac{R_2}{R_1+R_2}
+\end{align}
+Hvis vi indsætter dette i vores udtryk for $V_out$ gælder der
+\begin{align}
+V_{out}&=A(V_{in+}-V_{in-})\quad,\quad V^- \leq V_{out}\leq V^+\\
+V_{in-}&=V_{out}\cdot \frac{R_2}{R_1+R_2}\\
+\rightarrow V_{out}&= A(V_{in+}-V_{out}\cdot \frac{R_2}{R_1+R_2})\\
+\rightarrow V_{out}+A\cdot V_{out}\cdot \frac{R_2}{R_1+R_2}&=A\cdot V_{in+}\\
+\rightarrow V_{out}(1+A\cdot \frac{R_2}{R_1+R_2})&=A\cdot V_{in+}\\
+\rightarrow V_{out}&=\frac{A\cdot V_{in+}}{1+A\cdot \frac{R_2}{R_1+R_2}}\\
+\end{align}
+Da $A$ er et meget højt tal, så kan $1$ i nævneren negligeres.
+\begin{align}
+V_{out}&=\frac{A\cdot V_{in+}}{A\cdot \frac{R_2}{R_1+R_2}}\\
+&=\frac{V_{in+}}{\frac{R_2}{R_1+R_2}}\\
+V_{out}&=V_{in+}\cdot(\frac{R_1}{R_2}+1)\\
+\rightarrow \frac{V_{out}}{V_{in+}}&=\frac{R_1}{R_2}+1
+\end{align}
+Dette udtryk kan vi benytte til at beregne forstærkningen af vores non-inverting amplifier.
+(Kilde: Teknik A - OP-amp DC-kobling (teori udleveret af læreren uden yderligere kildeangivelse))
 \subsubsection{Analog input til registrering af farve}
 Arduinoens analog input er beskrevet i afsnit \ref{sec:ard:analog}. Vi benytter denne funktion til at få outputtet fra vores farvesensor ind i arduinoen.
 \subsection{Beregninger}
@@ -47,21 +112,37 @@ Ud fra dette valgte vi at benytte modstandene
 	R_{GLED} &= \SI{100}{\ohm}\\
 	R_{BLED} &= \SI{100}{\ohm}\\
 \end{align}
-Det vidste sig dog at en LED ikke lyste nok op, og derfor satte vi en ekstra parallelt med den anden som vist på kredsløbstegningen. Dette betød at vi skulle ændre vores modstande, hvor vi også valgte at ændre modstandene således at de 3 forskellige farver tilnærmelsesvis lyste lige stærkt. De nye modstande blev 
+Det vidste sig dog at en LED ikke lyste nok op, og derfor satte vi en ekstra parallelt med den anden som vist på kredsløbstegningen. Dette betød at vi skulle beregne vores modstande igen. For en parallelforbindelse gælder
 \begin{align}
-	R_{RLED} &= \SI{120}{\ohm}\\
-	R_{GLED} &= \SI{470}{\ohm}\\
-	R_{BLED} &= \SI{470}{\ohm}\\
+\frac{1}{R_{tot}}&=\frac{1}{R_1}+\frac{1}{R_2}+...+\frac{1}{R_n}
+\end{align}
+hvor at der er $n$ parallelle modstande, som ønskes at erstattes med en samlet modstand $R_{tot}$. Da hver af de parallelle modstande, var de modstanden beregnet før, må den nye samlede modstand for hver farve være
+\begin{align}
+R_{R-tot}&=\frac{1}{\frac{1}{R_{RLED}}+\frac{1}{R_{RLED}}}\\
+&=\frac{1}{\frac{1}{\SI{180}{\ohm}}+\frac{1}{\SI{180}{\ohm}}}\\
+&=\SI{90}{\ohm}\\
+R_{G-tot}&=\frac{1}{\frac{1}{R_{GLED}}+\frac{1}{R_{GLED}}}\\
+&=\frac{1}{\frac{1}{\SI{100}{\ohm}}+\frac{1}{\SI{100}{\ohm}}}\\
+&=\SI{50}{\ohm}\\
+R_{B-tot}&=\frac{1}{\frac{1}{R_{BLED}}+\frac{1}{R_{BLED}}}\\
+&=\frac{1}{\frac{1}{\SI{100}{\ohm}}+\frac{1}{\SI{100}{\ohm}}}\\
+&=\SI{50}{\ohm}
+\end{align}
+Da vi havde beregnet de minimum modstande vi kunne bruge, prøvede vi os frem for at finde modstande, så hver LED lyste lige stærkt. Vi kom frem til disse modstande
+\begin{align}
+	R_{R-tot} &= \SI{120}{\ohm}\\
+	R_{G-tot} &= \SI{470}{\ohm}\\
+	R_{B-tot} &= \SI{470}{\ohm}\\
 \end{align}
 Her blev der lavet en test, af indgangsspændingen til Arduinoen, når der blev lyst med forskellige farver, på materialer med forskellig farve. Testen kan findes i tabel \ref{tab:farveudenforstaerker}.
 
 \subsubsection{OPAMP modstande} \label{subs:opampanalog}
-Vi besluttede os for at benytte en OPAMP, da vores største signal fra test 1 (se \ref{tab:farveudenforstaerker}) var på $\SI{0.06}{V}$, hvis man ser bort fra når alle lyser. Da vores precision af analog inputtet på arduinoen er omkring $\SI{0.005}{V}$ (se \ref{sec:ard:analog}), er der små udsving i inputtet, som vi gerne vil gøre større med en OPAMP, så det er nemmere at identificere hvilken farve bliver brugt.
+Vi besluttede os for at benytte en OPAMP, da vores største signal fra test 1 (se \ref{tab:farveudenforstaerker}) var på $\SI{0.06}{V}$, hvis man ser bort fra når alle lyser. Da vores precision af analog inputtet på arduinoen er omkring $\SI{0.005}{V}$ (se \ref{sec:ard:analog}), er disse udsving for små til at med sikkerhed kunne identificere farver. Vi benytter derfor en OPAMP, så det er nemmere at identificere hvilken farve der bliver brugt.
 % R_in = 1k
 % R_f = 56k
 Vi valgte at den maksimale indgangsspænding til OPAMPen er
 \[
-	V_{in} = \SI{0.08}{V}
+	V_{in+} = \SI{0.08}{V}
 \]
 Vi ønsker at dette skal være det maksimale som Arduinoen kan måle ($\SI{5}{V}$)
 \[
@@ -69,23 +150,23 @@ Vi ønsker at dette skal være det maksimale som Arduinoen kan måle ($\SI{5}{V}
 \]
 Heraf er den ønskede forstærkning
 \[
-	A_{target} = \frac{V_{out}}{V_{in}} = \frac{\SI{5}{V}}{\SI{0.08}{V}}=62.5
+	A_{target} = \frac{V_{out}}{V_{in+}} = \frac{\SI{5}{V}}{\SI{0.08}{V}}=62.5
 \]
 
 Denne forstærkning er ret høj og vi benytter derfor en non-inverting amplifier.
 
 Vi bestemmer en rimelig værdi til den ene modstand er
 \begin{align}
-	R_{in} = \SI{1000}{\ohm} \label{eq:RinFarveOpAmp}
+	R_{2} = \SI{1000}{\ohm} \label{eq:RinFarveOpAmp}
 \end{align}
 Og udtrykket for forstærkningen er
 
 \begin{align}
-	A_{target} = 1+\frac{R_f}{R_{in}} \label{eq:AtargetFarveOpAmp}
+	A_{target} = 1+\frac{R_1}{R_2} \label{eq:AtargetFarveOpAmp}
 \end{align}
-Ved at isolerer $R_f$ i ligningerne \ref{eq:RinFarveOpAmp} og \ref{eq:AtargetFarveOpAmp} fås
+Ved at isolerer $R_1$ i ligningerne \ref{eq:RinFarveOpAmp} og \ref{eq:AtargetFarveOpAmp} fås
 \[
-	R_f = \SI{61.5d3}{\ohm}
+	R_1 = \SI{61.5d3}{\ohm}
 \]
 Da vi ikke har denne modstand direkte, vælger vi at benytte en $\SI{56d3}{\ohm}$ modstand i stedet. Hvilket giver os en reel forstærkning på
 \[
@@ -129,6 +210,7 @@ Nævn af billederne i bilag (grøn blå) blev taget før at afstanden blev ændr
 
 *************
 \subsection{Test}
+Vores teste foregik i en mørklagt kasse, hvor afstanden mellem sensoren og objektet var $\SI{2}{cm}$. Vi testede med 5 forskellige farver: hvid, rød, grøn, blå og gul. Vi kom frem til, ud fra vores test, at vores farvesensor efter forstærkning er tilstrækkelig til at kunne adskille farverne, hvid, rød, grøn og blå. Vi mener også dette lever op til vores krav for ladningssensoren, da vi så kan have 4 indstillinger, som vi mener er tilstrækkelig.
 
 
 \begin{table}[H]
@@ -148,8 +230,6 @@ Grøn & 0.04        & 0.01          & 0.01       & 0.03        & 0.02 \\[1ex]
 \hline     
 \end{tabular}
 \end{table}
-
-Test efter forstærkning
 % Please add the following required packages to your document preamble:
 % \usepackage[normalem]{ulem}
 % \useunder{\uline}{\ul}{}
