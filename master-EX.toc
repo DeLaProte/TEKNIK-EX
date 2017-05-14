@@ -84,33 +84,36 @@
 \contentsline {subsection}{\numberline {10.3}Beregninger}{33}{subsection.10.3}
 \contentsline {subsubsection}{\numberline {10.3.1}Modstanden af LED}{33}{subsubsection.10.3.1}
 \contentsline {subsubsection}{\numberline {10.3.2}OPAMP modstande}{35}{subsubsection.10.3.2}
-\contentsline {subsection}{\numberline {10.4}Test}{37}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.4}Test}{36}{subsection.10.4}
 \contentsline {section}{\numberline {11}Arduinoen og programmering}{38}{section.11}
-\contentsline {subsection}{\numberline {11.1}Analog inputs og outputs (PWM)}{38}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Digital inputs og outputs}{39}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}I2C - Synkroniseret kommunikation}{39}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}Kort beskrivelse af programmets form\IeC {\r a}l}{39}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}Oversigt over inputs og outputs og lokation}{39}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Prim\IeC {\ae }re funktioner}{40}{subsection.11.6}
-\contentsline {subsubsection}{\numberline {11.6.1}1}{40}{subsubsection.11.6.1}
-\contentsline {subsubsection}{\numberline {11.6.2}2}{40}{subsubsection.11.6.2}
-\contentsline {subsubsection}{\numberline {11.6.3}3}{40}{subsubsection.11.6.3}
-\contentsline {section}{\numberline {12}Fremstilling}{40}{section.12}
-\contentsline {subsection}{\numberline {12.1}Projektiler}{40}{subsection.12.1}
+\contentsline {subsection}{\numberline {11.1}Arduino som komponent}{38}{subsection.11.1}
+\contentsline {subsubsection}{\numberline {11.1.1}Analog inputs og outputs (PWM)}{38}{subsubsection.11.1.1}
+\contentsline {subsubsection}{\numberline {11.1.2}Digital inputs og outputs}{39}{subsubsection.11.1.2}
+\contentsline {subsubsection}{\numberline {11.1.3}I2C - Synkroniseret kommunikation}{39}{subsubsection.11.1.3}
+\contentsline {subsection}{\numberline {11.2}Kort beskrivelse af programmets form\IeC {\r a}l}{39}{subsection.11.2}
+\contentsline {subsubsection}{\numberline {11.2.1}Master Arduino}{39}{subsubsection.11.2.1}
+\contentsline {subsubsection}{\numberline {11.2.2}Controller Arduino}{39}{subsubsection.11.2.2}
+\contentsline {subsection}{\numberline {11.3}Oversigt over inputs og outputs og lokation}{40}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}Prim\IeC {\ae }re funktioner}{41}{subsection.11.4}
+\contentsline {subsubsection}{\numberline {11.4.1}1}{41}{subsubsection.11.4.1}
+\contentsline {subsubsection}{\numberline {11.4.2}2}{41}{subsubsection.11.4.2}
+\contentsline {subsubsection}{\numberline {11.4.3}3}{41}{subsubsection.11.4.3}
+\contentsline {section}{\numberline {12}Fremstilling}{41}{section.12}
+\contentsline {subsection}{\numberline {12.1}Projektiler}{41}{subsection.12.1}
 \contentsline {subsection}{\numberline {12.2}Fumlebr\IeC {\ae }t-modeller}{41}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}PCB - fremstilling}{41}{subsection.12.3}
+\contentsline {subsection}{\numberline {12.3}PCB - fremstilling}{42}{subsection.12.3}
 \contentsline {subsubsection}{\numberline {12.3.1}Kemisk fremstilling}{42}{subsubsection.12.3.1}
 \contentsline {subsubsection}{\numberline {12.3.2}Problemer med printboards}{42}{subsubsection.12.3.2}
-\contentsline {subsection}{\numberline {12.4}Endelige prototype}{42}{subsection.12.4}
+\contentsline {subsection}{\numberline {12.4}Endelige prototype}{43}{subsection.12.4}
 \contentsline {section}{\numberline {13}Slut afpr\IeC {\o }vning}{43}{section.13}
 \contentsline {section}{\numberline {14}Videreudvikling}{43}{section.14}
 \contentsline {section}{\numberline {15}Prisliste}{43}{section.15}
 \contentsline {subsection}{\numberline {15.1}Produktionsomkostninger}{43}{subsection.15.1}
-\contentsline {subsection}{\numberline {15.2}Estimering af udsalgspris}{43}{subsection.15.2}
+\contentsline {subsection}{\numberline {15.2}Estimering af udsalgspris}{44}{subsection.15.2}
 \contentsline {subsection}{\numberline {15.3}Konkurrencedygtighed}{44}{subsection.15.3}
-\contentsline {section}{\numberline {16}Konklusion}{44}{section.16}
-\contentsline {section}{\numberline {17}Evaluering}{44}{section.17}
-\contentsline {section}{Referencer}{44}{section.17}
+\contentsline {section}{\numberline {16}Konklusion}{45}{section.16}
+\contentsline {section}{\numberline {17}Evaluering}{45}{section.17}
+\contentsline {section}{Referencer}{45}{section.17}
 \contentsline {section}{\numberline {A}Samlet kredsl\IeC {\o }b}{48}{appendix.A}
 \contentsline {section}{\numberline {B}Endelig prototype - kredsl\IeC {\o }b}{49}{appendix.B}
 \contentsline {section}{\numberline {C}Endelig prototype - kanonkonstruktion}{50}{appendix.C}

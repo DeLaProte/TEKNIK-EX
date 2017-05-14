@@ -82,37 +82,40 @@
 \BOOKMARK [3][-]{subsubsection.10.3.2}{OPAMP modstande}{subsection.10.3}% 82
 \BOOKMARK [2][-]{subsection.10.4}{Test}{section.10}% 83
 \BOOKMARK [1][-]{section.11}{Arduinoen og programmering}{}% 84
-\BOOKMARK [2][-]{subsection.11.1}{Analog inputs og outputs \(PWM\)}{section.11}% 85
-\BOOKMARK [2][-]{subsection.11.2}{Digital inputs og outputs}{section.11}% 86
-\BOOKMARK [2][-]{subsection.11.3}{I2C - Synkroniseret kommunikation}{section.11}% 87
-\BOOKMARK [2][-]{subsection.11.4}{Kort beskrivelse af programmets form\345l}{section.11}% 88
-\BOOKMARK [2][-]{subsection.11.5}{Oversigt over inputs og outputs og lokation}{section.11}% 89
-\BOOKMARK [2][-]{subsection.11.6}{Prim\346re funktioner}{section.11}% 90
-\BOOKMARK [3][-]{subsubsection.11.6.1}{1}{subsection.11.6}% 91
-\BOOKMARK [3][-]{subsubsection.11.6.2}{2}{subsection.11.6}% 92
-\BOOKMARK [3][-]{subsubsection.11.6.3}{3}{subsection.11.6}% 93
-\BOOKMARK [1][-]{section.12}{Fremstilling}{}% 94
-\BOOKMARK [2][-]{subsection.12.1}{Projektiler}{section.12}% 95
-\BOOKMARK [2][-]{subsection.12.2}{Fumlebr\346t-modeller}{section.12}% 96
-\BOOKMARK [2][-]{subsection.12.3}{PCB - fremstilling}{section.12}% 97
-\BOOKMARK [3][-]{subsubsection.12.3.1}{Kemisk fremstilling}{subsection.12.3}% 98
-\BOOKMARK [3][-]{subsubsection.12.3.2}{Problemer med printboards}{subsection.12.3}% 99
-\BOOKMARK [2][-]{subsection.12.4}{Endelige prototype}{section.12}% 100
-\BOOKMARK [1][-]{section.13}{Slut afpr\370vning}{}% 101
-\BOOKMARK [1][-]{section.14}{Videreudvikling}{}% 102
-\BOOKMARK [1][-]{section.15}{Prisliste}{}% 103
-\BOOKMARK [2][-]{subsection.15.1}{Produktionsomkostninger}{section.15}% 104
-\BOOKMARK [2][-]{subsection.15.2}{Estimering af udsalgspris}{section.15}% 105
-\BOOKMARK [2][-]{subsection.15.3}{Konkurrencedygtighed}{section.15}% 106
-\BOOKMARK [1][-]{section.16}{Konklusion}{}% 107
-\BOOKMARK [1][-]{section.17}{Evaluering}{}% 108
-\BOOKMARK [1][-]{section.17}{Referencer}{}% 109
-\BOOKMARK [1][-]{appendix.A}{Samlet kredsl\370b}{}% 110
-\BOOKMARK [1][-]{appendix.B}{Endelig prototype - kredsl\370b}{}% 111
-\BOOKMARK [1][-]{appendix.C}{Endelig prototype - kanonkonstruktion}{}% 112
-\BOOKMARK [1][-]{appendix.D}{PCB artwork til hastighedssensor}{}% 113
-\BOOKMARK [1][-]{appendix.E}{PCB artwork til arduino shield}{}% 114
-\BOOKMARK [1][-]{appendix.F}{Fumlebr\346tmodel anden del}{}% 115
-\BOOKMARK [1][-]{appendix.G}{Program til Master Arduino}{}% 116
-\BOOKMARK [1][-]{appendix.H}{Program til Controller Arduino}{}% 117
-\BOOKMARK [1][-]{appendix.I}{Logbog}{}% 118
+\BOOKMARK [2][-]{subsection.11.1}{Arduino som komponent}{section.11}% 85
+\BOOKMARK [3][-]{subsubsection.11.1.1}{Analog inputs og outputs \(PWM\)}{subsection.11.1}% 86
+\BOOKMARK [3][-]{subsubsection.11.1.2}{Digital inputs og outputs}{subsection.11.1}% 87
+\BOOKMARK [3][-]{subsubsection.11.1.3}{I2C - Synkroniseret kommunikation}{subsection.11.1}% 88
+\BOOKMARK [2][-]{subsection.11.2}{Kort beskrivelse af programmets form\345l}{section.11}% 89
+\BOOKMARK [3][-]{subsubsection.11.2.1}{Master Arduino}{subsection.11.2}% 90
+\BOOKMARK [3][-]{subsubsection.11.2.2}{Controller Arduino}{subsection.11.2}% 91
+\BOOKMARK [2][-]{subsection.11.3}{Oversigt over inputs og outputs og lokation}{section.11}% 92
+\BOOKMARK [2][-]{subsection.11.4}{Prim\346re funktioner}{section.11}% 93
+\BOOKMARK [3][-]{subsubsection.11.4.1}{1}{subsection.11.4}% 94
+\BOOKMARK [3][-]{subsubsection.11.4.2}{2}{subsection.11.4}% 95
+\BOOKMARK [3][-]{subsubsection.11.4.3}{3}{subsection.11.4}% 96
+\BOOKMARK [1][-]{section.12}{Fremstilling}{}% 97
+\BOOKMARK [2][-]{subsection.12.1}{Projektiler}{section.12}% 98
+\BOOKMARK [2][-]{subsection.12.2}{Fumlebr\346t-modeller}{section.12}% 99
+\BOOKMARK [2][-]{subsection.12.3}{PCB - fremstilling}{section.12}% 100
+\BOOKMARK [3][-]{subsubsection.12.3.1}{Kemisk fremstilling}{subsection.12.3}% 101
+\BOOKMARK [3][-]{subsubsection.12.3.2}{Problemer med printboards}{subsection.12.3}% 102
+\BOOKMARK [2][-]{subsection.12.4}{Endelige prototype}{section.12}% 103
+\BOOKMARK [1][-]{section.13}{Slut afpr\370vning}{}% 104
+\BOOKMARK [1][-]{section.14}{Videreudvikling}{}% 105
+\BOOKMARK [1][-]{section.15}{Prisliste}{}% 106
+\BOOKMARK [2][-]{subsection.15.1}{Produktionsomkostninger}{section.15}% 107
+\BOOKMARK [2][-]{subsection.15.2}{Estimering af udsalgspris}{section.15}% 108
+\BOOKMARK [2][-]{subsection.15.3}{Konkurrencedygtighed}{section.15}% 109
+\BOOKMARK [1][-]{section.16}{Konklusion}{}% 110
+\BOOKMARK [1][-]{section.17}{Evaluering}{}% 111
+\BOOKMARK [1][-]{section.17}{Referencer}{}% 112
+\BOOKMARK [1][-]{appendix.A}{Samlet kredsl\370b}{}% 113
+\BOOKMARK [1][-]{appendix.B}{Endelig prototype - kredsl\370b}{}% 114
+\BOOKMARK [1][-]{appendix.C}{Endelig prototype - kanonkonstruktion}{}% 115
+\BOOKMARK [1][-]{appendix.D}{PCB artwork til hastighedssensor}{}% 116
+\BOOKMARK [1][-]{appendix.E}{PCB artwork til arduino shield}{}% 117
+\BOOKMARK [1][-]{appendix.F}{Fumlebr\346tmodel anden del}{}% 118
+\BOOKMARK [1][-]{appendix.G}{Program til Master Arduino}{}% 119
+\BOOKMARK [1][-]{appendix.H}{Program til Controller Arduino}{}% 120
+\BOOKMARK [1][-]{appendix.I}{Logbog}{}% 121
