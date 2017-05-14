@@ -20,9 +20,11 @@ Vi benytter en OP Amp, til at forstærke signalet som vi modtager fra fotodioden
 	\centering
     \includegraphics[height=10cm]{figures/komponenter/photosensor}
 	\caption{Normal speltral respons angivet i procent}
+	\label{fig:spektrum}
 	Se databladet i kilde \cite{kompPhoto}.
 \end{figure}
 BPW21 er en fotodiode, som betyder at det er en diode som omdanner lys til elektrisk strøm. \todo{skriv teori om BPW21}
+En fotodiode operer i reverse biased, hvilket betyder at cathoden skal stå mod positiv strømretning, så der dannes et spærret PN-overgang. Denne PN-overgang kan så lede en strøm hvis den bliver belyst og således giver ladning til en overgang. Denne effekt af lysintensitet og reverse current er omtrent proportional. Dette gør at vi kan modtage et svagt signal der derefter skal blive forstærket, og afhængigt af bølgelængden, vil den effektive strøm der kan ledes over PN-overgangen varierer, se Figur \ref{fig:spektrum}. For at finde ud af størrelsen af signalet for forskellige farver producere ar der blevet foretaget målinger, se tabel \ref{tab:farveudenforstaerker}, på side \pageref{tab:farveudenforstaerker}. Se hvordan forstærkningen er blevet bestemt (ved brug af en OPAMP) i afsnit \ref{subs:opampanalog}.
 
 \subsubsection{LED - RGB WHITE DIFFUSED LENS COMMON CATHODE}
 \begin{figure}[H]
@@ -41,6 +43,8 @@ Vi benytter en LED som kan lyse i 3 forskellige farver, rød, grøn og blå. Vi 
 
 \subsubsection{PNP transistor}
 \todo{Skriv om PNP transistor}
+Den funktionelle forsker på en PNP-transistor og en NPN transistor er hvordan den er biased i forhold til base. Det fremgår derfor på Figur \ref{fig:ladningsensor} at den modtager \SI{5}{V} forsyningsspænding ved Emitter-benet, og den skal således stadigt modtage et signal fra arduinoen for at få strømmen til at løbe videre til dioderne.
+
 
 \subsubsection{Arduino}
 Se afsnit \ref{sec:arduino} 

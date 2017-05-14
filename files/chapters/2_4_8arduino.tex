@@ -27,9 +27,52 @@ Et digital output følger samme logik, her der sætter man dog udgangsspændinge
 \\
 
 
-\subsubsection{I2C - Synkroniseret kommunikation}
-
-
+\subsubsection{Portmanipulation og registrer}
+I Arduinoen bliver der brugt 8 bit registrer til at styre Arduinoens ben. Et register en type hukommelse der ofte er sammensat af flip flops. En type register er et parallelt register, som har et ben for hvert bit, således at værdien af den bit kan sættes med det ben. Disse kan bruges til eksempelvis at bestemme retningen af et ben (input/output) eller huske tilstanden af digitale ben.\\
+\\
+I Arduinoen bliver der brugt 8 bit register, som betyder at der skal flere forskellige registre til at kortlægge alle benene på Arduinoen. Disse forskellige grupper af registre kalder man porte og på figuren \ref{fig:portmani}, kan man se hvilke ben der er på hvilke porte. Som man kan se på figuren, er der tale om tre forskellige porte, B, C og D. \\
+\\
+I hver port er der primært tale om tre forskellige register. DDR registret er registret hvor at benenes tilstand er gemt i. Det betyder for eksempel at når man kalder funktionen \textit{pinMode(pin,mode)} finder Arduinoen først ud af hvilket registre \textit{pin} høre til, og derefter finder dens plads i registret og derefter ændre tilstanden af den bit til \textit{mode}. Her har man simplificeret processen i at ændre tilstanden af et ben, men ofret hastighed.
+\\
+\\
+De to andre primære registre er PORT og PIN. PORT registret indeholder værdien af benene (højt eller lavt), som man også kan ændre på, hvis benet er registreret som et output i DDR registret. PIN indeholder også værdien af benene, har har man dog kun mulighed for at læse på værdien, og ikke ændre værdien. Man ville sige at PIN har samme funktion som PORT, men er \textit{write protected}, således at man ikke ved et uheld ændre en værdi på et ben.
+\\
+\\
+Man kan med fordel benytte registrer, hvis programmet skal køre hurtigere, eller en process kræver at flere bens værdi bliver læst samtidig. Et eksempel på dette er når vi gerne vil overføre knappernes tilstand fra Controlleren. Her kan vi benytte portmanipulation til at få værdien af flere ben som en enkelt byte, hvis man da har valgt ben som er på samme port. I vores tilfælde benytter vi A0, A1 og A2 til knapper, som heldigvis ligger på samme port. Dette betyder at vi kan læse alle benenes digitale værdier ved at læse PORT eller PIN til porten. I programmet for Controlleren er der en funktion \textit{requestEvent()}, som skal sende tilstanden af knapperne. Den ser således ud når portmanipulation bruges.
+\begin{lstlisting}
+void requestEvent() {
+  //Antager at A2, A1 er høje og A0 er lav 
+  byte data = PINC; //Port C input registret
+  //data = b0000 0110
+  Wire.write(data); //Sender dataen over I2C
+}
+\end{lstlisting}
+Den ville se således ud hvis portmanipulation ikke bliver brugt.
+\begin{lstlisting}
+void requestEvent() {
+  //Antager at A2, A1 er høje og A0 er lav 
+  byte data =digitalRead(A2);
+  //data = b0000 0001
+  data=data<<1+digitalRead(A1);
+  //data = b0000 0011
+  data=data<<1+digitalRead(A0);
+  //data = b0000 0110
+  Wire.write(data); //Sender dataen over I2C
+}
+\end{lstlisting}
+Har kan vi se at ved at benytte PINC registret fik vi både simplificeret processen, og gjort den hurtigere. Et kald til et registre som PINC tager omkring 1 instruktion som er meget hurtigere end at kalde \textit{digitalRead(pin)} 8 gange, eller i vores tilfælde 3 gange. Resten af programmet kan findes i bilag \ref{bilag:programController}.\\
+\\
+Kilde \cite{arduino:port}.
+\subsubsection{I2C - Synkroniseret kommunikations bus}
+I2C står for "Inter-Integrated Circuit" som er en type serial kommunikations bus. I2C tillader flere komponenter at kommunikere med hinanden, kun ved brug af en fælles data ledning (SDA) og clock ledning (SCL). Dette betyder at alle komponenter på en I2C bus har en addresse, ofte i form af en 7 bit eller 8 bit værdi. I en I2C bus omdeler man komponenterne i to grupper; slaver og master. Slaver har ikke tilladelse til at sende data på bussen, ved mindre den er blevet anmodet om det, mens master kan sende data ud uden at blive anmodet.
+\\
+\\
+Hvis vi tager udgangspunkt i vores produkt, er Controlleren en slave og den anden en master. Når master anmoder om noget fra Controlleren, så som værdien af knapperne, sender den først et START signal som indikere til andre master på bussen at bussen er optaget, derefter sender den adressen af det komponent den anmoder data fra. Her skal slaven som bliver anmodet sende et "Acknowledge", som indikere at den er klar til at modtage. Her indikere master så hvor mange bytes den anmoder om, hvorefter slaven sender det antal bytes. Når master så har modtaget dette bliver der sendt et STOP til bussen, som betyder at bussen ikke er optaget længere.\\
+\\
+Det praktiske ved I2C bussen er at det kræver få ledninger, netværket er nemt at udvide og et komponent på bussen kan blive "interrupted" (afbrudt). Dette betyder at hvis slaven er i gang med nogle beregninger, kan den blive afbrudt, hvis masteren anmoder om data. Dette betyder at I2C er ideel i vores tilfælde, hvor at vi har brug for at Controlleren (slaven) svare hurtigt når master anmoder om knappernes tilstande, så brugeren ikke føler "forsinkelse" fra når man klikker på knapperne og kanonen rykker sig. Vi benytter biblioteket "Wire" til at håndtere I2C kommunikation.
+\\
+\\
+Kilde \cite{arduino:ITWOC}
 %-------------------------------------------------------------------------------------------------------------------------------------------
 %--------------------------------------- PROGRAMMING PART ----------------------------------------------------------------------------------
 %-------------------------------------------------------------------------------------------------------------------------------------------
@@ -90,8 +133,43 @@ Programmet til master Arduinoen kan fines i bilag \ref{bilag:programMaster} og C
 		\hline %inserts single line
 	\end{tabular}
 \end{table}
-\todo{ret det med I2C ben}
-\subsection{Primære funktioner}\label{sec:primaerefunc}
-\subsubsection{1}
-\subsubsection{2}
-\subsubsection{3}
+\subsection{Kort beskrivelse af funktioner}\label{sec:primaerefunc}
+\subsubsection{Master Arduino - Loop()}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=\textwidth]{figures/arduino/M-loop.png}
+	\caption{Flowchart af main loop hos Master Arduinoen}
+	\label{flow:loop}
+\end{figure}
+Da vores første hastighedssensor er det sted i røret, hvor bolden vil hvile, ses der først om den første hastighedssensor er blokeret. Hvis den er blokeret, så kald funktionen \textit{determinecolor()}. Denne funktion bestemmer farven af bolden. Hvis hastighedssensoren ikke er blokeret, skal den nulstille nogle værdier, så den er klar til den næste bold.\\
+\\
+Efter alt dette skal funktionen \textit{getinput()} kaldes. Denne funktion får knap værdierne fra Controlleren, altså brugerinputtet. Derefter opdateres displayet med funktionen \textit{lcddisplay()}, som sender dataen som skal være på displayet over til Controlleren. Derefter starter \textit{loop()} forfra.
+
+\subsubsection{Master Arduino - getinput()}
+\begin{figure}[H]
+	\centering
+    \includegraphics[height=15cm]{figures/arduino/M-getinput.PNG}
+	\caption{Flowchart af input() funktionen hos Master Arduinoen}
+	\label{flow:input}
+\end{figure}
+Det første der sker når \textit{getinput()} bliver kaldt, er at anmode om knappernes værdier fra Controlleren, med funktionen \textit{Wire.requestFrom()}. Derefter læses den byte som der sendes fra Controlleren. Denne byte indholder værdien af de 3 knapper. Her benyttes \textit{bitRead()} funktionen til at læse den bit på position upbit. Hvis denne bit er sand skal kanonen drejes op. Derefter tjekkes om nedbitten er sand. Hvis den er dette så skal kanonen drejes ned.
+Derefter tjekkes om affyringsbitten er sand. Hvis den er dette skal funktionen \textit{fire()} kaldes, som affyre bolden, hvis der er en bold i røret.
+
+\subsubsection{Master Arduino - fire()}
+\begin{figure}[H]
+	\centering
+    \includegraphics[height=15cm]{figures/arduino/M-fire.PNG}
+	\caption{Flowchart af fire() funktionen hos Master Arduinoen}
+	\label{flow:fire}
+\end{figure}
+Når \textit{fire()} funktionen bliver kaldt, ses der først om der er en bold i røret, ved at se om den første hastighedssensor er blokeret. Hvis den ikke er dette, så stop funktionen. Ellers fortsæt til at bestemme farven, som er indstillingen. Når farven er bestemt, sæt træk motoren i gear, således at elastikkerne kan trækkes i. Derefter kør træk motoren i den mængde tid som indstillingen siger. Derefter sæt træk motoren i frigear og stop træk motoren. Nu er elastikkerne i gang med at trække sig sammen igen. Her kaldes funktionen \textit{determinespeed()} til at bestemme hastigheden som bolden bliver skudt ud med.
+
+\subsubsection{Master Arduino - determinespeed()}
+I \textit{determinespeed()} beregner vi hastigheden af bolden. Dette gøres ved at se hvor lang tid det tager bolden at flyve afstanden imellem hastighedssensor 1 og 2. Hvis vi siger at afstanden imellem dem er $s$ og tiden det tager bolden at flyve denne afstand er $\delta T$, så kan hastigheden beregnes
+\begin{align}
+v=\frac{s}{\delta T}
+\end{align}
+
+\subsubsection{Master Arduino - determinecolor()}
+\textit{determinecolor()} bestemmes farven. Vi arbejder med 4 forskellige farver; hvid, rød, grøn og blå. Da vores farvesensor ikke altid får den rigtige farve, bruger vi en værdi \textit{confirm} som angiver hvor mange gange farvesensoren har fået den samme farve. Hvis farvesensoren har fået den samme farve \textit{confirmAmount} gange i træk, så sættes \textit{newball} til falsk, som betyder at farven er bekræftet. Dette betyder dog også for affyringsfunktionen \textit{fire()}, at der kun kan affyres, når boldens farve er bekræftet. Dette kan i nogle tilfælde tage noget tid, hvis farvesensoren for den forkert et par gange.\\
+Måden af \textit{determinecolor()} bestemmer farven, er ved først at lyse med en hvid farve på bolden. Hvis værdien fra farvesensoren er over en vis værdi, er farven hvid. Ellers bliver der lyst med rød, grøn og blå farve efter hinanden, hvor målinger bliver taget.
