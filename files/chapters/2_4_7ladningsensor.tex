@@ -3,9 +3,18 @@
 	\centering
     \includegraphics[width=\textwidth]{figures/CIRCUITS/farvesensorFinal.png}
 	\caption{Et billede af kredsløbet for ladningssensor kredsen.}
+	\label{fig:ladningsensor}
 \end{figure}
 
 \subsection{Komponenter}
+\subsubsection{OP Amp - MCP601}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=7cm]{figures/komponenter/OPAMP}
+	\caption{Bendiagram af MCP601}
+	Se databladet i kilde \cite{kompOPAMP}.
+\end{figure}
+Vi benytter en OP Amp, til at forstærke signalet som vi modtager fra fotodioden, således at den bruger hele spændingsintervallet ($[\SI{0}{V};\SI{5}{V}]$) som Arduinoen kan måle i. Der er beskrevet mere om OP Amps i teoriafsnittet \ref{sec:OPAMP}.
 \subsubsection{BPW21 - Fotodiode}
 \begin{figure}[H]
 	\centering
@@ -28,21 +37,16 @@ BPW21 er en fotodiode, som betyder at det er en diode som omdanner lys til elekt
 	\caption{Spændingsfaldet over de forskellige LED'er}
 	Se databladet i kilde \cite{kompRGBLED}.
 \end{figure}
-Vi benytter en LED som kan lyse i 3 forskellige farver, rød, grøn og blå. Vi benyttede en LED med en fælles katode. Dette betyder at vi kan koble LED'ens katode til jord, også styre spændingen sat på hver af deres anoder. For ikke at trække for meget strøm fra arduinoen, benytter vi en NPN transistor som kontakt til LED'erne.
+Vi benytter en LED som kan lyse i 3 forskellige farver, rød, grøn og blå. Vi benyttede en LED med en fælles katode. Dette betyder at vi kan koble LED'ens katode til jord, også styre spændingen sat på hver af deres anoder. For ikke at trække for meget strøm fra arduinoen, benytter vi en PNP transistor som kontakt til LED'erne.
 
-\subsubsection{NPN transistor}
-\todo{Skriv om NPN transistor}
+\subsubsection{PNP transistor}
+\todo{Skriv om PNP transistor}
 
-\subsubsection{OP Amp - MCP601}
-\begin{figure}[H]
-	\centering
-    \includegraphics[width=7cm]{figures/komponenter/OPAMP}
-	\caption{Bendiagram af MCP601}
-	Se databladet i kilde \cite{kompOPAMP}.
-\end{figure}
+\subsubsection{Arduino}
+Se afsnit \ref{sec:arduino} 
 
 \subsection{Teori}
-\subsubsection{OP Amp}
+\subsubsection{OP Amp}\label{sec:OPAMP}
 %%---------- indsæt billede---------------------------------%
 
 En operationsforstærker (OP Amp) er en type forstærker der tager imod to inputs, inverting input voltage ($V_{in-}$) og non-inverting input voltage ($V_{in+}$). Outputtet fra en operationsforstærker  ($V_{out}$), kan beskrives med formlen
@@ -134,7 +138,7 @@ Da vi havde beregnet de minimum modstande vi kunne bruge, prøvede vi os frem fo
 	R_{G-tot} &= \SI{470}{\ohm}\\
 	R_{B-tot} &= \SI{470}{\ohm}\\
 \end{align}
-Her blev der lavet en test, af indgangsspændingen til Arduinoen, når der blev lyst med forskellige farver, på materialer med forskellig farve. Testen kan findes i tabel \ref{tab:farveudenforstaerker}.
+Her blev der lavet en test, af indgangsspændingen til Arduinoen, når der blev lyst med forskellige farver, på materialer med forskellig farve. Testen kan findes i tabel \ref{tab:farveudenforstaerker}. Hvis man ser på tegning \ref{fig:ladningsensor}, er den spænding vi måler i testen, spændingsfaldet fra A0 til ground.
 
 \subsubsection{OPAMP modstande} \label{subs:opampanalog}
 Vi besluttede os for at benytte en OPAMP, da vores største signal fra test 1 (se \ref{tab:farveudenforstaerker}) var på $\SI{0.06}{V}$, hvis man ser bort fra når alle lyser. Da vores precision af analog inputtet på arduinoen er omkring $\SI{0.005}{V}$ (se \ref{sec:ard:analog}), er disse udsving for små til at med sikkerhed kunne identificere farver. Vi benytter derfor en OPAMP, så det er nemmere at identificere hvilken farve der bliver brugt.

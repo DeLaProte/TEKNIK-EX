@@ -2165,10 +2165,10 @@
     <bcf:citekey order="20">arduinoLCD</bcf:citekey>
     <bcf:citekey order="21">arduinoLCD</bcf:citekey>
     <bcf:citekey order="22">arduinoLCD</bcf:citekey>
-    <bcf:citekey order="23">kompPhoto</bcf:citekey>
-    <bcf:citekey order="24">kompRGBLED</bcf:citekey>
+    <bcf:citekey order="23">kompOPAMP</bcf:citekey>
+    <bcf:citekey order="24">kompPhoto</bcf:citekey>
     <bcf:citekey order="25">kompRGBLED</bcf:citekey>
-    <bcf:citekey order="26">kompOPAMP</bcf:citekey>
+    <bcf:citekey order="26">kompRGBLED</bcf:citekey>
     <bcf:citekey order="27">kompLED</bcf:citekey>
     <bcf:citekey order="28">arduinoAnalog</bcf:citekey>
     <bcf:citekey order="29">price:PCB</bcf:citekey>

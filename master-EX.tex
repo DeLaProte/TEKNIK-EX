@@ -12,8 +12,31 @@
 
 
 \begin{document}
+% ROMAN PAGES START --------------
+\pagenumbering{Roman} 
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.1pt}
+\renewcommand{\footrulewidth}{0.1pt}
+\rhead{\today} 
+
+
+
+
 %%%%%%% INTRODUCERENDE AFSNIT %%%%%%%%
+% Indeholder - Resume, indledning og forside.
 \input{files/chapters/title}
+
+
+
+% ROMAN PAGES END ------------
+\cfoot{}
+\pagenumbering{arabic} %Page numbers begynder
+\rfoot{Side \thepage \hspace{1pt} af \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.1pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
 \onehalfspacing %For at gøre indholdsfortegnelsen mere kompakt.
 \input{files/chapters/1_laesevejledning}
 \input{files/chapters/2_1projekbeskrivelse}

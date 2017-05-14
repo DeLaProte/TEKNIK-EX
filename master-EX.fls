@@ -383,9 +383,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
-INPUT files/chapters/figures/titlepicheart.png
-INPUT ./files/chapters/figures/titlepicheart.png
-INPUT ./files/chapters/figures/titlepicheart.png
 INPUT /usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -494,12 +491,12 @@ INPUT files/chapters/2_4_6display.tex
 INPUT files/chapters/figures/CIRCUITS/LCDFinal.png
 INPUT ./files/chapters/figures/CIRCUITS/LCDFinal.png
 INPUT ./files/chapters/figures/CIRCUITS/LCDFinal.png
-INPUT files/chapters/figures/LCDdesign/ASCII.png
-INPUT ./files/chapters/figures/LCDdesign/ASCII.png
-INPUT ./files/chapters/figures/LCDdesign/ASCII.png
 INPUT files/chapters/figures/LCDdesign/displayblokdiagram.png
 INPUT ./files/chapters/figures/LCDdesign/displayblokdiagram.png
 INPUT ./files/chapters/figures/LCDdesign/displayblokdiagram.png
+INPUT files/chapters/figures/LCDdesign/ASCII.png
+INPUT ./files/chapters/figures/LCDdesign/ASCII.png
+INPUT ./files/chapters/figures/LCDdesign/ASCII.png
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT files/chapters/2_4_7ladningsensor.tex
@@ -507,6 +504,9 @@ INPUT files/chapters/2_4_7ladningsensor.tex
 INPUT files/chapters/figures/CIRCUITS/farvesensorFinal.png
 INPUT ./files/chapters/figures/CIRCUITS/farvesensorFinal.png
 INPUT ./files/chapters/figures/CIRCUITS/farvesensorFinal.png
+INPUT files/chapters/figures/komponenter/OPAMP.png
+INPUT ./files/chapters/figures/komponenter/OPAMP.png
+INPUT ./files/chapters/figures/komponenter/OPAMP.png
 INPUT files/chapters/figures/komponenter/photosensor.png
 INPUT ./files/chapters/figures/komponenter/photosensor.png
 INPUT ./files/chapters/figures/komponenter/photosensor.png
@@ -516,9 +516,6 @@ INPUT ./files/chapters/figures/komponenter/LED2.png
 INPUT files/chapters/figures/komponenter/LED.png
 INPUT ./files/chapters/figures/komponenter/LED.png
 INPUT ./files/chapters/figures/komponenter/LED.png
-INPUT files/chapters/figures/komponenter/OPAMP.png
-INPUT ./files/chapters/figures/komponenter/OPAMP.png
-INPUT ./files/chapters/figures/komponenter/OPAMP.png
 INPUT files/chapters/figures/komponenter/NonInvAmp.png
 INPUT ./files/chapters/figures/komponenter/NonInvAmp.png
 INPUT ./files/chapters/figures/komponenter/NonInvAmp.png
@@ -585,6 +582,8 @@ INPUT ./files/chapters/figures/2_5fremstilling/shieldArtwork.png
 INPUT files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png
 INPUT ./files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png
 INPUT ./files/chapters/figures/2_5fremstilling/prototyper/rumleKreds.png
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ansinew.def
 INPUT master-EX.aux
