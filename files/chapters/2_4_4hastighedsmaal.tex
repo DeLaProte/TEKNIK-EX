@@ -1,8 +1,27 @@
 \section{Hastighedsmåler}
+\todo{Vi skal have skrevet til IR modtager og IR afsender}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=13cm]{figures/CIRCUITS/IRafsenderFinal.png}
+	\caption{IR-afsender}
+	\label{fig:IRafsender}
+\end{figure}
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=17cm]{figures/CIRCUITS/IRmodtagerFinal.png}
+	\caption{IR-modtager}
+	\label{fig:IRmodtager}
+\end{figure}
+
+
+
+På Figur \ref{fig:IRafsender} modtager en 555 timer strøm fra en \SI{5}{V} strømforsyning, hvor vi har justeret modstandende til at give en frekvens på \SI{1000}{Hz} og en duty cycle tæt på 99\%, heraf bliver signalet inverteret, hvor duty-cyclen således bliver tilnærmelsesvis 1\% (mere om valget af frekvens og dutycyclen omtalt i afsnit \ref{subs:IRafsenderKomp} og \ref{calc:555timerResistance}). Dette signal benyttes så til at føre en strøm ind til IR-dioder (D8 og D9), hvor vi styrer det med en NPN transistor.
+
+Se på \ref{fig:IRmodtager}. IR-dioder lyser således på en IR-modtager diode (indsat reverse biased, markeret Q5), heraf benyttes først en comparator til at forstærke signalet når differensen mellem + og - indgangenge er positiv og dernæst benyttes der en peakdetector til at opfange hvornår signalet er der omtrent ved \SI{4}{V} og fastholder det output, som så registreres af arduinoen.
 
 
 \subsection{Komponenter}
-\subsubsection{IR afsender diode - L-34F3BT}
+\subsubsection{IR afsender diode - L-34F3BT} \label{subs:IRafsenderKomp}
 % afsender diode
 
 Relevante størrelser på dioden \cite{kompIRafsender} er bestemt ud fra absolute maximum ratings ved en temperatur på \SI{25}{\celsius} 
@@ -52,6 +71,19 @@ Problemet ved at benytte en normal monostabil 555 timer er at duty cycle aldrig 
 	\label{fig:komp555pin}
 \end{figure}
 
+\subsubsection{NPN-transistor - BC547}
+Vi benyttede en NPN transistor til at forstærke signalet, da man ikke kan trække en særlig høj strøm fra en NOR gate. Vi ved dog at når der kommer over de \SI{0.7}{V} fra Base af transistoren, vil strømmen løbe fra collecter til emitter. Den er således "mættet" eller "aktiv". Et pindiagram kan findes på Figur \ref{fig:npntransistor}.
+Databladet kan findes i kilde nr. \cite{NPNtransistorKomp}.
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=7cm]{figures/2_4_4hastighedsmaal/kompNPNtransistor.png}
+	\caption{Fra venstre mod højre 1. Collector, 2. Base, 3. Emitter. Kilde:\cite{NPNtransistorKomp} - side 1}
+	\label{fig:npntransistor}
+\end{figure}
+
+
+
 \subsubsection{Signal invertering - HEF4001B}
 Kilde: \cite{kompInverter}
 Vi har benyttet komponenter HEF4001B som er en IC med OR gates, som vi benytter til at inverterer signalet fra 555-timeren.
@@ -67,6 +99,9 @@ Vi har benyttet komponenter HEF4001B som er en IC med OR gates, som vi benytter 
 \end{figure}
 % --------------
 
+
+\subsubsection{Arduino}
+Se afsnit \ref{sec:arduino}.
 
 \subsection{Teori}
 \subsubsection{Benyttelse af diode som variabel spænding}
@@ -153,11 +188,41 @@ Således gælder det at vi skal vælge en modstand $R$ hvor det gælder at
 \[
 	r_{df} < R < r_{dr}
 \]
-Vores tidsvariable \todo{Rigtig betegnelse?} $\tau_2$ kan defineres som
+Vores tidskonstant $\tau_2$ kan defineres som
 \[
 	\tau_2 = R \cdot C
 \]
-hvor $C$ er kapacitoren vi benytter i peakdetektoren.
+hvor $C$ er størrelsen på kapacitoren benyttet i peakdectoren.
+Vi har besluttet at peaket skal være omtrent ved 
+\[
+	U_{peak} = \SI{4}{V}
+\]
+Og at differensområdet er på
+\[
+	\Delta U = \SI{0.5}{V}
+\]
+Vi beslutter at den modstand der benyttes i kredsen skal være på
+\[
+	R = \SI{56000}{\ohm}
+\]
+Vi regner med at få en frekvens på 
+\[
+	f= \SI{1000}{Hz}
+\]
+som vi prøver at tilnærme
+% Deltaspænding er på 0.1 volt for at holde det nogenlunde konstant
+Således hvis man skal opfylde følgende sammenhæng, må det gælde at:
+\begin{align}
+	\Delta U &= \frac{U_{peak}}{f \cdot t_2} \\
+	\iff \Delta U &= \frac{U_{peak}}{ f \cdot R \cdot C}\\
+	\iff C &= \frac{U_{peak}}{ f \cdot R \cdot \Delta U} \\
+			&= \frac{\SI{4}{V}}{ \SI{1000}{Hz} \cdot \SI{56000}{\ohm} \cdot \SI{0.1}{V}} \\
+			&= \SI{7.14d-7}{\farad}\\
+			&\approx \SI{1}{\micro \farad}
+\end{align}
+
+Således skal vi benytte en kondensator til peakdetectoren på \SI{1}{\micro\farad}
+
 
 \subsection{Test}
 \todo{Der skal nok referes til billeder og navne på komponenter i billedet når der snakkes om tests***} 
@@ -196,14 +261,14 @@ Frekvensen estimeres ud fra de 12 første bølgetoppe. Heraf bemærkes at
 \]
 Hvilket svarer fint til frekvensen af outputtet fra 555-timeren.
 
-\subsubsection{Modtager dioden}
-For modtager-delen af kredsen fremgår det på \ref{fig:IR_modtager} at frekvensen er omtrent $\SI{1.4d3}{Hz}$, og et tydelig spændingsforskel på omtrent $-\SI{5}{V}$ hvilket er et fint og tydeligt signal.
+\subsubsection{Modtager dioden} \label{subs:modtagertest}
+For modtager-delen af kredsen fremgår det på \ref{fig:IR_modtagerTest} at frekvensen er omtrent $\SI{1.4d3}{Hz}$, og et tydelig spændingsforskel på omtrent $-\SI{5}{V}$ hvilket er et fint og tydeligt signal. Dog afviger frekvensen væsentlig fra vores ønskede frekvens, men vi regner ikke med at det giver problemer med hensyn til udformningen af produktet.
 \todo{vi kunne muligvis godt have mere tekst her}
 \begin{figure}[H]
 	\centering
     \includegraphics[width=13cm]{figures/2_4_3hastighed/IR_modtager.png}
 	\caption{Spændingen som funktion af tiden af modtagerkredsens signal}
-	\label{fig:IR_modtager}
+	\label{fig:IR_modtagerTest}
 \end{figure}
 
 

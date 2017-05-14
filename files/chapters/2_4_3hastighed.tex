@@ -1,7 +1,7 @@
 \section{Hastighedsregulerende kreds}
 \begin{figure}[H]	\label{kreds:hastighed}
 	\centering
-    \includegraphics[width=10cm]{figures/2_4kredse/hastighed.png}
+    \includegraphics[width=10cm]{figures/CIRCUITS/dcmotorFinal.png}
 	\caption{Et billede af kredsløbet for den hastighedsregulerende kreds.}
 \end{figure}
 Denne del af kredsen benyttes til at sætte elastikstrammeren i gear og frigear og stramme den op.
@@ -13,9 +13,6 @@ Til sidst slukkes for signalet til MT1 og derefter ændres polariteten i MT2, s�
 \subsection{Lego $\SI{9}{V}$ DC motor}
 Vi kunne ikke finde et specifik datablad, men vi ved at normal lego-mindstorm DC motor der kører på $\SI{9}{V}$, hvilket er fint til vores formål, men gør at vi har brug for $\SI{9}{V}$ batterier.
 
-\subsection{Arduino}
-Se Afsnit \ref{sub:arduino}.
-
 \subsection{Dual H-bridge motor driver - L293D}
 
 		\begin{figure}[H] \label{fig:pindiagramL293D}
@@ -25,6 +22,10 @@ Se Afsnit \ref{sub:arduino}.
 		\end{figure}
 	L293D er en dual H-bridge motor driver. H-bridges fungerer som beskrevet i teoriafsnittet \ref{subs:hbridgeTeori}.
 	Pindiagram kan ses på Figur \ref{fig:pindiagramL293D}. Pin 1 og 9 er aktiverings pins for H broerne. Pin 1 aktiverer H broen på venstre side og pin 9 aktiverer H broen på højre side. Pin 2 og 7 bruges til at styre motoren koblet til 3 og 6. Pin 10 og 15 styre motoren på 11 og 14. Pin 4,5,13 og 12 er forbundet, og skal forbindes til jord. Datablad kan findes i kilde nr. \cite{komphbridge}.
+	
+\subsection{Arduino}
+Se afsnit \ref{sub:arduino}.	
+	
 \subsection{Teori}
 % \subsubsection{DC motor} *** Måske skriv
 \subsubsection{H bridge}\label{subs:hbridgeTeori}
@@ -37,9 +38,11 @@ En H-bridge er et komponent der benyttes til at vende polariteten i vores DC-mot
 \end{figure}
 Det fremgår på Figur \ref{fig:hbridge} at switchene 1 til 4 er åbne. Disse switches kan så hvis de modtager et signal kan man forbindes således at strømmens retning løber i en bestemt retning. F.eks. Hvis S1 og S4 er lukkede switches, vil motoren løbe i en retning, end hvis S3 og S2 er lukkede switches. Kilde: \cite{teorihbridge}. 
 
+
+
 %\subsection{Beregninger}
 
 \subsection{Test}
 \todo{Vi skal not beskrive hvordan vi testede denne kreds og have noget kode på det. ***}
 
-Da denne kreds var ret simpel testede vi den ikke. Vi testede den dog i Slutafprøvning afsnittet på side \pageref{sluttest}
+Da denne kreds var ret simpel testede vi den ikke. Vi testede den dog i Slutafprøvning afsnittet på side \pageref{sluttest}.

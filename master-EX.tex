@@ -1,18 +1,3 @@
-% - NOTES 
-% --> Målinger beregninger og kredsløb skal vægtes højest
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 \input{files/preamble/pre.tex}
 \usepackage{syntonly}
@@ -27,10 +12,33 @@
 
 
 \begin{document}
-%%%%%%% INTRODUCERENDE AFSNIT %%%%%%%%
-\input{files/chapters/title}
-\onehalfspacing %For at gøre indholdsfortegnelsen mere kompakt.
+% ROMAN PAGES START --------------
+\pagenumbering{Roman} 
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.1pt}
+\renewcommand{\footrulewidth}{0.1pt}
+\rhead{\today} 
 
+
+
+
+%%%%%%% INTRODUCERENDE AFSNIT %%%%%%%%
+% Indeholder - Resume, indledning og forside.
+\input{files/chapters/title}
+
+
+
+% ROMAN PAGES END ------------ BEGIN ARABIC
+\cfoot{}
+\pagenumbering{arabic} %Page numbers begynder
+\rfoot{Side \thepage \hspace{1pt} af \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.1pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\onehalfspacing %For at gøre indholdsfortegnelsen mere kompakt.
+\input{files/chapters/1_laesevejledning}
 \input{files/chapters/2_1projekbeskrivelse}
 \input{files/chapters/2_2kravspecifakation}
 \input{files/chapters/2_3overordnetvalg}
@@ -58,16 +66,13 @@
 
 
 
-%---------- BIBLIOGRAFI ----------
-\addcontentsline{toc}{section}{Bibliography}
+% %---------- BIBLIOGRAFI ----------
+\addcontentsline{toc}{section}{Referencer}
 % \section{Litteraturliste}
 \nocite{*}
-% \printbibliography[title={Bibliografi - Bøger},type=book]
-% \printbibliography[title={Bibliografi - Websider},type=online]
-% \printbibliography[title={Bibliografi - Artikler},type=article]
 \printbibliography
 
-% BILAG PÅ BEGYNDER
+% % BILAG PÅ BEGYNDER
 \newpage
 \appendix
 \input{files/chapters/Bilag}

@@ -4,7 +4,7 @@
 %%%%%BILLEDE AF KREDSLØB
 \begin{figure}[H]
 	\centering
-    \includegraphics[height=10cm]{figures/2_4kredse/LCDkreds.PNG}
+    \includegraphics[height=10cm]{figures/CIRCUITS/LCDFinal.png}
 	\caption{Arduino LCD kreds lavet ud fra arduino siden, se \cite{arduinoLCD}}
 	\label{arduinoLCD}
 \end{figure}
@@ -13,6 +13,20 @@ Vi benytter et LCD display, da det let kan forbindes direkte til arduioen uden e
 Vi benyttede et 4-bit datainterface setup (se \cite{arduinoLCD}), hvor displayet skriver på to linjer.
 
 
+\subsection{Komponenter}
+% ************** kilde
+
+% Skriv om displayet og displaydriveren
+\subsubsection{LCD display}
+LCD displayet vi benyttede havde en indbygget controller som vist på Figur ~\ref{driver}.
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=10cm]{figures/LCDdesign/displayblokdiagram.png}
+	\caption{Et blok diagram over databen og kontrolben til  kontroller, backlight, LCD panel. Kontrolleren er indbygget i displayet. kilde: [Uddrag fra projektvejledning]}
+	\label{driver}
+\end{figure}
+\subsubsection{Arduino}
+Se afsnit \ref{sec:arduino} 
 
 
 % Skriv om teori. Skriv om 4-bit interface
@@ -25,21 +39,8 @@ LiquidCrystal library bruger vi til at kunne få arduinoen til at sende den øns
 	\caption{Et eksempel på nogle ASCII koder benyttet af LiquidCrystal library - kilde: [Uddrag fra projektvejledning]}
 	\label{ASCII}
 \end{figure}
-\subsection{Komponenter}
-\subsubsection{Arduino}
-Se afsnit \ref{sec:arduino} 
-% ************** kilde
 
-% Skriv om displayet og displaydriveren
-\subsubsection{LCD display}
-LCD displayet vi benyttede havde en indbygget controller som vist på Figur ~\ref{driver}.
-\begin{figure}[H]
-	\centering
-    \includegraphics[width=10cm]{figures/LCDdesign/displayblokdiagram.png}
-	\caption{Et blok diagram over databen og kontrolben til  kontroller, backlight, LCD panel. Kontrolleren er indbygget i displayet. kilde: [Uddrag fra projektvejledning]}
-	\label{driver}
-\end{figure}
-
+\todo{Skriv om ASCII}
 
  
 \subsection{Test}

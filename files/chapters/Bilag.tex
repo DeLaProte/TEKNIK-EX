@@ -1,12 +1,20 @@
-\section{Samlet kredsløb} \label{bilag:samletkreds}
-\begin{figure}[H]
-  \centering
-  \caption{Et billede af det samlede kredsløb}
-  \label{}
-\end{figure}
-\newpage
 
 
+
+\includepdf[pages=1,fitpaper,pagecommand={\section{Samlet kredsløb} \label{bilag:samletkreds}}]{figures/CIRCUITS/samletFINAL}
+
+% pagecommand={\section{Samlet kredsløb} \label{bilag:samletkreds}}
+
+
+\section{Endelig prototype - kredsløb} \label{bilag:endeligprotokreds}
+\begin{center}
+	\includegraphics[width=15cm]{figures/2_5fremstilling/prototyper/Endeligproto.png}
+\end{center}
+
+\section{Endelig prototype - kanonkonstruktion} \label{bilag:endeligprotokanon}
+\begin{center}
+	\includegraphics[height=20cm]{figures/2_5fremstilling/prototyper/paenkanon.jpg}
+\end{center}
 \section{PCB artwork til hastighedssensor}\label{bilag:afsenderModtagerArtwork}
 \begin{figure}[H]
 	\centering
@@ -27,13 +35,9 @@
     \includegraphics[width=13cm]{figures/2_5fremstilling/prototyper/rumleKreds.png}
 \end{figure}
 
-% Must be second last (the longer the later)
-\section{Program til Arduino}
-\label{bilag:program}
-\begin{lstlisting}
-
-\end{lstlisting}
-
+\include{files/chapters/Bilag-code}
 
 % MUST BE LAST
-\section{Logbog} 
+\includepdf[pages = 1, pagecommand = \section{Logbog} \label{bilag:logbog}]{figures/logbog.pdf} 
+\includepdf[pages = 2-, pagecommand={}]{figures/logbog.pdf} 
+
